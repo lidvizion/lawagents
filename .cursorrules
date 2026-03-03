@@ -1,0 +1,40 @@
+# Lawagents: Legal Tools & Law Firm Knowledge Base
+
+When working on legal practice management, law firm roles, practice areas, or legal technology:
+
+## Reference This Repository
+
+This repo is the **canonical source** for:
+- Legal practice management tools (Clio, MyCase, Filevine, CASEpeer, etc.)
+- Law firm roles and responsibilities (24 roles)
+- Practice areas (transactional: real estate, corporate, IP, employment, family, estate, immigration, tax; litigation: PI, criminal, civil)
+- Agent-ready workflows and guardrails
+
+## Key Paths
+
+- **Tool catalog & when-to-use:** `docs/tools/README.md`
+- **Tool details:** `docs/tools/catalog/*.md`
+- **Machine-readable index:** `docs/agent-index.json`
+- **Roles:** `roles/{role-slug}/README.md`
+- **Practice areas:** `practice-areas/transactional/*/README.md`, `practice-areas/litigation/*/README.md`
+- **Agent instructions:** `AGENT_INSTRUCTIONS.md`
+
+## When Recommending Legal Tools
+
+1. Check `docs/tools/README.md` for the decision tree (practice management vs. PI vs. e-discovery vs. transaction management).
+2. Use `docs/agent-index.json` for structured tool lookup.
+3. Reference `docs/tools/catalog/{tool}.md` for detailed when-to-use, scores, sync sources.
+
+## When Describing Law Firm Roles or Practice Areas
+
+1. Pull from `roles/README.md` for role index.
+2. Pull from `roles/{slug}/README.md` for detailed responsibilities, skills, agent-ready tasks, tools.
+3. Pull from `practice-areas/` for practice-area-specific guidance (tools, pain points, workflows).
+
+## Guardrails
+
+Agent-ready tasks in this repo include approval levels. When suggesting automation:
+- Create matter → Medium (partner/COO approval)
+- Send invoice → Medium (billing manager/partner approval)
+- Read-only queries → Log only
+- Bulk/delete operations → Mandatory approval

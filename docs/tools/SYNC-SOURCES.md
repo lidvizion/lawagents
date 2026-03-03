@@ -1,0 +1,131 @@
+# Tool Sync Sources
+
+URLs to sync for latest ratings, reviews, pricing, and documentation. Visit these to refresh tool data.
+
+---
+
+## Review Platforms (Ratings & Sentiment)
+
+### G2
+
+| Category | URL |
+|----------|-----|
+| Legal practice management | https://www.g2.com/categories/legal-practice-management-software |
+| Clio | https://www.g2.com/products/clio/reviews |
+| PracticePanther (Paradigm) | https://www.g2.com/products/paradigm-practicepanther/reviews |
+| Filevine | https://www.g2.com/products/filevine/reviews |
+| CloudLex | https://www.g2.com/products/cloudlex/reviews |
+| MyCase | https://www.g2.com/products/mycase/reviews |
+| Smokeball | https://www.g2.com/products/smokeball/reviews |
+| CARET Legal | https://www.g2.com/products/caret-legal/reviews |
+| Lawmatics | https://www.g2.com/products/lawmatics/reviews |
+| Everlaw | https://www.g2.com/products/everlaw/reviews |
+
+### Capterra
+
+| Category | URL |
+|----------|-----|
+| Law practice management | https://www.capterra.com/law-practice-management-software/ |
+| Clio | https://www.capterra.com/p/1626/Clio/ |
+
+### SoftwareReviews (Info-Tech)
+
+| Category | URL |
+|----------|-----|
+| Law practice management | https://www.softwarereviews.com/categories/law-practice-management |
+| Clio | https://softwarereviews.com/products/clio |
+
+### TrustRadius
+
+| Category | URL |
+|----------|-----|
+| Legal software | https://www.trustradius.com/products/clio/reviews |
+
+### CrowdReviews / Niche
+
+| Tool | URL |
+|------|-----|
+| SmartAdvocate | https://www.crowdreviews.com/smartadvocate/reviews |
+
+### Legal AI
+
+| Tool | URL |
+|------|-----|
+| Harvey | https://www.harvey.ai/ |
+| GC.AI | https://gc.ai/ |
+| GC.AI Pricing | https://gc.ai/pricing |
+
+### Social Media / Marketing
+
+| Tool | URL |
+|------|-----|
+| Planable | https://planable.io/ |
+| Buffer | https://buffer.com/ |
+| Hootsuite | https://www.hootsuite.com/ |
+| Zapier Buffer MCP | https://zapier.com/mcp/buffer |
+| Zapier Hootsuite MCP | https://zapier.com/mcp/hootsuite |
+| Oktopost MCP | https://developers.oktopost.com/docs/mcp |
+| Postavel | https://postavel.com/ |
+| Unbounce | https://unbounce.com/ |
+| FirmPilot | https://firmpilot.com/ |
+
+---
+
+## Vendor Documentation (API, Changelog)
+
+| Tool | Docs | Changelog / API |
+|------|------|-----------------|
+| Clio | https://docs.developers.clio.com/ | https://docs.developers.clio.com/api-docs/clio-manage/api-changelog/ |
+| Zapier Clio MCP | https://zapier.com/mcp/clio | — |
+| Litera Transact | https://www.litera.com/products/litera-transact | — |
+| Everlaw | https://www.everlaw.com/ | — |
+| Filevine | https://www.filevine.com/ | — |
+| CASEpeer | https://www.casepeer.com/ | — |
+| CloudLex | https://cloudlex.com/ | — |
+| LexiDots | https://www.lexidots.com/ | — |
+| Alt Legal | https://www.altlegal.com/ | — |
+
+---
+
+## Pricing Pages
+
+| Tool | URL |
+|------|-----|
+| Clio | https://www.clio.com/pricing/ |
+| PracticePanther | https://www.practicepanther.com/pricing/ |
+| Filevine | https://www.filevine.com/pricing/ |
+| MyCase | https://www.mycase.com/pricing/ |
+| Smokeball | https://www.smokeball.com/pricing/ |
+| CARET Legal | https://www.caretlegal.com/pricing/ |
+| Everlaw | https://www.everlaw.com/pricing/ |
+| CASEpeer | https://www.casepeer.com/pricing/ |
+| CloudLex | https://cloudlex.com/pricing/ |
+| Litera Transact | https://www.litera.com/products/litera-transact |
+| LexiDots | https://www.lexidots.com/ |
+| Alt Legal | https://www.altlegal.com/pricing |
+
+---
+
+## Community / Reddit (Sentiment)
+
+| Subreddit | Search Pattern |
+|-----------|----------------|
+| r/LawFirm | `Clio` OR `Filevine` OR `practice management` |
+| r/Lawyertalk | `case management` OR `billing software` |
+| r/paralegal | `CASEpeer` OR `CloudLex` OR `Filevine` |
+| r/ediscovery | `Everlaw` OR `Goldfynch` OR `Logikull` |
+| r/RealEstateTechnology | `CRM` OR `closing` |
+
+**Reddit search URLs:**
+- https://www.reddit.com/r/LawFirm/search/?q=clio
+- https://www.reddit.com/r/paralegal/search/?q=case+management
+
+---
+
+## Sync Checklist
+
+- [ ] G2: ratings, review count, recent reviews
+- [ ] Capterra: ratings, NPS if available
+- [ ] SoftwareReviews: composite score, likelihood to recommend
+- [ ] Vendor: pricing page, changelog
+- [ ] Reddit: search tool name; note sentiment themes

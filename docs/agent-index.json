@@ -1,0 +1,258 @@
+{
+  "name": "lawagents",
+  "description": "Canonical index for legal practice tools, law firm roles, and practice areas. Use when recommending legal software or law firm workflows.",
+  "repository": "https://github.com/lidvizion/lawagents",
+  "target": "Small to mid-sized law firms ($2M\u2013$50M annual revenue)",
+  "updated": "2026-03-03 15:21",
+  "tools": {
+    "catalog_url": "https://raw.githubusercontent.com/lidvizion/lawagents/main/docs/tools/README.md",
+    "index_url": "https://raw.githubusercontent.com/lidvizion/lawagents/main/docs/tools/catalog/",
+    "items": [
+      {
+        "slug": "clio",
+        "name": "Clio",
+        "category": "practice-management",
+        "score": 9.0,
+        "use_when": "Solo\u2013mid; general practice; start here",
+        "path": "docs/tools/catalog/clio.md"
+      },
+      {
+        "slug": "mycase",
+        "name": "MyCase",
+        "category": "practice-management",
+        "score": 8.2,
+        "use_when": "Solo\u2013small; PI, family, immigration",
+        "path": "docs/tools/catalog/mycase.md"
+      },
+      {
+        "slug": "filevine",
+        "name": "Filevine",
+        "category": "practice-management",
+        "score": 8.0,
+        "use_when": "PI, litigation; doc-heavy",
+        "path": "docs/tools/catalog/filevine.md"
+      },
+      {
+        "slug": "casepeer",
+        "name": "CASEpeer",
+        "category": "pi-specific",
+        "score": 8.5,
+        "use_when": "Personal injury; SOL, liens",
+        "path": "docs/tools/catalog/casepeer.md"
+      },
+      {
+        "slug": "cloudlex",
+        "name": "CloudLex",
+        "category": "pi-specific",
+        "score": 8.5,
+        "use_when": "Plaintiff PI; integrated suite",
+        "path": "docs/tools/catalog/cloudlex.md"
+      },
+      {
+        "slug": "everlaw",
+        "name": "Everlaw",
+        "category": "e-discovery",
+        "score": 8.8,
+        "use_when": "Civil litigation; doc review",
+        "path": "docs/tools/catalog/everlaw.md"
+      },
+      {
+        "slug": "litera-transact",
+        "name": "Litera Transact",
+        "category": "transaction-management",
+        "use_when": "Real estate, corporate closings",
+        "path": "docs/tools/catalog/litera-transact.md"
+      },
+      {
+        "slug": "lexidots",
+        "name": "LexiDots",
+        "category": "ip-trademark",
+        "use_when": "Trademark docketing, USPTO",
+        "path": "docs/tools/catalog/lexidots.md"
+      },
+      {
+        "slug": "altlegal",
+        "name": "Alt Legal",
+        "category": "ip-trademark",
+        "use_when": "Trademark docketing",
+        "path": "docs/tools/catalog/altlegal.md"
+      },
+      {
+        "slug": "zapier-clio-mcp",
+        "name": "Zapier Clio MCP",
+        "category": "integrations",
+        "use_when": "AI agent; no-code Clio actions",
+        "path": "docs/tools/catalog/zapier-clio-mcp.md"
+      },
+      {
+        "slug": "harvey",
+        "name": "Harvey",
+        "category": "legal-ai",
+        "use_when": "Large law firms; research, contracts, due diligence",
+        "path": "docs/tools/catalog/harvey.md"
+      },
+      {
+        "slug": "gc-ai",
+        "name": "GC.AI",
+        "category": "legal-ai",
+        "use_when": "In-house legal; solo GC; contract review, Word",
+        "path": "docs/tools/catalog/gc-ai.md"
+      },
+      {
+        "slug": "planable",
+        "name": "Planable",
+        "category": "social-scheduling",
+        "use_when": "Multi-channel; LinkedIn, FB, X, IG, YouTube, etc.",
+        "path": "docs/tools/catalog/planable.md"
+      },
+      {
+        "slug": "buffer",
+        "name": "Buffer",
+        "category": "social-scheduling",
+        "use_when": "MCP; simple queue; AI agent control",
+        "path": "docs/tools/catalog/buffer.md"
+      },
+      {
+        "slug": "hootsuite",
+        "name": "Hootsuite",
+        "category": "social-scheduling",
+        "use_when": "MCP; unified inbox; enterprise",
+        "path": "docs/tools/catalog/hootsuite.md"
+      }
+    ],
+    "decision_tree": {
+      "practice_management": {
+        "solo_small": [
+          "Clio",
+          "MyCase",
+          "Smokeball"
+        ],
+        "pi": [
+          "CASEpeer",
+          "CloudLex",
+          "SmartAdvocate"
+        ],
+        "midsize": [
+          "Aderant",
+          "Elite",
+          "CARET Legal"
+        ]
+      },
+      "transaction_management": {
+        "real_estate": [
+          "Litera Transact"
+        ],
+        "corporate": [
+          "Litera Transact",
+          "CARET Legal"
+        ],
+        "ip_trademark": [
+          "LexiDots",
+          "Lexair",
+          "Alt Legal"
+        ]
+      },
+      "e_discovery": {
+        "small": [
+          "Goldfynch",
+          "Logikull"
+        ],
+        "mid": [
+          "Everlaw"
+        ],
+        "enterprise": [
+          "Relativity"
+        ]
+      },
+      "integrations": {
+        "no_code": [
+          "Zapier Clio MCP"
+        ],
+        "api": [
+          "Clio API"
+        ]
+      },
+      "legal_ai": {
+        "law_firms": [
+          "Harvey"
+        ],
+        "in_house": [
+          "GC.AI"
+        ]
+      },
+      "social_scheduling": {
+        "multi_channel": [
+          "Planable"
+        ],
+        "mcp": [
+          "Buffer",
+          "Hootsuite"
+        ],
+        "legal": [
+          "Thunderhead",
+          "Apaya"
+        ]
+      }
+    }
+  },
+  "roles": {
+    "index_url": "https://raw.githubusercontent.com/lidvizion/lawagents/main/roles/README.md",
+    "categories": {
+      "attorneys": [
+        "managing-partner",
+        "equity-senior-partners",
+        "non-equity-junior-partners",
+        "associates",
+        "of-counsel",
+        "contract-lawyers"
+      ],
+      "executive": [
+        "coo-firm-administrator",
+        "office-manager",
+        "billing-finance-manager",
+        "finance-accounting-manager",
+        "marketing-specialist",
+        "business-development-lead",
+        "it-cybersecurity-lead",
+        "it-legaltech-specialist",
+        "compliance-risk-manager",
+        "hr-recruiter"
+      ],
+      "legal_support": [
+        "paralegal",
+        "legal-assistant",
+        "document-litigation-support-specialist",
+        "estate-trust-officer"
+      ],
+      "intake_admin": [
+        "legal-intake-specialist",
+        "legal-secretary",
+        "records-clerk-case-opener",
+        "receptionist-front-desk"
+      ]
+    },
+    "path_template": "roles/{slug}/README.md"
+  },
+  "practice_areas": {
+    "index_url": "https://raw.githubusercontent.com/lidvizion/lawagents/main/practice-areas/README.md",
+    "transactional": [
+      "real-estate",
+      "trademark-ip",
+      "intellectual-property",
+      "corporate",
+      "employment-labor",
+      "family-law",
+      "estate-probate",
+      "immigration",
+      "tax"
+    ],
+    "litigation": [
+      "personal-injury",
+      "criminal-defense",
+      "civil-litigation"
+    ],
+    "path_template_transactional": "practice-areas/transactional/{slug}/README.md",
+    "path_template_litigation": "practice-areas/litigation/{slug}/README.md"
+  },
+  "last_community_sync": "2026-03-03 15:21"
+}
