@@ -1,5 +1,25 @@
 # Scripts
 
+## crawl-datarade-legal-apis.py
+
+Crawls **dataRade.ai** legal APIs and updates MongoDB. dataRade does not expose a public API (site is behind Cloudflare), so we use OpenAI to discover legal APIs from its knowledge, merge with a curated list, and upsert into the `tools` collection.
+
+### Run
+
+```bash
+export MONGODB_URI="mongodb://..."
+export OPENAI_API_KEY="sk-..."   # or OPENAI_KEY
+pip install -r requirements.txt
+python3 scripts/crawl-datarade-legal-apis.py
+```
+
+### Output
+
+- Upserts tools into MongoDB `lawagents.tools`
+- Writes `docs/tools/legal-apis-index.json` with the discovered APIs
+
+---
+
 ## sync-tools.py
 
 Hourly sync: searches **Reddit, X, Threads** for content specific to each role; writes `roles/{role}/COMMUNITY_INSIGHTS.md`; updates `docs/agent-index.json` and `README.md`.
