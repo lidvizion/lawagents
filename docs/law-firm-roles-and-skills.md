@@ -103,6 +103,60 @@
 | **Agent-Ready Tasks** | Campaign performance reports, CRM data hygiene, content drafts, event logistics, lead tracking |
 | **Approval Level** | Low–Medium—content and campaigns need partner/marketing lead approval |
 
+### Finance / Accounting Manager
+
+| Aspect | Details |
+|--------|---------|
+| **Responsibilities** | Billing, payroll, budgeting, financial reporting. General ledger, P&L, cash flow. |
+| **Key Skills** | Accounting, financial analysis, payroll, QuickBooks/Xero, banking integrations |
+| **Agent-Ready Tasks** | Financial report drafts, budget variance reports, payroll reconciliation, AP processing |
+| **Approval Level** | High—financial reporting, payroll, budget decisions |
+
+### Business Development Lead
+
+| Aspect | Details |
+|--------|---------|
+| **Responsibilities** | Attract clients, manage firm BD strategy, intake process design, content creation, pipeline. |
+| **Key Skills** | Marketing strategy, BD, CRM, content creation, analytics |
+| **Agent-Ready Tasks** | Campaign reports, content drafts, intake optimization, pipeline reports, RFP coordination |
+| **Approval Level** | Medium—campaigns and major initiatives need partner approval |
+
+### IT / Cybersecurity Lead (CISO / CIO)
+
+| Aspect | Details |
+|--------|---------|
+| **Responsibilities** | Network security, MFA, staff training on cyber hygiene, incident response plans, AI/data security. |
+| **Key Skills** | Cybersecurity protocols, systems administration, legal technology, compliance |
+| **Agent-Ready Tasks** | Security audit checklist, vendor security assessment, incident runbook updates, training schedule |
+| **Approval Level** | High—security, infrastructure, technology decisions |
+
+### IT Administrator / LegalTech Specialist
+
+| Aspect | Details |
+|--------|---------|
+| **Responsibilities** | Maintain firm software (Clio, email, network), troubleshoot, cloud deployments, support. |
+| **Key Skills** | System administration, legal SaaS, support, documentation |
+| **Agent-Ready Tasks** | User provisioning, runbook updates, ticket triage, backup verification |
+| **Approval Level** | Low–Medium—routine ops; major changes need approval |
+
+### Compliance / Risk Manager
+
+| Aspect | Details |
+|--------|---------|
+| **Responsibilities** | Regulatory compliance, firm policies, audits. HIPAA, GDPR, bar rules. |
+| **Key Skills** | Regulatory knowledge, policy management, audit, risk assessment |
+| **Agent-Ready Tasks** | Policy drafts, audit checklists, Clio compliance tasks, training tracking |
+| **Approval Level** | High—policy, audit, regulatory decisions |
+
+### HR / Recruiter
+
+| Aspect | Details |
+|--------|---------|
+| **Responsibilities** | Recruit attorneys and staff, benefits, firm culture, training, employee relations. |
+| **Key Skills** | HR policies, recruiting, employee relations, compliance (FMLA, ADA, COBRA) |
+| **Agent-Ready Tasks** | Job posting drafts, onboarding checklist, training tracking, policy drafts |
+| **Approval Level** | Medium—hiring and policy require COO/Managing Partner approval |
+
 ---
 
 ## 3. Substantive Legal Support Personnel
@@ -133,6 +187,15 @@
 | **Key Skills** | E-discovery platforms, litigation support tools, court rules, document management systems |
 | **Agent-Ready Tasks** | E-discovery workflows, production logs, filing compliance checks, document indexing, metadata management |
 | **Approval Level** | Medium—productions and filings require attorney sign-off |
+
+### Estate / Trust Officer (Non-Attorney)
+
+| Aspect | Details |
+|--------|---------|
+| **Responsibilities** | Trust administration, probate filings, trust accounting, fiduciary reporting. |
+| **Key Skills** | Probate process, trust accounting, fiduciary compliance, accounting software |
+| **Agent-Ready Tasks** | Trust account reconciliation, accounting draft, court filing prep, distribution tracking |
+| **Approval Level** | Medium—trust administration, filings require attorney oversight |
 
 ---
 

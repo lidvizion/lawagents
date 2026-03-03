@@ -6,7 +6,7 @@ Folder structure for attorney practice types: **transactional** and **litigation
 
 | Type | Practice Areas | Link |
 |------|----------------|------|
-| **Transactional** | Overview, Real Estate, Trademark/IP, Corporate | [transactional/](transactional/) |
+| **Transactional** | Overview, Real Estate, Trademark/IP, Corporate, Employment/Labor, Family Law, Estate/Probate, Immigration, Tax, Intellectual Property | [transactional/](transactional/) |
 | **Litigation** | Overview, Personal Injury, Criminal Defense, Civil Litigation | [litigation/](litigation/) |
 
 ## Key Differences

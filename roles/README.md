@@ -20,7 +20,13 @@ Folder structure for each role in a small to mid-sized law firm ($2M–$50M annu
 | COO / Firm Administrator | [coo-firm-administrator](coo-firm-administrator/) | [README](coo-firm-administrator/README.md) |
 | Office Manager | [office-manager](office-manager/) | [README](office-manager/README.md) |
 | Billing / Finance Manager | [billing-finance-manager](billing-finance-manager/) | [README](billing-finance-manager/README.md) |
+| Finance / Accounting Manager | [finance-accounting-manager](finance-accounting-manager/) | [README](finance-accounting-manager/README.md) |
 | Marketing Specialist | [marketing-specialist](marketing-specialist/) | [README](marketing-specialist/README.md) |
+| Business Development Lead | [business-development-lead](business-development-lead/) | [README](business-development-lead/README.md) |
+| IT / Cybersecurity Lead (CISO/CIO) | [it-cybersecurity-lead](it-cybersecurity-lead/) | [README](it-cybersecurity-lead/README.md) |
+| IT Administrator / LegalTech Specialist | [it-legaltech-specialist](it-legaltech-specialist/) | [README](it-legaltech-specialist/README.md) |
+| Compliance / Risk Manager | [compliance-risk-manager](compliance-risk-manager/) | [README](compliance-risk-manager/README.md) |
+| HR / Recruiter | [hr-recruiter](hr-recruiter/) | [README](hr-recruiter/README.md) |
 
 ## Substantive Legal Support
 
@@ -29,6 +35,7 @@ Folder structure for each role in a small to mid-sized law firm ($2M–$50M annu
 | Paralegal | [paralegal](paralegal/) | [README](paralegal/README.md) |
 | Legal Assistant | [legal-assistant](legal-assistant/) | [README](legal-assistant/README.md) |
 | Document & Litigation Support Specialist | [document-litigation-support-specialist](document-litigation-support-specialist/) | [README](document-litigation-support-specialist/README.md) |
+| Estate / Trust Officer (Non-Attorney) | [estate-trust-officer](estate-trust-officer/) | [README](estate-trust-officer/README.md) |
 
 ## Client Intake and Administrative Support
 

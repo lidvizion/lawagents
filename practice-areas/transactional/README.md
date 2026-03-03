@@ -14,7 +14,13 @@ Transactional attorneys draft and negotiate contracts, conduct due diligence, ad
 |------|--------|-----------|
 | Real Estate | [real-estate/](real-estate/) | Closings, title, commercial/residential |
 | Trademark & IP | [trademark-ip/](trademark-ip/) | Trademarks, docketing, USPTO deadlines |
+| Intellectual Property | [intellectual-property/](intellectual-property/) | Patents, trademarks, copyrights |
 | Corporate | [corporate/](corporate/) | M&A, contracts, entity formation |
+| Employment / Labor | [employment-labor/](employment-labor/) | Workplace law, compliance, HRIS |
+| Family Law | [family-law/](family-law/) | Divorce, custody, support, mediation |
+| Estate / Probate | [estate-probate/](estate-probate/) | Wills, trusts, probate, tax |
+| Immigration | [immigration/](immigration/) | Visas, citizenship, USCIS |
+| Tax | [tax/](tax/) | Tax compliance, planning, IRS disputes |
 
 ## How Transactional Attorneys Operate
 

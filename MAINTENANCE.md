@@ -20,8 +20,10 @@ lawagents/
 │       └── catalog/         ← Individual tool files (one per tool)
 │           ├── README.md
 │           └── *.md (clio, filevine, casepeer, etc.)
-├── roles/                   ← One folder per firm role
+├── roles/                   ← One folder per firm role (25+ roles)
 ├── practice-areas/          ← Transactional + litigation by practice type
+│   ├── transactional/       ← Real estate, corporate, IP, employment, family, estate, immigration, tax
+│   └── litigation/         ← PI, criminal, civil
 └── practice-areas/RESEARCH-SOURCES.md
 ```
 
