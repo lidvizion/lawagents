@@ -96,6 +96,8 @@
 | **Real estate / corporate closings** | Litera Transact | [Litera Transact](tools/catalog/litera-transact.md) |
 | **Trademark / IP docketing** | LexiDots, Alt Legal | [LexiDots](tools/catalog/lexidots.md), [Alt Legal](tools/catalog/altlegal.md) |
 | **E-discovery** | Everlaw, Goldfynch, Logikull | [Everlaw](tools/catalog/everlaw.md) |
+| **Legal AI (law firms)** | Harvey | [Harvey](tools/catalog/harvey.md) |
+| **Legal AI (in-house)** | GC.AI | [GC.AI](tools/catalog/gc-ai.md) |
 | **AI agent → Clio** | Zapier Clio MCP | [Zapier Clio MCP](tools/catalog/zapier-clio-mcp.md) |
 
 Full decision tree, scoring, and sync sources: [docs/tools/](tools/README.md).

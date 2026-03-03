@@ -25,6 +25,8 @@ Individual tool files. Each includes:
 | [LexiDots](lexidots.md) | IP / trademark |
 | [Alt Legal](altlegal.md) | IP / trademark |
 | [Zapier Clio MCP](zapier-clio-mcp.md) | Integrations |
+| [Harvey](harvey.md) | Legal AI |
+| [GC.AI](gc-ai.md) | Legal AI |
 
 ---
 

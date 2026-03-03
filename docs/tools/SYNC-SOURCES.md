@@ -47,6 +47,14 @@ URLs to sync for latest ratings, reviews, pricing, and documentation. Visit thes
 |------|-----|
 | SmartAdvocate | https://www.crowdreviews.com/smartadvocate/reviews |
 
+### Legal AI
+
+| Tool | URL |
+|------|-----|
+| Harvey | https://www.harvey.ai/ |
+| GC.AI | https://gc.ai/ |
+| GC.AI Pricing | https://gc.ai/pricing |
+
 ---
 
 ## Vendor Documentation (API, Changelog)

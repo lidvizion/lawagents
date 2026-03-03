@@ -28,6 +28,10 @@ What do you need?
 │  ├─ With Clio                              → Clio Grow
 │  └─ Standalone                             → Lawmatics, Clio Grow
 │
+├─ Legal AI
+│  ├─ Law firms (large)                      → Harvey
+│  └─ In-house / solo GC                    → GC.AI
+│
 └─ Integrations / automation
    ├─ No-code                                → Zapier (Clio MCP, etc.)
    └─ API                                    → Clio API, vendor APIs
@@ -45,6 +49,7 @@ What do you need?
 | **E-discovery** | Doc review, production | Everlaw, Goldfynch, Logikull | [catalog/](catalog/) |
 | **PI-specific** | Contingency, SOL, liens | CASEpeer, CloudLex, SmartAdvocate | [catalog/](catalog/) |
 | **Intake / CRM** | Lead capture, pipeline | Clio Grow, Lawmatics | [catalog/](catalog/) |
+| **Legal AI** | Research, contracts, drafting | Harvey, GC.AI | [catalog/](catalog/) |
 | **Integrations** | Connect tools, automate | Zapier, Clio MCP | [catalog/](catalog/) |
 
 ---
@@ -77,6 +82,8 @@ See [SCORING-METHODOLOGY.md](SCORING-METHODOLOGY.md). Sync URLs: [SYNC-SOURCES.m
 | [LexiDots](catalog/lexidots.md) | IP / trademark | — | Trademark docketing, USPTO |
 | [Alt Legal](catalog/altlegal.md) | IP / trademark | — | Trademark docketing |
 | [Zapier Clio MCP](catalog/zapier-clio-mcp.md) | Integrations | — | AI agent; no-code Clio actions |
+| [Harvey](catalog/harvey.md) | Legal AI | — | Large law firms; research, contracts, due diligence |
+| [GC.AI](catalog/gc-ai.md) | Legal AI | — | In-house legal; solo GC; contract review, Word |
 
 *Scores updated from sync sources. `—` = not yet scored.*
 

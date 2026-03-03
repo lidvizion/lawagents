@@ -48,6 +48,13 @@ lawagents/
 
 ## Sync Workflow
 
+### Automated (hourly)
+
+- **GitHub Actions:** `.github/workflows/sync-tools.yml` runs every hour. Fetches sync sources, updates `docs/agent-index.json` and `README.md` with last synced timestamp.
+- **Manual/cron:** Run `python scripts/sync-tools.py`. See [scripts/README.md](scripts/README.md) for crontab example.
+
+### Manual (quarterly)
+
 1. **Review SYNC-SOURCES.md** — All URLs for ratings, reviews, pricing, API docs.
 2. **Visit each source** — G2, Capterra, SoftwareReviews, vendor sites.
 3. **Update catalog files** — Refresh scores, sentiment summary, pricing.
