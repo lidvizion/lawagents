@@ -3,7 +3,7 @@
   "description": "Canonical index for legal practice tools, law firm roles, and practice areas. Use when recommending legal software or law firm workflows.",
   "repository": "https://github.com/lidvizion/lawagents",
   "target": "Small to mid-sized law firms ($2M\u2013$50M annual revenue)",
-  "updated": "2026-03-03 18:14",
+  "updated": "2026-03-03 18:52",
   "tools": {
     "catalog_url": "https://raw.githubusercontent.com/lidvizion/lawagents/main/docs/tools/README.md",
     "index_url": "https://raw.githubusercontent.com/lidvizion/lawagents/main/docs/tools/catalog/",
@@ -118,6 +118,34 @@
         "category": "social-scheduling",
         "use_when": "MCP; unified inbox; enterprise",
         "path": "docs/tools/catalog/hootsuite.md"
+      },
+      {
+        "slug": "bloomberg-law-dockets-api",
+        "name": "Bloomberg Law Enterprise Dockets API",
+        "category": "court-data",
+        "use_when": "Enterprise court docket search; federal and state court records",
+        "path": "docs/tools/catalog/bloomberg-law-dockets-api.md"
+      },
+      {
+        "slug": "trustfoundry-ai",
+        "name": "TrustFoundry AI",
+        "category": "legal-ai",
+        "use_when": "Legal research; AI search; solo/small firm affordability",
+        "path": "docs/tools/catalog/trustfoundry-ai.md"
+      },
+      {
+        "slug": "legiscan",
+        "name": "LegiScan API",
+        "category": "legislative-api",
+        "use_when": "Legislative tracking; bill data; all 50 states + Congress",
+        "path": "docs/tools/catalog/legiscan.md"
+      },
+      {
+        "slug": "openlaws-api",
+        "name": "OpenLaws API",
+        "category": "legislative-api",
+        "use_when": "Statutes, regulations, case law; citation validation; RAG/LLM",
+        "path": "docs/tools/catalog/openlaws-api.md"
       }
     ],
     "decision_tree": {
@@ -254,5 +282,10 @@
     "path_template_transactional": "practice-areas/transactional/{slug}/README.md",
     "path_template_litigation": "practice-areas/litigation/{slug}/README.md"
   },
-  "last_community_sync": "2026-03-03 18:14"
+  "last_community_sync": "2026-03-03 18:52",
+  "legal_apis": {
+    "index_url": "https://raw.githubusercontent.com/lidvizion/lawagents/main/docs/tools/legal-apis-index.json",
+    "source": "https://datarade.ai/search/products/legal-apis",
+    "count": 15
+  }
 }

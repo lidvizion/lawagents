@@ -54,6 +54,16 @@ URLs to sync for latest ratings, reviews, pricing, and documentation. Visit thes
 | Harvey | https://www.harvey.ai/ |
 | GC.AI | https://gc.ai/ |
 | GC.AI Pricing | https://gc.ai/pricing |
+| TrustFoundry AI | https://trustfoundry.ai/ |
+
+### Court & Legislative APIs
+
+| Tool | URL |
+|------|-----|
+| Bloomberg Law Dockets API | https://pro.bloomberglaw.com/products/court-dockets-search/enterprise-dockets-api-solution/ |
+| LegiScan API | https://legiscan.com/legiscan |
+| OpenLaws API | https://openlaws.us/api/ |
+| dataRade Legal APIs | https://datarade.ai/search/products/legal-apis |
 
 ### Social Media / Marketing
 

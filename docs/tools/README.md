@@ -93,8 +93,14 @@ See [SCORING-METHODOLOGY.md](SCORING-METHODOLOGY.md). Sync URLs: [SYNC-SOURCES.m
 | [Planable](catalog/planable.md) | Social scheduling | — | Multi-channel; LinkedIn, FB, X, IG, YouTube, etc. |
 | [Buffer](catalog/buffer.md) | Social scheduling | — | MCP; simple queue; AI agent control |
 | [Hootsuite](catalog/hootsuite.md) | Social scheduling | — | MCP; unified inbox; enterprise |
+| [Bloomberg Law Dockets API](catalog/bloomberg-law-dockets-api.md) | Court data | — | Enterprise court docket search |
+| [TrustFoundry AI](catalog/trustfoundry-ai.md) | Legal AI | — | Legal research; solo/small firm |
+| [LegiScan API](catalog/legiscan.md) | Legislative API | — | Bill data; all 50 states + Congress |
+| [OpenLaws API](catalog/openlaws-api.md) | Legislative API | — | Statutes, regulations; RAG/LLM |
 
 *Scores updated from sync sources. `—` = not yet scored.*
+
+*Legal APIs index:* See [legal-apis-index.json](legal-apis-index.json) for dataRade-sourced APIs.
 
 ---
 
