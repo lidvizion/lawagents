@@ -98,6 +98,16 @@ See [SCORING-METHODOLOGY.md](SCORING-METHODOLOGY.md). Sync URLs: [SYNC-SOURCES.m
 
 ---
 
+## Legal APIs Index (210+ platforms)
+
+Full list of legal APIs, platforms, and integrations: [legal-apis-index.json](legal-apis-index.json).
+
+Categories: court-data, practice-management, e-discovery, legislative, ip-trademark, legal-ai, billing, intake-crm, integrations, social-scheduling, document-management.
+
+Source: [dataRade legal APIs](https://datarade.ai/search/products/legal-apis). Updated via `scripts/crawl-datarade-legal-apis.py`.
+
+---
+
 ## Related
 
 - [Law Firm Tools & Technologies](../law-firm-tools-and-technologies.md) — Clio deep dive, guardrails, branching
