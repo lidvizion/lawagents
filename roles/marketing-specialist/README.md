@@ -9,6 +9,8 @@
 
 The Marketing Specialist supports business development, manages digital marketing and CRM data, tracks campaign KPIs, and coordinates community outreach and events. They help the firm attract and retain clients while ensuring compliance with ethics rules.
 
+**Full tool stack:** See [TOOLS.md](TOOLS.md) — social scheduling (Planable, Buffer, Hootsuite, Oktopost), landing pages, funnels, blog automation, channels, MCP/API options.
+
 ---
 
 ## Detailed Responsibilities
@@ -50,6 +52,15 @@ The Marketing Specialist supports business development, manages digital marketin
 - **Client testimonials:** Manage client testimonial process; ensure compliance with ethics rules.
 - **Competitive intelligence:** Monitor competitor marketing; report trends and opportunities.
 
+### 6. Go Big: Landing Pages, Funnels, Blog Automation
+
+- **Landing pages:** Build practice-area and campaign-specific landing pages (Unbounce, Instapage, Leadpages). Capture leads; A/B test; integrate with CRM.
+- **Funnels:** Design visitor → lead → consultation funnels. Use Customers.ai, Acquimate, or FirmPilot for automation. Segment by practice area, urgency, source.
+- **Blog automation:** Publish AI-assisted or templated content for SEO. Use FirmPilot, Jasper, or WordPress + Yoast. Schedule; track rankings; repurpose.
+- **Multi-channel social:** Post to LinkedIn, Facebook, X, Instagram, YouTube, Google Business Profile, Pinterest, TikTok, Threads via Planable, Buffer, or Hootsuite (MCP).
+- **Email sequences:** Drip campaigns; nurture leads; automate follow-up. Integrate with CRM for attribution.
+- **Paid funnels:** Google Ads, LinkedIn Ads → landing page → form → CRM. Track cost per lead and conversion.
+
 ---
 
 ## Key Skills
@@ -61,6 +72,24 @@ The Marketing Specialist supports business development, manages digital marketin
 | Content creation | Writing, editing, thought leadership support |
 | Event coordination | Logistics, registration, follow-up |
 | Analytics | Performance measurement, reporting, optimization |
+| Social scheduling | Multi-channel; Planable, Buffer, Hootsuite |
+| Funnel design | Landing pages; lead capture; automation |
+
+---
+
+## Tools (Summary)
+
+| Category | Tools | MCP/API |
+|----------|-------|---------|
+| **Social scheduling** | Planable, Buffer, Hootsuite, Oktopost, Postavel | Buffer (Zapier MCP), Hootsuite (Zapier MCP), Oktopost (MCP), Postavel (MCP) |
+| **Channels** | LinkedIn, Facebook, X, Instagram, YouTube, Google Business Profile, Pinterest, TikTok, Threads | — |
+| **Landing pages** | Unbounce, Instapage, Leadpages, FirmPilot | Unbounce API |
+| **Funnels** | Customers.ai, Acquimate, FirmPilot, Clio Grow | Clio API |
+| **Blog automation** | FirmPilot, Jasper, WordPress, HubSpot | — |
+| **Email** | Mailchimp, Constant Contact, HubSpot, Clio Grow | Yes |
+| **CRM** | Clio Grow, HubSpot | Yes |
+
+Full details: [TOOLS.md](TOOLS.md)
 
 ---
 
@@ -73,6 +102,9 @@ The Marketing Specialist supports business development, manages digital marketin
 | Content drafts | Blog posts, alerts, social posts | Partner approves substantive legal content |
 | Event logistics | Registration, reminders, follow-up | Partner approves event content and speaker lineup |
 | Lead tracking | Lead source, status, conversion | Report to partners; no client contact without approval |
+| Social post scheduling | Schedule via Buffer/Hootsuite MCP | Partner approves substantive content |
+| Landing page drafts | Create landing page drafts | Partner approves before publish |
+| Funnel setup | Configure funnel steps in automation tool | Partner approves strategy |
 
 ---
 
@@ -98,5 +130,11 @@ The Marketing Specialist supports business development, manages digital marketin
 ## Related Roles
 
 - Reports to: COO
-- Works closely with: [Partners](../equity-senior-partners/README.md), [COO](../coo-firm-administrator/README.md), [Legal Intake Specialist](../legal-intake-specialist/README.md)
+- Works closely with: [Partners](../equity-senior-partners/README.md), [COO](../coo-firm-administrator/README.md), [Legal Intake Specialist](../legal-intake-specialist/README.md), [Business Development Lead](../business-development-lead/README.md)
 - Supports: Business development, brand, client acquisition
+
+---
+
+## See Also
+
+- [TOOLS.md](TOOLS.md) — Full tool stack, channels, MCP/API options, landing pages, funnels, blog automation

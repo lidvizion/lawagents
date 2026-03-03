@@ -97,6 +97,27 @@
         "category": "legal-ai",
         "use_when": "In-house legal; solo GC; contract review, Word",
         "path": "docs/tools/catalog/gc-ai.md"
+      },
+      {
+        "slug": "planable",
+        "name": "Planable",
+        "category": "social-scheduling",
+        "use_when": "Multi-channel; LinkedIn, FB, X, IG, YouTube, etc.",
+        "path": "docs/tools/catalog/planable.md"
+      },
+      {
+        "slug": "buffer",
+        "name": "Buffer",
+        "category": "social-scheduling",
+        "use_when": "MCP; simple queue; AI agent control",
+        "path": "docs/tools/catalog/buffer.md"
+      },
+      {
+        "slug": "hootsuite",
+        "name": "Hootsuite",
+        "category": "social-scheduling",
+        "use_when": "MCP; unified inbox; enterprise",
+        "path": "docs/tools/catalog/hootsuite.md"
       }
     ],
     "decision_tree": {
@@ -157,6 +178,19 @@
         ],
         "in_house": [
           "GC.AI"
+        ]
+      },
+      "social_scheduling": {
+        "multi_channel": [
+          "Planable"
+        ],
+        "mcp": [
+          "Buffer",
+          "Hootsuite"
+        ],
+        "legal": [
+          "Thunderhead",
+          "Apaya"
         ]
       }
     }

@@ -55,6 +55,20 @@ URLs to sync for latest ratings, reviews, pricing, and documentation. Visit thes
 | GC.AI | https://gc.ai/ |
 | GC.AI Pricing | https://gc.ai/pricing |
 
+### Social Media / Marketing
+
+| Tool | URL |
+|------|-----|
+| Planable | https://planable.io/ |
+| Buffer | https://buffer.com/ |
+| Hootsuite | https://www.hootsuite.com/ |
+| Zapier Buffer MCP | https://zapier.com/mcp/buffer |
+| Zapier Hootsuite MCP | https://zapier.com/mcp/hootsuite |
+| Oktopost MCP | https://developers.oktopost.com/docs/mcp |
+| Postavel | https://postavel.com/ |
+| Unbounce | https://unbounce.com/ |
+| FirmPilot | https://firmpilot.com/ |
+
 ---
 
 ## Vendor Documentation (API, Changelog)

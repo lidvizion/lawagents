@@ -32,6 +32,11 @@ What do you need?
 │  ├─ Law firms (large)                      → Harvey
 │  └─ In-house / solo GC                    → GC.AI
 │
+├─ Social scheduling (marketing)
+│  ├─ Multi-channel (8+ platforms)           → Planable
+│  ├─ MCP / AI agent control                 → Buffer, Hootsuite
+│  └─ Legal-specific                         → Thunderhead, Apaya
+│
 └─ Integrations / automation
    ├─ No-code                                → Zapier (Clio MCP, etc.)
    └─ API                                    → Clio API, vendor APIs
@@ -50,6 +55,7 @@ What do you need?
 | **PI-specific** | Contingency, SOL, liens | CASEpeer, CloudLex, SmartAdvocate | [catalog/](catalog/) |
 | **Intake / CRM** | Lead capture, pipeline | Clio Grow, Lawmatics | [catalog/](catalog/) |
 | **Legal AI** | Research, contracts, drafting | Harvey, GC.AI | [catalog/](catalog/) |
+| **Social scheduling** | Multi-channel; MCP | Planable, Buffer, Hootsuite | [catalog/](catalog/) |
 | **Integrations** | Connect tools, automate | Zapier, Clio MCP | [catalog/](catalog/) |
 
 ---
@@ -84,6 +90,9 @@ See [SCORING-METHODOLOGY.md](SCORING-METHODOLOGY.md). Sync URLs: [SYNC-SOURCES.m
 | [Zapier Clio MCP](catalog/zapier-clio-mcp.md) | Integrations | — | AI agent; no-code Clio actions |
 | [Harvey](catalog/harvey.md) | Legal AI | — | Large law firms; research, contracts, due diligence |
 | [GC.AI](catalog/gc-ai.md) | Legal AI | — | In-house legal; solo GC; contract review, Word |
+| [Planable](catalog/planable.md) | Social scheduling | — | Multi-channel; LinkedIn, FB, X, IG, YouTube, etc. |
+| [Buffer](catalog/buffer.md) | Social scheduling | — | MCP; simple queue; AI agent control |
+| [Hootsuite](catalog/hootsuite.md) | Social scheduling | — | MCP; unified inbox; enterprise |
 
 *Scores updated from sync sources. `—` = not yet scored.*
 
