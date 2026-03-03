@@ -94,6 +94,12 @@ The Receptionist manages immediate front-of-house operations, client greetings, 
 
 ---
 
+
+
+## Community Insights
+
+*Updated hourly from Reddit, X, Threads.* See [COMMUNITY_INSIGHTS.md](COMMUNITY_INSIGHTS.md).
+
 ## Related Roles
 
 - Reports to: Office Manager

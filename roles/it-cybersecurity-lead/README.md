@@ -82,6 +82,12 @@ The IT/Cybersecurity Lead ensures the firm's technology infrastructure is secure
 
 ---
 
+
+
+## Community Insights
+
+*Updated hourly from Reddit, X, Threads.* See [COMMUNITY_INSIGHTS.md](COMMUNITY_INSIGHTS.md).
+
 ## Related Roles
 
 - Reports to: Managing Partner or COO

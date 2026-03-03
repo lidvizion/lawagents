@@ -1,11 +1,10 @@
-# Hourly sync: search for new information, update README and agent-index
+# Hourly sync: search Reddit, X, Threads per role; update community insights and README
 name: Sync Tools (Hourly)
 
 on:
   schedule:
-    # Every hour at minute 0
     - cron: "0 * * * *"
-  workflow_dispatch: # Allow manual trigger
+  workflow_dispatch:
 
 jobs:
   sync:
@@ -21,16 +20,21 @@ jobs:
           python-version: "3.11"
 
       - name: Run sync script
+        env:
+          REDDIT_CLIENT_ID: ${{ secrets.REDDIT_CLIENT_ID }}
+          REDDIT_CLIENT_SECRET: ${{ secrets.REDDIT_CLIENT_SECRET }}
+          X_BEARER_TOKEN: ${{ secrets.X_BEARER_TOKEN }}
+          THREADS_ACCESS_TOKEN: ${{ secrets.THREADS_ACCESS_TOKEN }}
         run: python scripts/sync-tools.py
 
       - name: Commit and push if changed
         run: |
           git config user.name "github-actions[bot]"
           git config user.email "github-actions[bot]@users.noreply.github.com"
-          git add docs/agent-index.json README.md
+          git add docs/agent-index.json README.md roles/
           if git diff --staged --quiet; then
             echo "No changes to commit"
           else
-            git commit -m "chore: sync tools (hourly) - update last synced timestamp"
+            git commit -m "chore: sync (hourly) - Reddit/X/Threads per role, community insights"
             git push
           fi

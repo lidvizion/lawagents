@@ -92,6 +92,12 @@ The Managing Partner oversees daily firm operations, drives strategic initiative
 
 ---
 
+
+
+## Community Insights
+
+*Updated hourly from Reddit, X, Threads.* See [COMMUNITY_INSIGHTS.md](COMMUNITY_INSIGHTS.md).
+
 ## Related Roles
 
 - Reports to / accountable to: Equity partners

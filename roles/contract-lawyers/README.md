@@ -89,6 +89,12 @@ Contract lawyers are independent contractors hired on an hourly or project basis
 
 ---
 
+
+
+## Community Insights
+
+*Updated hourly from Reddit, X, Threads.* See [COMMUNITY_INSIGHTS.md](COMMUNITY_INSIGHTS.md).
+
 ## Related Roles
 
 - Reports to: Engaging partner(s)

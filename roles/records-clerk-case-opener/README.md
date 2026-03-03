@@ -93,6 +93,12 @@ The Records Clerk is responsible for organizing, maintaining, and tracking clien
 
 ---
 
+
+
+## Community Insights
+
+*Updated hourly from Reddit, X, Threads.* See [COMMUNITY_INSIGHTS.md](COMMUNITY_INSIGHTS.md).
+
 ## Related Roles
 
 - Reports to: Office Manager or COO

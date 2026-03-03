@@ -94,6 +94,12 @@ Legal Assistants handle a blend of procedural legal tasks and administrative dut
 
 ---
 
+
+
+## Community Insights
+
+*Updated hourly from Reddit, X, Threads.* See [COMMUNITY_INSIGHTS.md](COMMUNITY_INSIGHTS.md).
+
 ## Related Roles
 
 - Reports to: Supervising attorney(s)

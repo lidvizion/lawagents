@@ -92,6 +92,12 @@ Non-equity partners are highly experienced attorneys who receive a salary rather
 
 ---
 
+
+
+## Community Insights
+
+*Updated hourly from Reddit, X, Threads.* See [COMMUNITY_INSIGHTS.md](COMMUNITY_INSIGHTS.md).
+
 ## Related Roles
 
 - Reports to: Supervising equity partner(s)

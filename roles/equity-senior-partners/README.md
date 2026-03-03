@@ -90,6 +90,12 @@ Equity partners are the owners of the firm. They handle high-profile clients, ge
 
 ---
 
+
+
+## Community Insights
+
+*Updated hourly from Reddit, X, Threads.* See [COMMUNITY_INSIGHTS.md](COMMUNITY_INSIGHTS.md).
+
 ## Related Roles
 
 - Reports to: Managing Partner (for firm matters); accountable to partnership

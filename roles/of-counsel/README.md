@@ -82,6 +82,12 @@ Of Counsel attorneys maintain a close, ongoing relationship with the firm but ar
 
 ---
 
+
+
+## Community Insights
+
+*Updated hourly from Reddit, X, Threads.* See [COMMUNITY_INSIGHTS.md](COMMUNITY_INSIGHTS.md).
+
 ## Related Roles
 
 - Reports to: Supervising partner(s)

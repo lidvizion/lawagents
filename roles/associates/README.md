@@ -94,6 +94,12 @@ Associates are employed attorneys who represent the firm, handle daily substanti
 
 ---
 
+
+
+## Community Insights
+
+*Updated hourly from Reddit, X, Threads.* See [COMMUNITY_INSIGHTS.md](COMMUNITY_INSIGHTS.md).
+
 ## Related Roles
 
 - Reports to: Assigning partner(s)

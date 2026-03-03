@@ -95,6 +95,12 @@ The COO manages the business side of the firm—human resources, finance, IT, ma
 
 ---
 
+
+
+## Community Insights
+
+*Updated hourly from Reddit, X, Threads.* See [COMMUNITY_INSIGHTS.md](COMMUNITY_INSIGHTS.md).
+
 ## Related Roles
 
 - Reports to: Managing Partner

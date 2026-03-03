@@ -50,8 +50,12 @@ lawagents/
 
 ### Automated (hourly)
 
-- **GitHub Actions:** `.github/workflows/sync-tools.yml` runs every hour. Fetches sync sources, updates `docs/agent-index.json` and `README.md` with last synced timestamp.
-- **Manual/cron:** Run `python scripts/sync-tools.py`. See [scripts/README.md](scripts/README.md) for crontab example.
+- **GitHub Actions:** `.github/workflows/sync-tools.yml` runs every hour. Searches Reddit, X, Threads per role; writes `roles/{role}/COMMUNITY_INSIGHTS.md`; updates `docs/agent-index.json` and `README.md`.
+- **Secrets (optional):** Add to repo Settings → Secrets for full sync:
+  - `REDDIT_CLIENT_ID` + `REDDIT_CLIENT_SECRET` — [Reddit API apps](https://www.reddit.com/prefs/apps) (create "script" app)
+  - `X_BEARER_TOKEN` — X API v2 (optional)
+  - `THREADS_ACCESS_TOKEN` — Meta Threads API (optional)
+- **Manual/cron:** Run `python scripts/sync-tools.py`. Set env vars for Reddit/X/Threads. See [scripts/README.md](scripts/README.md).
 
 ### Manual (quarterly)
 

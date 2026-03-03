@@ -77,6 +77,12 @@ The Estate/Trust Officer oversees trust administration and probate-related filin
 
 ---
 
+
+
+## Community Insights
+
+*Updated hourly from Reddit, X, Threads.* See [COMMUNITY_INSIGHTS.md](COMMUNITY_INSIGHTS.md).
+
 ## Related Roles
 
 - Reports to: Supervising attorney or COO

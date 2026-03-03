@@ -96,6 +96,12 @@ The Billing/Finance Manager oversees time entries, invoice preparation, collecti
 
 ---
 
+
+
+## Community Insights
+
+*Updated hourly from Reddit, X, Threads.* See [COMMUNITY_INSIGHTS.md](COMMUNITY_INSIGHTS.md).
+
 ## Related Roles
 
 - Reports to: COO

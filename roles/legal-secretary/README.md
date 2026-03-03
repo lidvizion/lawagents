@@ -93,6 +93,12 @@ The Legal Secretary focuses primarily on clerical and administrative duties: typ
 
 ---
 
+
+
+## Community Insights
+
+*Updated hourly from Reddit, X, Threads.* See [COMMUNITY_INSIGHTS.md](COMMUNITY_INSIGHTS.md).
+
 ## Related Roles
 
 - Reports to: Supervising attorney(s) or Office Manager

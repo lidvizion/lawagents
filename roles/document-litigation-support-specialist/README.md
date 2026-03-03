@@ -95,6 +95,12 @@ The Document and Litigation Support Specialist manages electronic filing systems
 
 ---
 
+
+
+## Community Insights
+
+*Updated hourly from Reddit, X, Threads.* See [COMMUNITY_INSIGHTS.md](COMMUNITY_INSIGHTS.md).
+
 ## Related Roles
 
 - Reports to: Supervising attorney(s) or COO (for system administration)
