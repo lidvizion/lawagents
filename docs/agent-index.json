@@ -7,8 +7,6 @@
   "tools": {
     "catalog_url": "https://raw.githubusercontent.com/lidvizion/lawagents/main/docs/tools/README.md",
     "index_url": "https://raw.githubusercontent.com/lidvizion/lawagents/main/docs/tools/catalog/",
-    "legal_apis_index_url": "https://raw.githubusercontent.com/lidvizion/lawagents/main/docs/tools/legal-apis-index.json",
-    "legal_apis_count": 210,
     "items": [
       {
         "slug": "clio",
@@ -141,6 +139,34 @@
         "category": "web-scraping",
         "use_when": "Public records; anti-bot; adaptive parsing; MCP",
         "path": "docs/tools/catalog/scrapling.md"
+      },
+      {
+        "slug": "bloomberg-law-dockets-api",
+        "name": "Bloomberg Law Enterprise Dockets API",
+        "category": "court-data",
+        "use_when": "Enterprise court docket search; federal and state court records",
+        "path": "docs/tools/catalog/bloomberg-law-dockets-api.md"
+      },
+      {
+        "slug": "trustfoundry-ai",
+        "name": "TrustFoundry AI",
+        "category": "legal-ai",
+        "use_when": "Legal research; AI search; solo/small firm affordability",
+        "path": "docs/tools/catalog/trustfoundry-ai.md"
+      },
+      {
+        "slug": "legiscan",
+        "name": "LegiScan API",
+        "category": "legislative-api",
+        "use_when": "Legislative tracking; bill data; all 50 states + Congress",
+        "path": "docs/tools/catalog/legiscan.md"
+      },
+      {
+        "slug": "openlaws-api",
+        "name": "OpenLaws API",
+        "category": "legislative-api",
+        "use_when": "Statutes, regulations, case law; citation validation; RAG/LLM",
+        "path": "docs/tools/catalog/openlaws-api.md"
       }
     ],
     "decision_tree": {
@@ -199,10 +225,6 @@
         "law_firms": [
           "Harvey"
         ],
-        "autopilot_native": [
-          "Crosby",
-          "Lawhive"
-        ],
         "in_house": [
           "GC.AI"
         ]
@@ -228,7 +250,8 @@
           "Scrapling"
         ]
       }
-    }
+    },
+    "legal_apis_count": 239
   },
   "roles": {
     "index_url": "https://raw.githubusercontent.com/lidvizion/lawagents/main/roles/README.md",
@@ -268,16 +291,6 @@
     },
     "path_template": "roles/{slug}/README.md"
   },
-  "examples": {
-    "index_url": "https://raw.githubusercontent.com/lidvizion/lawagents/main/examples/README.md",
-    "operations_staff_url": "https://raw.githubusercontent.com/lidvizion/lawagents/main/examples/operations-staff/README.md",
-    "categories": {
-      "executive": ["coo-monthly-financial-close", "office-manager-daily-opening", "billing-monthly-invoice-run", "marketing-weekly-social-batch", "hr-new-hire-onboarding", "compliance-quarterly-policy-review", "it-software-rollout"],
-      "legal_support": ["paralegal-discovery-response", "legal-assistant-matter-setup", "doc-support-efiling-prep", "estate-trust-officer-probate-filing"],
-      "intake_admin": ["intake-lead-to-consultation", "legal-secretary-doc-production", "records-new-matter-opening", "receptionist-visitor-call-flow"]
-    },
-    "path_template": "examples/operations-staff/{category}/{slug}.md"
-  },
   "practice_areas": {
     "index_url": "https://raw.githubusercontent.com/lidvizion/lawagents/main/practice-areas/README.md",
     "transactional": [
@@ -299,24 +312,49 @@
     "path_template_transactional": "practice-areas/transactional/{slug}/README.md",
     "path_template_litigation": "practice-areas/litigation/{slug}/README.md"
   },
-  "last_community_sync": "2026-03-03 18:14",
-  "database": {
-    "description": "MongoDB collections for tools and integrations",
-    "collections": {
-      "tools": "Legal software catalog (slug, name, category, provider, url, source, has_mcp, has_api). Populated by crawl-datarade-legal-apis.py.",
-      "integrations": "MCP/API connectors (slug, tool_slug, type, url, auth_type, capabilities)"
+  "last_community_sync": "2026-03-24 23:08",
+  "legal_apis": {
+    "index_url": "https://raw.githubusercontent.com/lidvizion/lawagents/main/docs/tools/legal-apis-index.json",
+    "source": "https://datarade.ai/search/products/legal-apis",
+    "count": 239
+  },
+  "examples": {
+    "index_url": "https://raw.githubusercontent.com/lidvizion/lawagents/main/examples/README.md",
+    "operations_staff_url": "https://raw.githubusercontent.com/lidvizion/lawagents/main/examples/operations-staff/README.md",
+    "categories": {
+      "executive": [
+        "coo-monthly-financial-close",
+        "office-manager-daily-opening",
+        "billing-monthly-invoice-run",
+        "marketing-weekly-social-batch",
+        "hr-new-hire-onboarding",
+        "compliance-quarterly-policy-review",
+        "it-software-rollout"
+      ],
+      "legal_support": [
+        "paralegal-discovery-response",
+        "legal-assistant-matter-setup",
+        "doc-support-efiling-prep",
+        "estate-trust-officer-probate-filing"
+      ],
+      "intake_admin": [
+        "intake-lead-to-consultation",
+        "legal-secretary-doc-production",
+        "records-new-matter-opening",
+        "receptionist-visitor-call-flow"
+      ]
     },
-    "legal_apis_index": "docs/tools/legal-apis-index.json"
-  }
-  "last_community_sync": "2026-03-03 20:07",
+    "path_template": "examples/operations-staff/{category}/{slug}.md"
+  },
   "database": {
-    "description": "MongoDB collections for tools and integrations. Use when agents need programmatic tool lookup.",
+    "description": "MongoDB collections for tools, integrations, and crawl findings. Agents use for programmatic tool lookup.",
     "collections": {
-      "tools": "Tool catalog (slug, name, category, use_when, url, has_api, has_mcp, score). 210+ platforms.",
-      "integrations": "MCP/API connectors (slug, type, tool_slug, capabilities, approval_levels)"
+      "tools": "Catalog (slug, name, category, use_when, url, source, has_api, has_mcp, score). Populated by crawl-datarade-legal-apis.py and seed-tools.py.",
+      "integrations": "MCP/API connectors (slug, type, tool_slug, url, auth_type, capabilities, approval_levels).",
+      "findings": "Raw search/crawl results (optional)."
     },
+    "legal_apis_index": "docs/tools/legal-apis-index.json",
     "sync_script": "scripts/crawl-datarade-legal-apis.py",
     "seed_script": "scripts/seed-tools.py"
   }
-  "last_community_sync": "2026-03-24 23:08"
 }

@@ -1,22 +1,19 @@
 #!/usr/bin/env python3
 """
-Crawl dataRade.ai legal APIs and update MongoDB.
+Crawl dataRade legal APIs and refresh docs/tools/legal-apis-index.json.
 
-dataRade does not expose a public API; the site is behind Cloudflare.
-We use OpenAI (knowledge + optional web search) to discover legal APIs
-from dataRade and other sources, then upsert into MongoDB.
+dataRade has no public API (Cloudflare). Uses OpenAI (discover_legal_tools_full
+and a supplemental prompt) plus large curated static lists when the API key is absent.
+
+MongoDB update is optional when MONGODB_URI or MONGO_URI is set.
 
 Usage:
-  export MONGODB_URI="mongodb://..."
-  export OPENAI_API_KEY="sk-..."
+  export OPENAI_API_KEY=sk-...   # optional; expands discovery via OpenAI
+  export MONGODB_URI=...         # optional
   python scripts/crawl-datarade-legal-apis.py
 """
 from __future__ import annotations
 
-Crawl and discover 200+ legal APIs, platforms, and integrations.
-Uses OpenAI to generate a comprehensive list from dataRade categories and known legal tech.
-Outputs: docs/tools/legal-apis-index.json and updates MongoDB if MONGODB_URI is set.
-"""
 import json
 import os
 import re
@@ -24,10 +21,12 @@ import sys
 from datetime import datetime, timezone
 from pathlib import Path
 
+from dotenv import load_dotenv
+
 REPO_ROOT = Path(__file__).resolve().parent.parent
 sys.path.insert(0, str(REPO_ROOT))
+load_dotenv(REPO_ROOT / ".env")
 
-# Curated legal APIs from dataRade and known sources (fallback when no OpenAI)
 CURATED_LEGAL_APIS = [
     {"name": "UniCourt", "provider": "UniCourt", "category": "court-data", "url": "https://datarade.ai/data-providers/unicourt/data-products"},
     {"name": "Bloomberg Law Dockets API", "provider": "Bloomberg", "category": "court-data", "url": "https://pro.bloomberglaw.com/products/court-dockets-search/enterprise-dockets-api-solution/"},
@@ -45,19 +44,9 @@ CURATED_LEGAL_APIS = [
     {"name": "InfoTrack", "provider": "InfoTrack", "category": "court-filing", "url": "https://www.infotrack.com/"},
     {"name": "LexisNexis API", "provider": "LexisNexis", "category": "legal-research", "url": "https://www.lexisnexis.com/"},
     {"name": "Westlaw API", "provider": "Thomson Reuters", "category": "legal-research", "url": "https://legal.thomsonreuters.com/"},
-from dotenv import load_dotenv
 
-load_dotenv(REPO_ROOT / ".env")
+]
 
-# Check for OPENAI_API_KEY or OPENAI_KEY
-OPENAI_KEY = os.environ.get("OPENAI_API_KEY") or os.environ.get("OPENAI_KEY")
-if not OPENAI_KEY:
-    print("OPENAI_API_KEY or OPENAI_KEY required. Set in .env or environment.")
-    sys.exit(1)
-
-from libs.openai_helpers import discover_legal_tools_full
-
-# Static expansion: known legal APIs/platforms from dataRade and industry (ensures 200+)
 EXPANDED_STATIC = [
     {"name": "UniCourt Court Data API", "slug": "unicourt-court-api", "category": "court-data", "use_when": "Federal/state court records", "url": "https://unicourt.com", "has_api": True, "has_mcp": False, "provider": "UniCourt"},
     {"name": "UniCourt PACER API", "slug": "unicourt-pacer-api", "category": "court-data", "use_when": "PACER federal court data", "url": "https://unicourt.com", "has_api": True, "has_mcp": False, "provider": "UniCourt"},
@@ -193,7 +182,7 @@ CURATED_TOOLS = [
     },
     {
         "name": "LegiScan API",
-        "slug": "legiscan-api",
+        "slug": "legiscan",
         "category": "legislative",
         "use_when": "State and federal legislation data; bill tracking",
         "url": "https://legiscan.com/legiscan",
@@ -289,82 +278,12 @@ def tool_doc(api: dict, source: str = "datarade") -> dict:
     }
 
 
-def main() -> int:
-    print("Crawl dataRade legal APIs → MongoDB")
-    print("-" * 50)
 
-    mongo_uri = os.environ.get("MONGODB_URI")
-    if not mongo_uri:
-        print("ERROR: MONGODB_URI is required", file=sys.stderr)
-        return 1
-
-    # Discover APIs
-    apis: list[dict] = []
-    if os.environ.get("OPENAI_API_KEY") or os.environ.get("OPENAI_KEY"):
-        print("Using OpenAI to discover legal APIs...")
-        apis = get_openai_legal_apis()
-        if apis:
-            print(f"  Found {len(apis)} APIs via OpenAI")
-    else:
-        print("OPENAI_API_KEY not set; using curated list only")
-
-    # Merge with curated (dedupe by name)
-    seen_names = {a["name"].lower() for a in apis}
-    for c in CURATED_LEGAL_APIS:
-        if c["name"].lower() not in seen_names:
-            apis.append(c)
-            seen_names.add(c["name"].lower())
-
-    if not apis:
-        apis = CURATED_LEGAL_APIS
-        print(f"Using {len(apis)} curated APIs")
-
-    # Connect to MongoDB
-    try:
-        from libs.db import get_tools_collection, ensure_indexes
-    except ImportError:
-        sys.path.insert(0, str(REPO_ROOT))
-        from libs.db import get_tools_collection, ensure_indexes
-
-    ensure_indexes()
-    tools = get_tools_collection()
-
-    # Upsert
-    upserted = 0
-    for api in apis:
-        doc = tool_doc(api)
-        slug = doc["slug"]
-        result = tools.update_one(
-            {"slug": slug},
-            {"$set": doc},
-            upsert=True,
-        )
-        if result.upserted_id or result.modified_count:
-            upserted += 1
-
-    print(f"Upserted {upserted} tools to MongoDB")
-    print(f"Total in catalog: {tools.count_documents({'source': 'datarade'})} from dataRade")
-
-    # Write JSON index for docs
-    index_path = REPO_ROOT / "docs" / "tools" / "legal-apis-index.json"
-    index_path.parent.mkdir(parents=True, exist_ok=True)
-    index_data = {
-        "source": "datarade",
-        "crawled_at": datetime.now(timezone.utc).isoformat(),
-        "count": len(apis),
-        "apis": [{"name": a.get("name"), "provider": a.get("provider"), "category": a.get("category"), "url": a.get("url")} for a in apis],
-    }
-    index_path.write_text(json.dumps(index_data, indent=2))
-    print(f"Wrote {index_path}")
-    """Create URL-safe slug from name."""
-    s = re.sub(r"[^\w\s-]", "", name.lower())
-    return re.sub(r"[-\s]+", "-", s).strip("-")
-
-
-def ensure_tool_record(t: dict) -> dict:
-    """Ensure each tool has required fields."""
+def ensure_tool_record(t: dict, *, source: str = "openai-discovery") -> dict:
+    """Normalize a tool dict for the legal APIs index."""
+    name = t.get("name") or "Unknown"
     return {
-        "name": t.get("name") or "Unknown",
+        "name": name,
         "slug": t.get("slug") or slugify(t.get("name", "unknown")),
         "category": t.get("category") or "legal-tech",
         "use_when": t.get("use_when") or "",
@@ -372,7 +291,7 @@ def ensure_tool_record(t: dict) -> dict:
         "has_api": bool(t.get("has_api", False)),
         "has_mcp": bool(t.get("has_mcp", False)),
         "provider": t.get("provider") or "",
-        "source": "openai-discovery",
+        "source": t.get("source") or source,
         "discovered_at": datetime.now(timezone.utc).isoformat(),
     }
 
@@ -380,7 +299,7 @@ def ensure_tool_record(t: dict) -> dict:
 def upsert_to_mongodb(tools: list[dict]) -> int:
     """Upsert tools to MongoDB. Returns count upserted."""
     try:
-        from libs.db import get_tools_collection, ensure_indexes
+        from libs.db import ensure_indexes, get_tools_collection
 
         coll = get_tools_collection()
         if coll is None:
@@ -399,13 +318,9 @@ def upsert_to_mongodb(tools: list[dict]) -> int:
                 "has_mcp": t.get("has_mcp", False),
                 "provider": t.get("provider", ""),
                 "last_synced": datetime.now(timezone.utc).isoformat(),
-                "source": "crawl-datarade",
+                "source": t.get("source", "crawl-datarade"),
             }
-            coll.update_one(
-                {"slug": doc["slug"]},
-                {"$set": doc},
-                upsert=True,
-            )
+            coll.update_one({"slug": doc["slug"]}, {"$set": doc}, upsert=True)
             upserted += 1
         return upserted
     except Exception as e:
@@ -414,38 +329,98 @@ def upsert_to_mongodb(tools: list[dict]) -> int:
 
 
 def main() -> int:
-    print("Discovering 200+ legal APIs and platforms via OpenAI...")
-    tools = discover_legal_tools_full(target_count=220)
-    tools = [ensure_tool_record(t) for t in tools]
+    print("Crawl dataRade legal APIs → legal-apis-index.json")
+    print("-" * 50)
 
-    # Merge static expansion and curated tools
+    tools: list[dict] = []
+    key = os.environ.get("OPENAI_API_KEY") or os.environ.get("OPENAI_KEY")
+
+    if key:
+        try:
+            from libs.openai_helpers import discover_legal_tools_full
+
+            discovered = discover_legal_tools_full(target_count=220)
+            tools.extend(ensure_tool_record(t) for t in discovered)
+            print(f"OpenAI (batched): {len(discovered)} tools")
+        except Exception as e:
+            print(f"OpenAI batched discovery error: {e}", file=sys.stderr)
+
+        extra = get_openai_legal_apis()
+        for api in extra:
+            tools.append(
+                ensure_tool_record(
+                    {
+                        "name": api.get("name", "Unknown"),
+                        "category": api.get("category", "legal-api"),
+                        "url": api.get("url", ""),
+                        "provider": api.get("provider", ""),
+                        "use_when": api.get("description", ""),
+                        "has_api": True,
+                        "has_mcp": False,
+                    },
+                    source="openai-supplemental",
+                )
+            )
+        if extra:
+            print(f"OpenAI (supplemental list): {len(extra)} APIs")
+    else:
+        print("OPENAI_API_KEY not set; using static and curated lists only")
+
     for c in EXPANDED_STATIC + CURATED_TOOLS:
-        tools.append(ensure_tool_record(c))
-    # Dedupe by slug (curated last, so they win)
+        tools.append(ensure_tool_record(c, source="static-catalog"))
+
+    for c in CURATED_LEGAL_APIS:
+        tools.append(
+            ensure_tool_record(
+                {
+                    "name": c["name"],
+                    "category": c.get("category", "legal-api"),
+                    "url": c.get("url", ""),
+                    "provider": c.get("provider", ""),
+                    "use_when": "",
+                    "has_api": True,
+                    "has_mcp": False,
+                },
+                source="datarade-curated",
+            )
+        )
+
     seen: set[str] = set()
     unique: list[dict] = []
     for t in tools:
         if t["slug"] not in seen:
             seen.add(t["slug"])
             unique.append(t)
-    # Sort by category then name for consistency
     unique.sort(key=lambda x: (x["category"], x["name"].lower()))
 
-    print(f"Discovered {len(unique)} unique tools")
+    print(f"Total unique tools: {len(unique)}")
 
-    # Write JSON index
     out_path = REPO_ROOT / "docs" / "tools" / "legal-apis-index.json"
     out_path.parent.mkdir(parents=True, exist_ok=True)
+    now = datetime.now(timezone.utc).isoformat()
     index = {
         "source": "https://datarade.ai/search/products/legal-apis",
-        "discovered_at": datetime.now(timezone.utc).isoformat(),
+        "discovered_at": now,
+        "crawled_at": now,
         "count": len(unique),
         "tools": unique,
+        "apis": [
+            {
+                "name": t["name"],
+                "slug": t["slug"],
+                "provider": t.get("provider", ""),
+                "category": t["category"],
+                "use_when": t.get("use_when", ""),
+                "url": t.get("url", ""),
+                "has_api": t.get("has_api", True),
+                "has_mcp": t.get("has_mcp", False),
+            }
+            for t in unique
+        ],
     }
     out_path.write_text(json.dumps(index, indent=2) + "\n")
     print(f"Wrote {out_path}")
 
-    # Upsert to MongoDB
     if os.environ.get("MONGODB_URI") or os.environ.get("MONGO_URI"):
         n = upsert_to_mongodb(unique)
         print(f"MongoDB: upserted {n} tools")

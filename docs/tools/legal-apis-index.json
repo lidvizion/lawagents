@@ -1,283 +1,9 @@
 {
-  "source": "datarade",
-  "crawled_at": "2026-03-03T19:08:59.277275+00:00",
-  "count": 45,
-  "apis": [
-    {
-      "name": "UniCourt Court Data API",
-      "provider": "UniCourt",
-      "category": "court-data",
-      "url": "https://datarade.ai/products/unicourt-court-data-api"
-    },
-    {
-      "name": "Bloomberg Law",
-      "provider": "Bloomberg",
-      "category": "legal-research",
-      "url": "https://www.bloomberglaw.com"
-    },
-    {
-      "name": "LegiScan",
-      "provider": "LegiScan",
-      "category": "legislative",
-      "url": "https://legiscan.com"
-    },
-    {
-      "name": "OpenLaws",
-      "provider": "OpenLaws",
-      "category": "legal-research",
-      "url": "https://www.openlaws.com"
-    },
-    {
-      "name": "PACER",
-      "provider": "U.S. Courts",
-      "category": "court-data",
-      "url": "https://pacer.uscourts.gov"
-    },
-    {
-      "name": "Casetext",
-      "provider": "Casetext",
-      "category": "legal-research",
-      "url": "https://casetext.com"
-    },
-    {
-      "name": "Clio",
-      "provider": "Clio",
-      "category": "practice-management",
-      "url": "https://www.clio.com"
-    },
-    {
-      "name": "LegalSifter",
-      "provider": "LegalSifter",
-      "category": "legal-ai",
-      "url": "https://legalsifter.com"
-    },
-    {
-      "name": "Everlaw",
-      "provider": "Everlaw",
-      "category": "e-discovery",
-      "url": "https://www.everlaw.com"
-    },
-    {
-      "name": "TrademarkNow",
-      "provider": "TrademarkNow",
-      "category": "trademark-ip",
-      "url": "https://www.trademarknow.com"
-    },
-    {
-      "name": "LexisNexis",
-      "provider": "LexisNexis",
-      "category": "legal-research",
-      "url": "https://legal.thomsonreuters.com"
-    },
-    {
-      "name": "DocuSign",
-      "provider": "DocuSign",
-      "category": "practice-management",
-      "url": "https://www.docusign.com"
-    },
-    {
-      "name": "ZyLAB ONE",
-      "provider": "ZyLAB",
-      "category": "e-discovery",
-      "url": "https://www.zylab.com"
-    },
-    {
-      "name": "CourtListener API",
-      "provider": "Free Law Project",
-      "category": "court-data",
-      "url": "https://www.courtlistener.com/api"
-    },
-    {
-      "name": "LawGeex",
-      "provider": "LawGeex",
-      "category": "legal-ai",
-      "url": "https://www.lawgeex.com"
-    },
-    {
-      "name": "Clever Legal",
-      "provider": "Clever Legal",
-      "category": "legal-ai",
-      "url": "https://cleverlegal.com"
-    },
-    {
-      "name": "Lexis Search Advantage",
-      "provider": "LexisNexis",
-      "category": "legal-research",
-      "url": "https://legal.thomsonreuters.com"
-    },
-    {
-      "name": "LawGives",
-      "provider": "LawGives",
-      "category": "compliance",
-      "url": "https://www.lawgives.com"
-    },
-    {
-      "name": "X1 Social Discovery",
-      "provider": "X1 Discovery",
-      "category": "e-discovery",
-      "url": "https://www.x1discovery.com"
-    },
-    {
-      "name": "Relativity",
-      "provider": "Relativity",
-      "category": "e-discovery",
-      "url": "https://www.relativity.com"
-    },
-    {
-      "name": "Intapp",
-      "provider": "Intapp",
-      "category": "practice-management",
-      "url": "https://www.intapp.com"
-    },
-    {
-      "name": "PRISM",
-      "provider": "PRISM",
-      "category": "compliance",
-      "url": "https://www.prismcompliance.com"
-    },
-    {
-      "name": "Docket Alarm",
-      "provider": "Docket Alarm",
-      "category": "court-data",
-      "url": "https://www.docketalarm.com"
-    },
-    {
-      "name": "ContractPodAI",
-      "provider": "ContractPodAI",
-      "category": "legal-ai",
-      "url": "https://www.contractpodai.com"
-    },
-    {
-      "name": "NextChapter",
-      "provider": "NextChapter",
-      "category": "practice-management",
-      "url": "https://www.nextchapterbk.com"
-    },
-    {
-      "name": "DocuTrack",
-      "provider": "Minden Enterprises",
-      "category": "practice-management",
-      "url": "https://www.mindenenterprises.com"
-    },
-    {
-      "name": "Axiom",
-      "provider": "Axiom",
-      "category": "compliance",
-      "url": "https://www.axiomlaw.com"
-    },
-    {
-      "name": "QuickBooks Online for Legal",
-      "provider": "Intuit",
-      "category": "practice-management",
-      "url": "https://quickbooks.intuit.com/law/"
-    },
-    {
-      "name": "Justia",
-      "provider": "Justia",
-      "category": "legal-research",
-      "url": "https://www.justia.com"
-    },
-    {
-      "name": "UniCourt",
-      "provider": "UniCourt",
-      "category": "court-data",
-      "url": "https://datarade.ai/data-providers/unicourt/data-products"
-    },
-    {
-      "name": "Bloomberg Law Dockets API",
-      "provider": "Bloomberg",
-      "category": "court-data",
-      "url": "https://pro.bloomberglaw.com/products/court-dockets-search/enterprise-dockets-api-solution/"
-    },
-    {
-      "name": "LegiScan API",
-      "provider": "LegiScan",
-      "category": "legislative",
-      "url": "https://legiscan.com/legiscan"
-    },
-    {
-      "name": "OpenLaws API",
-      "provider": "OpenLaws",
-      "category": "legislative",
-      "url": "https://openlaws.us/api/"
-    },
-    {
-      "name": "TrustFoundry AI",
-      "provider": "TrustFoundry",
-      "category": "legal-ai",
-      "url": "https://trustfoundry.ai/"
-    },
-    {
-      "name": "PACER API",
-      "provider": "UniCourt",
-      "category": "court-data",
-      "url": "https://datarade.ai/data-products/pacer-api-unicourt"
-    },
-    {
-      "name": "Court Data API",
-      "provider": "UniCourt",
-      "category": "court-data",
-      "url": "https://datarade.ai/data-products/court-data-api-unicourt"
-    },
-    {
-      "name": "Attorney Data API",
-      "provider": "UniCourt",
-      "category": "court-data",
-      "url": "https://datarade.ai/data-products/attorney-data-api-unicourt"
-    },
-    {
-      "name": "Law Firm Data API",
-      "provider": "UniCourt",
-      "category": "court-data",
-      "url": "https://datarade.ai/data-products/law-firm-data-api-unicourt"
-    },
-    {
-      "name": "Judge Data API",
-      "provider": "UniCourt",
-      "category": "court-data",
-      "url": "https://datarade.ai/data-products/judge-data-api-unicourt"
-    },
-    {
-      "name": "Legal Analytics API",
-      "provider": "UniCourt",
-      "category": "court-data",
-      "url": "https://datarade.ai/data-products/legal-analytics-api-unicourt"
-    },
-    {
-      "name": "APISCRAPY Legal Data",
-      "provider": "APISCRAPY",
-      "category": "court-data",
-      "url": "https://datarade.ai/search/products/legal-apis"
-    },
-    {
-      "name": "Grepsr Legal Data",
-      "provider": "Grepsr",
-      "category": "court-data",
-      "url": "https://datarade.ai/search/products/legal-apis"
-    },
-    {
-      "name": "InfoTrack",
-      "provider": "InfoTrack",
-      "category": "court-filing",
-      "url": "https://www.infotrack.com/"
-    },
-    {
-      "name": "LexisNexis API",
-      "provider": "LexisNexis",
-      "category": "legal-research",
-      "url": "https://www.lexisnexis.com/"
-    },
-    {
-      "name": "Westlaw API",
-      "provider": "Thomson Reuters",
-      "category": "legal-research",
-      "url": "https://legal.thomsonreuters.com/"
-    }
-  ]
-}
   "source": "https://datarade.ai/search/products/legal-apis",
+  "crawled_at": "2026-03-03T19:08:59.277275+00:00",
   "discovered_at": "2026-03-03T20:43:24.193143+00:00",
-  "count": 210,
+  "updated": "2026-03-03 18:51 UTC",
+  "count": 239,
   "tools": [
     {
       "name": "Apaya",
@@ -352,6 +78,30 @@
       "discovered_at": "2026-03-03T20:43:24.192608+00:00"
     },
     {
+      "name": "LawGives",
+      "slug": "lawgives",
+      "category": "compliance",
+      "use_when": "Legal API: LawGives",
+      "url": "https://www.lawgives.com",
+      "has_api": true,
+      "has_mcp": false,
+      "provider": "LawGives",
+      "source": "legacy-apis-array",
+      "discovered_at": "2026-03-03T19:08:59.277275+00:00"
+    },
+    {
+      "name": "PRISM",
+      "slug": "prism",
+      "category": "compliance",
+      "use_when": "Legal API: PRISM",
+      "url": "https://www.prismcompliance.com",
+      "has_api": true,
+      "has_mcp": false,
+      "provider": "PRISM",
+      "source": "legacy-apis-array",
+      "discovered_at": "2026-03-03T19:08:59.277275+00:00"
+    },
+    {
       "name": "Veridion",
       "slug": "veridion",
       "category": "compliance-data",
@@ -364,6 +114,18 @@
       "discovered_at": "2026-03-03T20:43:24.192725+00:00"
     },
     {
+      "name": "APISCRAPY Court Record Data",
+      "slug": "apiscrapy-court",
+      "category": "court-data",
+      "use_when": "Federal and state court records, 10M+ records",
+      "url": "https://datarade.ai/search/products/legal-apis",
+      "has_api": true,
+      "has_mcp": false,
+      "provider": "APISCRAPY",
+      "source": "datarade-curated",
+      "discovered_at": ""
+    },
+    {
       "name": "APISCRAPY Legal API",
       "slug": "apiscrapy-legal",
       "category": "court-data",
@@ -374,6 +136,30 @@
       "provider": "APISCRAPY",
       "source": "openai-discovery",
       "discovered_at": "2026-03-03T20:43:24.192797+00:00"
+    },
+    {
+      "name": "APISCRAPY Legal Data",
+      "slug": "apiscrapy-legal-data",
+      "category": "court-data",
+      "use_when": "Legal API: APISCRAPY Legal Data",
+      "url": "https://datarade.ai/search/products/legal-apis",
+      "has_api": true,
+      "has_mcp": false,
+      "provider": "APISCRAPY",
+      "source": "legacy-apis-array",
+      "discovered_at": "2026-03-03T19:08:59.277275+00:00"
+    },
+    {
+      "name": "Attorney Data API",
+      "slug": "attorney-data-api",
+      "category": "court-data",
+      "use_when": "Legal API: Attorney Data API",
+      "url": "https://datarade.ai/data-products/attorney-data-api-unicourt",
+      "has_api": true,
+      "has_mcp": false,
+      "provider": "UniCourt",
+      "source": "legacy-apis-array",
+      "discovered_at": "2026-03-03T19:08:59.277275+00:00"
     },
     {
       "name": "Bloomberg Law Enterprise Dockets API",
@@ -422,6 +208,18 @@
       "provider": "Court API",
       "source": "openai-discovery",
       "discovered_at": "2026-03-03T20:43:24.192527+00:00"
+    },
+    {
+      "name": "Court Data API",
+      "slug": "court-data-api",
+      "category": "court-data",
+      "use_when": "Legal API: Court Data API",
+      "url": "https://datarade.ai/data-products/court-data-api-unicourt",
+      "has_api": true,
+      "has_mcp": false,
+      "provider": "UniCourt",
+      "source": "legacy-apis-array",
+      "discovered_at": "2026-03-03T19:08:59.277275+00:00"
     },
     {
       "name": "CourtAlert",
@@ -592,6 +390,30 @@
       "discovered_at": "2026-03-03T20:43:24.192799+00:00"
     },
     {
+      "name": "Grepsr Legal Data",
+      "slug": "grepsr-legal-data",
+      "category": "court-data",
+      "use_when": "Legal API: Grepsr Legal Data",
+      "url": "https://datarade.ai/search/products/legal-apis",
+      "has_api": true,
+      "has_mcp": false,
+      "provider": "Grepsr",
+      "source": "legacy-apis-array",
+      "discovered_at": "2026-03-03T19:08:59.277275+00:00"
+    },
+    {
+      "name": "Judge Data API",
+      "slug": "judge-data-api",
+      "category": "court-data",
+      "use_when": "Legal API: Judge Data API",
+      "url": "https://datarade.ai/data-products/judge-data-api-unicourt",
+      "has_api": true,
+      "has_mcp": false,
+      "provider": "UniCourt",
+      "source": "legacy-apis-array",
+      "discovered_at": "2026-03-03T19:08:59.277275+00:00"
+    },
+    {
       "name": "Judicial Analytics",
       "slug": "judicial-analytics",
       "category": "court-data",
@@ -614,6 +436,30 @@
       "provider": "Justia",
       "source": "openai-discovery",
       "discovered_at": "2026-03-03T20:43:24.192570+00:00"
+    },
+    {
+      "name": "Law Firm Data API",
+      "slug": "law-firm-data-api",
+      "category": "court-data",
+      "use_when": "Legal API: Law Firm Data API",
+      "url": "https://datarade.ai/data-products/law-firm-data-api-unicourt",
+      "has_api": true,
+      "has_mcp": false,
+      "provider": "UniCourt",
+      "source": "legacy-apis-array",
+      "discovered_at": "2026-03-03T19:08:59.277275+00:00"
+    },
+    {
+      "name": "Legal Analytics API",
+      "slug": "legal-analytics-api",
+      "category": "court-data",
+      "use_when": "Legal API: Legal Analytics API",
+      "url": "https://datarade.ai/data-products/legal-analytics-api-unicourt",
+      "has_api": true,
+      "has_mcp": false,
+      "provider": "UniCourt",
+      "source": "legacy-apis-array",
+      "discovered_at": "2026-03-03T19:08:59.277275+00:00"
     },
     {
       "name": "Litigant API",
@@ -676,6 +522,18 @@
       "discovered_at": "2026-03-03T20:43:24.192520+00:00"
     },
     {
+      "name": "PACER API",
+      "slug": "pacer-api",
+      "category": "court-data",
+      "use_when": "Legal API: PACER API",
+      "url": "https://datarade.ai/data-products/pacer-api-unicourt",
+      "has_api": true,
+      "has_mcp": false,
+      "provider": "UniCourt",
+      "source": "legacy-apis-array",
+      "discovered_at": "2026-03-03T19:08:59.277275+00:00"
+    },
+    {
       "name": "PacerPro",
       "slug": "pacerpro",
       "category": "court-data",
@@ -734,18 +592,6 @@
       "provider": "ScrapingBee",
       "source": "openai-discovery",
       "discovered_at": "2026-03-03T20:43:24.192939+00:00"
-    },
-    {
-      "name": "The Warren Group",
-      "slug": "warren-group",
-      "category": "court-data",
-      "use_when": "Real estate, court records",
-      "url": "https://thewarrengroup.com",
-      "has_api": true,
-      "has_mcp": false,
-      "provider": "The Warren Group",
-      "source": "openai-discovery",
-      "discovered_at": "2026-03-03T20:43:24.192807+00:00"
     },
     {
       "name": "Trellis",
@@ -808,6 +654,42 @@
       "discovered_at": "2026-03-03T20:43:24.192756+00:00"
     },
     {
+      "name": "UniCourt Court Data API",
+      "slug": "unicourt-court-data",
+      "category": "court-data",
+      "use_when": "USA court records, AI-normalized",
+      "url": "https://datarade.ai/data-providers/unicourt/data-products",
+      "has_api": true,
+      "has_mcp": false,
+      "provider": "UniCourt",
+      "source": "datarade-curated",
+      "discovered_at": ""
+    },
+    {
+      "name": "UniCourt Court Data API",
+      "slug": "unicourt-court-data-api",
+      "category": "court-data",
+      "use_when": "Legal API: UniCourt Court Data API",
+      "url": "https://datarade.ai/products/unicourt-court-data-api",
+      "has_api": true,
+      "has_mcp": false,
+      "provider": "UniCourt",
+      "source": "legacy-apis-array",
+      "discovered_at": "2026-03-03T19:08:59.277275+00:00"
+    },
+    {
+      "name": "UniCourt PACER API",
+      "slug": "unicourt-pacer",
+      "category": "court-data",
+      "use_when": "PACER legal data",
+      "url": "https://datarade.ai/data-providers/unicourt/data-products",
+      "has_api": true,
+      "has_mcp": false,
+      "provider": "UniCourt",
+      "source": "datarade-curated",
+      "discovered_at": ""
+    },
+    {
       "name": "UniCourt PACER API",
       "slug": "unicourt-pacer-api",
       "category": "court-data",
@@ -830,6 +712,18 @@
       "provider": "Veridion",
       "source": "openai-discovery",
       "discovered_at": "2026-03-03T20:43:24.192809+00:00"
+    },
+    {
+      "name": "The Warren Group",
+      "slug": "warren-group",
+      "category": "court-data",
+      "use_when": "Real estate, court records",
+      "url": "https://thewarrengroup.com",
+      "has_api": true,
+      "has_mcp": false,
+      "provider": "The Warren Group",
+      "source": "openai-discovery",
+      "discovered_at": "2026-03-03T20:43:24.192807+00:00"
     },
     {
       "name": "Xverum",
@@ -1250,6 +1144,18 @@
       "provider": "X1",
       "source": "openai-discovery",
       "discovered_at": "2026-03-03T20:43:24.192896+00:00"
+    },
+    {
+      "name": "X1 Social Discovery",
+      "slug": "x1-social-discovery",
+      "category": "e-discovery",
+      "use_when": "Legal API: X1 Social Discovery",
+      "url": "https://www.x1discovery.com",
+      "has_api": true,
+      "has_mcp": false,
+      "provider": "X1 Discovery",
+      "source": "legacy-apis-array",
+      "discovered_at": "2026-03-03T19:08:59.277275+00:00"
     },
     {
       "name": "Zapproved",
@@ -1708,6 +1614,18 @@
       "discovered_at": "2026-03-03T20:43:24.192821+00:00"
     },
     {
+      "name": "UniCourt Law Firm Data API",
+      "slug": "unicourt-law-firm",
+      "category": "law-firm-data",
+      "use_when": "USA law firm legal data",
+      "url": "https://datarade.ai/data-products/law-firm-data-api-unicourt",
+      "has_api": true,
+      "has_mcp": false,
+      "provider": "UniCourt",
+      "source": "datarade-curated",
+      "discovered_at": ""
+    },
+    {
       "name": "Agiloft",
       "slug": "agiloft",
       "category": "legal-ai",
@@ -1730,6 +1648,18 @@
       "provider": "Brightflag",
       "source": "openai-discovery",
       "discovered_at": "2026-03-03T20:43:24.192883+00:00"
+    },
+    {
+      "name": "Clever Legal",
+      "slug": "clever-legal",
+      "category": "legal-ai",
+      "use_when": "Legal API: Clever Legal",
+      "url": "https://cleverlegal.com",
+      "has_api": true,
+      "has_mcp": false,
+      "provider": "Clever Legal",
+      "source": "legacy-apis-array",
+      "discovered_at": "2026-03-03T19:08:59.277275+00:00"
     },
     {
       "name": "Conga",
@@ -2061,7 +1991,7 @@
       "category": "legal-ai",
       "use_when": "Legal research; AI-powered legal analysis",
       "url": "https://trustfoundry.ai/",
-      "has_api": false,
+      "has_api": true,
       "has_mcp": false,
       "provider": "TrustFoundry",
       "source": "openai-discovery",
@@ -2078,6 +2008,66 @@
       "provider": "TrustFoundry",
       "source": "openai-discovery",
       "discovered_at": "2026-03-03T20:43:24.192668+00:00"
+    },
+    {
+      "name": "Justia",
+      "slug": "justia",
+      "category": "legal-research",
+      "use_when": "Legal API: Justia",
+      "url": "https://www.justia.com",
+      "has_api": true,
+      "has_mcp": false,
+      "provider": "Justia",
+      "source": "legacy-apis-array",
+      "discovered_at": "2026-03-03T19:08:59.277275+00:00"
+    },
+    {
+      "name": "Lexis Search Advantage",
+      "slug": "lexis-search-advantage",
+      "category": "legal-research",
+      "use_when": "Legal API: Lexis Search Advantage",
+      "url": "https://legal.thomsonreuters.com",
+      "has_api": true,
+      "has_mcp": false,
+      "provider": "LexisNexis",
+      "source": "legacy-apis-array",
+      "discovered_at": "2026-03-03T19:08:59.277275+00:00"
+    },
+    {
+      "name": "LexisNexis",
+      "slug": "lexisnexis",
+      "category": "legal-research",
+      "use_when": "Legal API: LexisNexis",
+      "url": "https://legal.thomsonreuters.com",
+      "has_api": true,
+      "has_mcp": false,
+      "provider": "LexisNexis",
+      "source": "legacy-apis-array",
+      "discovered_at": "2026-03-03T19:08:59.277275+00:00"
+    },
+    {
+      "name": "Success.ai Legal APIs",
+      "slug": "success-ai-legal",
+      "category": "legal-research",
+      "use_when": "Legal data APIs",
+      "url": "https://datarade.ai/search/products/legal-apis",
+      "has_api": true,
+      "has_mcp": false,
+      "provider": "Success.ai",
+      "source": "datarade-curated",
+      "discovered_at": ""
+    },
+    {
+      "name": "Westlaw API",
+      "slug": "westlaw-api",
+      "category": "legal-research",
+      "use_when": "Legal API: Westlaw API",
+      "url": "https://legal.thomsonreuters.com/",
+      "has_api": true,
+      "has_mcp": false,
+      "provider": "Thomson Reuters",
+      "source": "legacy-apis-array",
+      "discovered_at": "2026-03-03T19:08:59.277275+00:00"
     },
     {
       "name": "Congress.gov API",
@@ -2138,6 +2128,30 @@
       "provider": "OpenLaws",
       "source": "openai-discovery",
       "discovered_at": "2026-03-03T20:43:24.192946+00:00"
+    },
+    {
+      "name": "CTOS Basis Litigation",
+      "slug": "ctos-basis-litigation",
+      "category": "litigation",
+      "use_when": "Litigation data",
+      "url": "https://datarade.ai/search/products/litigation-apis",
+      "has_api": true,
+      "has_mcp": false,
+      "provider": "CTOS Basis",
+      "source": "datarade-curated",
+      "discovered_at": ""
+    },
+    {
+      "name": "Moat Legal Data",
+      "slug": "moat-legal",
+      "category": "litigation",
+      "use_when": "Litigation APIs",
+      "url": "https://datarade.ai/search/products/litigation-apis",
+      "has_api": true,
+      "has_mcp": false,
+      "provider": "Moat",
+      "source": "datarade-curated",
+      "discovered_at": ""
     },
     {
       "name": "Needles",
@@ -2308,6 +2322,18 @@
       "discovered_at": "2026-03-03T20:43:24.192592+00:00"
     },
     {
+      "name": "DocuTrack",
+      "slug": "docutrack",
+      "category": "practice-management",
+      "use_when": "Legal API: DocuTrack",
+      "url": "https://www.mindenenterprises.com",
+      "has_api": true,
+      "has_mcp": false,
+      "provider": "Minden Enterprises",
+      "source": "legacy-apis-array",
+      "discovered_at": "2026-03-03T19:08:59.277275+00:00"
+    },
+    {
       "name": "Eclipse Legal",
       "slug": "eclipse-legal",
       "category": "practice-management",
@@ -2356,6 +2382,18 @@
       "discovered_at": "2026-03-03T20:43:24.192551+00:00"
     },
     {
+      "name": "Intapp",
+      "slug": "intapp",
+      "category": "practice-management",
+      "use_when": "Legal API: Intapp",
+      "url": "https://www.intapp.com",
+      "has_api": true,
+      "has_mcp": false,
+      "provider": "Intapp",
+      "source": "legacy-apis-array",
+      "discovered_at": "2026-03-03T19:08:59.277275+00:00"
+    },
+    {
       "name": "LawToolBox",
       "slug": "lawtoolbox",
       "category": "practice-management",
@@ -2392,6 +2430,18 @@
       "discovered_at": "2026-03-03T20:43:24.192549+00:00"
     },
     {
+      "name": "NextChapter",
+      "slug": "nextchapter",
+      "category": "practice-management",
+      "use_when": "Legal API: NextChapter",
+      "url": "https://www.nextchapterbk.com",
+      "has_api": true,
+      "has_mcp": false,
+      "provider": "NextChapter",
+      "source": "legacy-apis-array",
+      "discovered_at": "2026-03-03T19:08:59.277275+00:00"
+    },
+    {
       "name": "NinjaLaw",
       "slug": "ninjaw",
       "category": "practice-management",
@@ -2402,6 +2452,18 @@
       "provider": "NinjaLaw",
       "source": "openai-discovery",
       "discovered_at": "2026-03-03T20:43:24.192637+00:00"
+    },
+    {
+      "name": "PracticePanther",
+      "slug": "practice-panther",
+      "category": "practice-management",
+      "use_when": "Practice management",
+      "url": "https://practicepanther.com",
+      "has_api": true,
+      "has_mcp": false,
+      "provider": "PracticePanther",
+      "source": "openai-discovery",
+      "discovered_at": "2026-03-03T20:43:24.192787+00:00"
     },
     {
       "name": "PracticeHQ",
@@ -2428,18 +2490,6 @@
       "discovered_at": "2026-03-03T20:43:24.192595+00:00"
     },
     {
-      "name": "PracticePanther",
-      "slug": "practice-panther",
-      "category": "practice-management",
-      "use_when": "Practice management",
-      "url": "https://practicepanther.com",
-      "has_api": true,
-      "has_mcp": false,
-      "provider": "PracticePanther",
-      "source": "openai-discovery",
-      "discovered_at": "2026-03-03T20:43:24.192787+00:00"
-    },
-    {
       "name": "ProLaw",
       "slug": "prolaw",
       "category": "practice-management",
@@ -2450,6 +2500,18 @@
       "provider": "Thomson Reuters",
       "source": "openai-discovery",
       "discovered_at": "2026-03-03T20:43:24.192836+00:00"
+    },
+    {
+      "name": "QuickBooks Online for Legal",
+      "slug": "quickbooks-online-for-legal",
+      "category": "practice-management",
+      "use_when": "Legal API: QuickBooks Online for Legal",
+      "url": "https://quickbooks.intuit.com/law/",
+      "has_api": true,
+      "has_mcp": false,
+      "provider": "Intuit",
+      "source": "legacy-apis-array",
+      "discovered_at": "2026-03-03T19:08:59.277275+00:00"
     },
     {
       "name": "Rocket Matter",
@@ -2764,6 +2826,18 @@
       "discovered_at": "2026-03-03T20:43:24.192694+00:00"
     },
     {
+      "name": "TrademarkNow",
+      "slug": "trademarknow",
+      "category": "trademark-ip",
+      "use_when": "Legal API: TrademarkNow",
+      "url": "https://www.trademarknow.com",
+      "has_api": true,
+      "has_mcp": false,
+      "provider": "TrademarkNow",
+      "source": "legacy-apis-array",
+      "discovered_at": "2026-03-03T19:08:59.277275+00:00"
+    },
+    {
       "name": "InfoTrack",
       "slug": "infotrack",
       "category": "transaction-management",
@@ -2798,6 +2872,2398 @@
       "provider": "Onit",
       "source": "openai-discovery",
       "discovered_at": "2026-03-03T20:43:24.192736+00:00"
+    }
+  ],
+  "apis": [
+    {
+      "name": "Apaya",
+      "slug": "apaya",
+      "provider": "Apaya",
+      "category": "billing",
+      "use_when": "Automate billing and invoicing for legal services.",
+      "url": "https://apaya.com",
+      "has_api": true,
+      "has_mcp": false
+    },
+    {
+      "name": "CosmoLex",
+      "slug": "cosmolex",
+      "provider": "CosmoLex",
+      "category": "billing",
+      "use_when": "For integrated billing and accounting for law firms.",
+      "url": "https://www.cosmolex.com",
+      "has_api": true,
+      "has_mcp": false
+    },
+    {
+      "name": "LawPay",
+      "slug": "lawpay",
+      "provider": "LawPay",
+      "category": "billing",
+      "use_when": "For processing credit card payments and managing law firm billing.",
+      "url": "https://www.lawpay.com",
+      "has_api": true,
+      "has_mcp": false
+    },
+    {
+      "name": "TimeSolv",
+      "slug": "timesolv",
+      "provider": "TimeSolv",
+      "category": "billing",
+      "use_when": "For time tracking and billing management for legal professionals.",
+      "url": "https://www.timesolv.com",
+      "has_api": true,
+      "has_mcp": false
+    },
+    {
+      "name": "Xero",
+      "slug": "xero",
+      "provider": "Xero",
+      "category": "billing",
+      "use_when": "Online accounting software for small businesses and law firms.",
+      "url": "https://www.xero.com",
+      "has_api": true,
+      "has_mcp": false
+    },
+    {
+      "name": "TrialWorks",
+      "slug": "trialworks",
+      "provider": "TrialWorks",
+      "category": "case-management",
+      "use_when": "For managing litigation cases and client communications.",
+      "url": "https://www.trialworks.com",
+      "has_api": true,
+      "has_mcp": false
+    },
+    {
+      "name": "LawGives",
+      "slug": "lawgives",
+      "provider": "LawGives",
+      "category": "compliance",
+      "use_when": "Legal API: LawGives",
+      "url": "https://www.lawgives.com",
+      "has_api": true,
+      "has_mcp": false
+    },
+    {
+      "name": "PRISM",
+      "slug": "prism",
+      "provider": "PRISM",
+      "category": "compliance",
+      "use_when": "Legal API: PRISM",
+      "url": "https://www.prismcompliance.com",
+      "has_api": true,
+      "has_mcp": false
+    },
+    {
+      "name": "Veridion",
+      "slug": "veridion",
+      "provider": "Veridion",
+      "category": "compliance-data",
+      "use_when": "Compliance and risk management data",
+      "url": "https://veridion.com",
+      "has_api": true,
+      "has_mcp": false
+    },
+    {
+      "name": "APISCRAPY Court Record Data",
+      "slug": "apiscrapy-court",
+      "provider": "APISCRAPY",
+      "category": "court-data",
+      "use_when": "Federal and state court records, 10M+ records",
+      "url": "https://datarade.ai/search/products/legal-apis",
+      "has_api": true,
+      "has_mcp": false
+    },
+    {
+      "name": "APISCRAPY Legal API",
+      "slug": "apiscrapy-legal",
+      "provider": "APISCRAPY",
+      "category": "court-data",
+      "use_when": "Legal data scraping",
+      "url": "https://datarade.ai",
+      "has_api": true,
+      "has_mcp": false
+    },
+    {
+      "name": "APISCRAPY Legal Data",
+      "slug": "apiscrapy-legal-data",
+      "provider": "APISCRAPY",
+      "category": "court-data",
+      "use_when": "Legal API: APISCRAPY Legal Data",
+      "url": "https://datarade.ai/search/products/legal-apis",
+      "has_api": true,
+      "has_mcp": false
+    },
+    {
+      "name": "Attorney Data API",
+      "slug": "attorney-data-api",
+      "provider": "UniCourt",
+      "category": "court-data",
+      "use_when": "Legal API: Attorney Data API",
+      "url": "https://datarade.ai/data-products/attorney-data-api-unicourt",
+      "has_api": true,
+      "has_mcp": false
+    },
+    {
+      "name": "Bloomberg Law Enterprise Dockets API",
+      "slug": "bloomberg-law-dockets-api",
+      "provider": "Bloomberg Law",
+      "category": "court-data",
+      "use_when": "Federal and state court dockets; litigation alerts; comprehensive docket database",
+      "url": "https://pro.bloomberglaw.com/products/court-dockets-search/enterprise-dockets-api-solution/",
+      "has_api": true,
+      "has_mcp": false
+    },
+    {
+      "name": "BoldData Company Data",
+      "slug": "bolddata-company",
+      "provider": "BoldData",
+      "category": "court-data",
+      "use_when": "Company legal data",
+      "url": "https://companydata.com",
+      "has_api": true,
+      "has_mcp": false
+    },
+    {
+      "name": "CaseGuard",
+      "slug": "caseguard",
+      "provider": "CaseGuard",
+      "category": "court-data",
+      "use_when": "Monitor and track legal cases",
+      "url": "https://caseguard.com",
+      "has_api": true,
+      "has_mcp": false
+    },
+    {
+      "name": "Court API",
+      "slug": "court-api",
+      "provider": "Court API",
+      "category": "court-data",
+      "use_when": "Access court data and case information",
+      "url": "https://court-api.com",
+      "has_api": true,
+      "has_mcp": false
+    },
+    {
+      "name": "Court Data API",
+      "slug": "court-data-api",
+      "provider": "UniCourt",
+      "category": "court-data",
+      "use_when": "Legal API: Court Data API",
+      "url": "https://datarade.ai/data-products/court-data-api-unicourt",
+      "has_api": true,
+      "has_mcp": false
+    },
+    {
+      "name": "CourtAlert",
+      "slug": "courtalert",
+      "provider": "CourtAlert",
+      "category": "court-data",
+      "use_when": "Real-time court alerting and tracking",
+      "url": "https://courtalert.com",
+      "has_api": true,
+      "has_mcp": false
+    },
+    {
+      "name": "CourtCase",
+      "slug": "courtcase",
+      "provider": "CourtCase",
+      "category": "court-data",
+      "use_when": "Access to court case data",
+      "url": "https://courtcase.com",
+      "has_api": true,
+      "has_mcp": false
+    },
+    {
+      "name": "CourtCaseFinder",
+      "slug": "courtcasefinder",
+      "provider": "CourtCaseFinder",
+      "category": "court-data",
+      "use_when": "Find and access court cases easily",
+      "url": "https://courtcasefinder.com",
+      "has_api": false,
+      "has_mcp": false
+    },
+    {
+      "name": "CourtData API",
+      "slug": "courtdata-api",
+      "provider": "CourtData",
+      "category": "court-data",
+      "use_when": "Access court data through an API",
+      "url": "https://courtdata.io",
+      "has_api": true,
+      "has_mcp": false
+    },
+    {
+      "name": "CourtListener",
+      "slug": "courtlistener",
+      "provider": "Free Law Project",
+      "category": "court-data",
+      "use_when": "Free access to US court opinions and filings",
+      "url": "https://courtlistener.com",
+      "has_api": true,
+      "has_mcp": false
+    },
+    {
+      "name": "CourtListener API",
+      "slug": "courtlistener-api",
+      "provider": "Free Law Project",
+      "category": "court-data",
+      "use_when": "PACER, case law, RECAP",
+      "url": "https://courtlistener.com/api",
+      "has_api": true,
+      "has_mcp": false
+    },
+    {
+      "name": "CourtSearch",
+      "slug": "courtsearch",
+      "provider": "CourtSearch",
+      "category": "court-data",
+      "use_when": "Search court records and cases",
+      "url": "https://www.courtsearch.com",
+      "has_api": true,
+      "has_mcp": false
+    },
+    {
+      "name": "dataRade API",
+      "slug": "datarade-api",
+      "provider": "dataRade",
+      "category": "court-data",
+      "use_when": "For accessing a wide range of legal data through APIs.",
+      "url": "https://datarade.com",
+      "has_api": true,
+      "has_mcp": false
+    },
+    {
+      "name": "dataRade Legal APIs",
+      "slug": "datarade-legal-apis",
+      "provider": "dataRade",
+      "category": "court-data",
+      "use_when": "Access to various legal databases and APIs",
+      "url": "https://datarade.com",
+      "has_api": true,
+      "has_mcp": false
+    },
+    {
+      "name": "Docket Alarm",
+      "slug": "docket-alarm",
+      "provider": "Docket Alarm",
+      "category": "court-data",
+      "use_when": "Real-time docket alerts and analytics",
+      "url": "https://www.docketalarm.com",
+      "has_api": true,
+      "has_mcp": false
+    },
+    {
+      "name": "Docket Alarm API",
+      "slug": "docket-alarm-api",
+      "provider": "Docket Alarm",
+      "category": "court-data",
+      "use_when": "Federal docket filings",
+      "url": "https://docketalarm.com",
+      "has_api": true,
+      "has_mcp": false
+    },
+    {
+      "name": "Docketly",
+      "slug": "docketly",
+      "provider": "Docketly",
+      "category": "court-data",
+      "use_when": "Automated court docket monitoring",
+      "url": "https://www.docketly.com",
+      "has_api": true,
+      "has_mcp": false
+    },
+    {
+      "name": "DocketX",
+      "slug": "docketx",
+      "provider": "DocketX",
+      "category": "court-data",
+      "use_when": "Track court dockets and filings",
+      "url": "https://www.docketx.com",
+      "has_api": true,
+      "has_mcp": false
+    },
+    {
+      "name": "Grepsr Legal Data",
+      "slug": "grepsr-legal",
+      "provider": "Grepsr",
+      "category": "court-data",
+      "use_when": "Legal data extraction",
+      "url": "https://grepsr.com",
+      "has_api": true,
+      "has_mcp": false
+    },
+    {
+      "name": "Grepsr Legal Data",
+      "slug": "grepsr-legal-data",
+      "provider": "Grepsr",
+      "category": "court-data",
+      "use_when": "Legal API: Grepsr Legal Data",
+      "url": "https://datarade.ai/search/products/legal-apis",
+      "has_api": true,
+      "has_mcp": false
+    },
+    {
+      "name": "Judge Data API",
+      "slug": "judge-data-api",
+      "provider": "UniCourt",
+      "category": "court-data",
+      "use_when": "Legal API: Judge Data API",
+      "url": "https://datarade.ai/data-products/judge-data-api-unicourt",
+      "has_api": true,
+      "has_mcp": false
+    },
+    {
+      "name": "Judicial Analytics",
+      "slug": "judicial-analytics",
+      "provider": "Judicial Analytics",
+      "category": "court-data",
+      "use_when": "Analytics on judicial decision-making",
+      "url": "https://judicialanalytics.com",
+      "has_api": true,
+      "has_mcp": false
+    },
+    {
+      "name": "Justia Dockets",
+      "slug": "justia-dockets",
+      "provider": "Justia",
+      "category": "court-data",
+      "use_when": "Free access to federal and state court dockets",
+      "url": "https://dockets.justia.com",
+      "has_api": false,
+      "has_mcp": false
+    },
+    {
+      "name": "Law Firm Data API",
+      "slug": "law-firm-data-api",
+      "provider": "UniCourt",
+      "category": "court-data",
+      "use_when": "Legal API: Law Firm Data API",
+      "url": "https://datarade.ai/data-products/law-firm-data-api-unicourt",
+      "has_api": true,
+      "has_mcp": false
+    },
+    {
+      "name": "Legal Analytics API",
+      "slug": "legal-analytics-api",
+      "provider": "UniCourt",
+      "category": "court-data",
+      "use_when": "Legal API: Legal Analytics API",
+      "url": "https://datarade.ai/data-products/legal-analytics-api-unicourt",
+      "has_api": true,
+      "has_mcp": false
+    },
+    {
+      "name": "Litigant API",
+      "slug": "litigant-api",
+      "provider": "Litigant",
+      "category": "court-data",
+      "use_when": "Access litigant data and filings",
+      "url": "https://litigant.io",
+      "has_api": true,
+      "has_mcp": false
+    },
+    {
+      "name": "Nubela Legal API",
+      "slug": "nubela-legal",
+      "provider": "Nubela",
+      "category": "court-data",
+      "use_when": "Legal data API",
+      "url": "https://nubela.co",
+      "has_api": true,
+      "has_mcp": false
+    },
+    {
+      "name": "OpenLaws",
+      "slug": "openlaws",
+      "provider": "OpenLaws",
+      "category": "court-data",
+      "use_when": "Access to legal and court data globally",
+      "url": "https://openlaws.com",
+      "has_api": true,
+      "has_mcp": false
+    },
+    {
+      "name": "Oxylabs Legal API",
+      "slug": "oxylabs-legal",
+      "provider": "Oxylabs",
+      "category": "court-data",
+      "use_when": "Web scraping legal data",
+      "url": "https://oxylabs.io",
+      "has_api": true,
+      "has_mcp": false
+    },
+    {
+      "name": "PACER",
+      "slug": "pacer",
+      "provider": "U.S. Courts",
+      "category": "court-data",
+      "use_when": "Federal court records and filings",
+      "url": "https://pacer.uscourts.gov",
+      "has_api": false,
+      "has_mcp": false
+    },
+    {
+      "name": "PACER API",
+      "slug": "pacer-api",
+      "provider": "UniCourt",
+      "category": "court-data",
+      "use_when": "Legal API: PACER API",
+      "url": "https://datarade.ai/data-products/pacer-api-unicourt",
+      "has_api": true,
+      "has_mcp": false
+    },
+    {
+      "name": "PacerPro",
+      "slug": "pacerpro",
+      "provider": "PacerPro",
+      "category": "court-data",
+      "use_when": "For accessing and analyzing federal court filings and data.",
+      "url": "https://www.pacerpro.com",
+      "has_api": true,
+      "has_mcp": false
+    },
+    {
+      "name": "RECAP",
+      "slug": "recap",
+      "provider": "Free Law Project",
+      "category": "court-data",
+      "use_when": "Free access to PACER documents",
+      "url": "https://recapthelaw.org",
+      "has_api": false,
+      "has_mcp": false
+    },
+    {
+      "name": "RECAP Project",
+      "slug": "recap-project",
+      "provider": "Free Law Project",
+      "category": "court-data",
+      "use_when": "PACER free access",
+      "url": "https://recapthelaw.org",
+      "has_api": true,
+      "has_mcp": false
+    },
+    {
+      "name": "Rightsify Legal Data",
+      "slug": "rightsify-legal",
+      "provider": "Rightsify",
+      "category": "court-data",
+      "use_when": "Legal data",
+      "url": "https://rightsify.com",
+      "has_api": true,
+      "has_mcp": false
+    },
+    {
+      "name": "ScrapingBee",
+      "slug": "scrapingbee-legal",
+      "provider": "ScrapingBee",
+      "category": "court-data",
+      "use_when": "Legal data scraping",
+      "url": "https://scrapingbee.com",
+      "has_api": true,
+      "has_mcp": false
+    },
+    {
+      "name": "Trellis",
+      "slug": "trellis",
+      "provider": "Trellis",
+      "category": "court-data",
+      "use_when": "State court data and analytics",
+      "url": "https://trellis.law",
+      "has_api": true,
+      "has_mcp": false
+    },
+    {
+      "name": "Trellis Research",
+      "slug": "trellis-research",
+      "provider": "Trellis",
+      "category": "court-data",
+      "use_when": "State court analytics",
+      "url": "https://trellis.law",
+      "has_api": true,
+      "has_mcp": false
+    },
+    {
+      "name": "UniCourt",
+      "slug": "unicourt",
+      "provider": "UniCourt",
+      "category": "court-data",
+      "use_when": "Access to federal and state court records",
+      "url": "https://unicourt.com",
+      "has_api": true,
+      "has_mcp": false
+    },
+    {
+      "name": "UniCourt API",
+      "slug": "unicourt-api",
+      "provider": "UniCourt",
+      "category": "court-data",
+      "use_when": "Federal and state court records",
+      "url": "https://unicourt.com",
+      "has_api": true,
+      "has_mcp": false
+    },
+    {
+      "name": "UniCourt Court Data API",
+      "slug": "unicourt-court-api",
+      "provider": "UniCourt",
+      "category": "court-data",
+      "use_when": "Federal/state court records",
+      "url": "https://unicourt.com",
+      "has_api": true,
+      "has_mcp": false
+    },
+    {
+      "name": "UniCourt Court Data API",
+      "slug": "unicourt-court-data",
+      "provider": "UniCourt",
+      "category": "court-data",
+      "use_when": "USA court records, AI-normalized",
+      "url": "https://datarade.ai/data-providers/unicourt/data-products",
+      "has_api": true,
+      "has_mcp": false
+    },
+    {
+      "name": "UniCourt Court Data API",
+      "slug": "unicourt-court-data-api",
+      "provider": "UniCourt",
+      "category": "court-data",
+      "use_when": "Legal API: UniCourt Court Data API",
+      "url": "https://datarade.ai/products/unicourt-court-data-api",
+      "has_api": true,
+      "has_mcp": false
+    },
+    {
+      "name": "UniCourt PACER API",
+      "slug": "unicourt-pacer",
+      "provider": "UniCourt",
+      "category": "court-data",
+      "use_when": "PACER legal data",
+      "url": "https://datarade.ai/data-providers/unicourt/data-products",
+      "has_api": true,
+      "has_mcp": false
+    },
+    {
+      "name": "UniCourt PACER API",
+      "slug": "unicourt-pacer-api",
+      "provider": "UniCourt",
+      "category": "court-data",
+      "use_when": "PACER federal court data",
+      "url": "https://unicourt.com",
+      "has_api": true,
+      "has_mcp": false
+    },
+    {
+      "name": "Veridion API",
+      "slug": "veridion-api",
+      "provider": "Veridion",
+      "category": "court-data",
+      "use_when": "Company data",
+      "url": "https://veridion.com",
+      "has_api": true,
+      "has_mcp": false
+    },
+    {
+      "name": "The Warren Group",
+      "slug": "warren-group",
+      "provider": "The Warren Group",
+      "category": "court-data",
+      "use_when": "Real estate, court records",
+      "url": "https://thewarrengroup.com",
+      "has_api": true,
+      "has_mcp": false
+    },
+    {
+      "name": "Xverum",
+      "slug": "xverum",
+      "provider": "Xverum",
+      "category": "court-data",
+      "use_when": "AI-driven legal research and court data",
+      "url": "https://xverum.com",
+      "has_api": true,
+      "has_mcp": true
+    },
+    {
+      "name": "Nubela",
+      "slug": "nubela",
+      "provider": "Nubela",
+      "category": "data-provider",
+      "use_when": "Data analytics and insights for legal professionals",
+      "url": "https://nubela.com",
+      "has_api": true,
+      "has_mcp": false
+    },
+    {
+      "name": "ScrapingBee",
+      "slug": "scrapingbee",
+      "provider": "ScrapingBee",
+      "category": "data-provider",
+      "use_when": "Web scraping for legal research",
+      "url": "https://scrapingbee.com",
+      "has_api": true,
+      "has_mcp": false
+    },
+    {
+      "name": "Techsalerator",
+      "slug": "techsalerator",
+      "provider": "Techsalerator",
+      "category": "data-provider",
+      "use_when": "Market intelligence and company data",
+      "url": "https://techsalerator.com",
+      "has_api": true,
+      "has_mcp": false
+    },
+    {
+      "name": "ContractPodAI",
+      "slug": "contractpodai",
+      "provider": "ContractPodAI",
+      "category": "document-management",
+      "use_when": "AI-powered contract lifecycle management",
+      "url": "https://www.contractpodai.com",
+      "has_api": true,
+      "has_mcp": true
+    },
+    {
+      "name": "DocuSign",
+      "slug": "docusign",
+      "provider": "DocuSign",
+      "category": "document-management",
+      "use_when": "Electronic signature and document management",
+      "url": "https://www.docusign.com",
+      "has_api": true,
+      "has_mcp": false
+    },
+    {
+      "name": "Evernote",
+      "slug": "evernote",
+      "provider": "Evernote",
+      "category": "document-management",
+      "use_when": "Note-taking and organization software for legal professionals.",
+      "url": "https://evernote.com",
+      "has_api": true,
+      "has_mcp": false
+    },
+    {
+      "name": "Evisort",
+      "slug": "evisort",
+      "provider": "Evisort",
+      "category": "document-management",
+      "use_when": "AI contract management and analysis",
+      "url": "https://www.evisort.com",
+      "has_api": true,
+      "has_mcp": true
+    },
+    {
+      "name": "iManage",
+      "slug": "imanage",
+      "provider": "iManage",
+      "category": "document-management",
+      "use_when": "Document management",
+      "url": "https://imanage.com",
+      "has_api": true,
+      "has_mcp": false
+    },
+    {
+      "name": "Kira",
+      "slug": "kira",
+      "provider": "Kira Systems",
+      "category": "document-management",
+      "use_when": "Contract analysis and document review automation",
+      "url": "https://www.kirasystems.com",
+      "has_api": true,
+      "has_mcp": false
+    },
+    {
+      "name": "Kira API",
+      "slug": "kira-api",
+      "provider": "Kira Systems",
+      "category": "document-management",
+      "use_when": "Integrate Kira\u2019s contract analysis tools",
+      "url": "https://www.kirasystems.com/api",
+      "has_api": true,
+      "has_mcp": true
+    },
+    {
+      "name": "LexiDots",
+      "slug": "lexidots",
+      "provider": "LexiDots",
+      "category": "document-management",
+      "use_when": "Manage legal documents with AI-driven insights.",
+      "url": "https://lexidots.com",
+      "has_api": true,
+      "has_mcp": true
+    },
+    {
+      "name": "Luminance",
+      "slug": "luminance",
+      "provider": "Luminance",
+      "category": "document-management",
+      "use_when": "AI-driven document analysis and review",
+      "url": "https://www.luminance.com",
+      "has_api": true,
+      "has_mcp": true
+    },
+    {
+      "name": "Luminance API",
+      "slug": "luminance-api",
+      "provider": "Luminance",
+      "category": "document-management",
+      "use_when": "Integrate Luminance for document analysis",
+      "url": "https://www.luminance.com/api",
+      "has_api": true,
+      "has_mcp": true
+    },
+    {
+      "name": "NetDocuments",
+      "slug": "netdocuments",
+      "provider": "NetDocuments",
+      "category": "document-management",
+      "use_when": "Cloud DMS",
+      "url": "https://netdocuments.com",
+      "has_api": true,
+      "has_mcp": false
+    },
+    {
+      "name": "Worldox",
+      "slug": "worldox",
+      "provider": "Worldox",
+      "category": "document-management",
+      "use_when": "Document management",
+      "url": "https://worldox.com",
+      "has_api": true,
+      "has_mcp": false
+    },
+    {
+      "name": "Casepoint",
+      "slug": "casepoint",
+      "provider": "Casepoint",
+      "category": "e-discovery",
+      "use_when": "E-discovery",
+      "url": "https://casepoint.com",
+      "has_api": true,
+      "has_mcp": false
+    },
+    {
+      "name": "CloudNine",
+      "slug": "cloudnine",
+      "provider": "CloudNine",
+      "category": "e-discovery",
+      "use_when": "E-discovery",
+      "url": "https://cloudnine.com",
+      "has_api": true,
+      "has_mcp": false
+    },
+    {
+      "name": "DISCO",
+      "slug": "disco",
+      "provider": "DISCO",
+      "category": "e-discovery",
+      "use_when": "E-discovery, AI",
+      "url": "https://csdisco.com",
+      "has_api": true,
+      "has_mcp": false
+    },
+    {
+      "name": "Everlaw",
+      "slug": "everlaw",
+      "provider": "Everlaw",
+      "category": "e-discovery",
+      "use_when": "Cloud-based e-discovery and litigation support",
+      "url": "https://www.everlaw.com",
+      "has_api": false,
+      "has_mcp": false
+    },
+    {
+      "name": "Everlaw API",
+      "slug": "everlaw-api",
+      "provider": "Everlaw",
+      "category": "e-discovery",
+      "use_when": "Integrate with Everlaw\u2019s e-discovery platform",
+      "url": "https://www.everlaw.com/api",
+      "has_api": true,
+      "has_mcp": false
+    },
+    {
+      "name": "Everlaw Workflows",
+      "slug": "everlaw-workflows",
+      "provider": "Everlaw",
+      "category": "e-discovery",
+      "use_when": "Streamlined workflows for document review",
+      "url": "https://www.everlaw.com/workflows",
+      "has_api": false,
+      "has_mcp": false
+    },
+    {
+      "name": "Goldfynch",
+      "slug": "goldfynch",
+      "provider": "Goldfynch",
+      "category": "e-discovery",
+      "use_when": "Legal document review and collaboration",
+      "url": "https://www.goldfynch.com",
+      "has_api": false,
+      "has_mcp": false
+    },
+    {
+      "name": "Hanzo",
+      "slug": "hanzo",
+      "provider": "Hanzo",
+      "category": "e-discovery",
+      "use_when": "Collaboration data",
+      "url": "https://hanzo.com",
+      "has_api": true,
+      "has_mcp": false
+    },
+    {
+      "name": "iPro",
+      "slug": "ipro",
+      "provider": "iPro",
+      "category": "e-discovery",
+      "use_when": "E-discovery",
+      "url": "https://iprotec.com",
+      "has_api": true,
+      "has_mcp": false
+    },
+    {
+      "name": "IPRO",
+      "slug": "ipro-ecm",
+      "provider": "IPRO",
+      "category": "e-discovery",
+      "use_when": "E-discovery",
+      "url": "https://iprotec.com",
+      "has_api": true,
+      "has_mcp": false
+    },
+    {
+      "name": "Logikull",
+      "slug": "logikull",
+      "provider": "Logikull",
+      "category": "e-discovery",
+      "use_when": "Automated e-discovery with an emphasis on ease of use",
+      "url": "https://www.logikull.com",
+      "has_api": false,
+      "has_mcp": false
+    },
+    {
+      "name": "Logikull API",
+      "slug": "logikull-api",
+      "provider": "Logikull",
+      "category": "e-discovery",
+      "use_when": "Automate e-discovery workflows with Logikull",
+      "url": "https://www.logikull.com/api",
+      "has_api": false,
+      "has_mcp": false
+    },
+    {
+      "name": "Nextpoint",
+      "slug": "nextpoint",
+      "provider": "Nextpoint",
+      "category": "e-discovery",
+      "use_when": "E-discovery",
+      "url": "https://nextpoint.com",
+      "has_api": true,
+      "has_mcp": false
+    },
+    {
+      "name": "Nuix",
+      "slug": "nuix",
+      "provider": "Nuix",
+      "category": "e-discovery",
+      "use_when": "E-discovery, investigations",
+      "url": "https://nuix.com",
+      "has_api": true,
+      "has_mcp": false
+    },
+    {
+      "name": "OpenText Axcelerate",
+      "slug": "opentext-axcelerate",
+      "provider": "OpenText",
+      "category": "e-discovery",
+      "use_when": "E-discovery",
+      "url": "https://opentext.com",
+      "has_api": true,
+      "has_mcp": false
+    },
+    {
+      "name": "PageVault",
+      "slug": "pagevault",
+      "provider": "PageVault",
+      "category": "e-discovery",
+      "use_when": "Web archiving",
+      "url": "https://pagevault.com",
+      "has_api": true,
+      "has_mcp": false
+    },
+    {
+      "name": "Relativity",
+      "slug": "relativity",
+      "provider": "Relativity",
+      "category": "e-discovery",
+      "use_when": "E-discovery and litigation support platform",
+      "url": "https://www.relativity.com",
+      "has_api": false,
+      "has_mcp": false
+    },
+    {
+      "name": "Relativity API",
+      "slug": "relativity-api",
+      "provider": "Relativity",
+      "category": "e-discovery",
+      "use_when": "Integrate with Relativity\u2019s e-discovery platform",
+      "url": "https://www.relativity.com/api",
+      "has_api": true,
+      "has_mcp": false
+    },
+    {
+      "name": "X1 Discovery",
+      "slug": "x1-discovery",
+      "provider": "X1",
+      "category": "e-discovery",
+      "use_when": "Collection",
+      "url": "https://x1.com",
+      "has_api": true,
+      "has_mcp": false
+    },
+    {
+      "name": "X1 Social Discovery",
+      "slug": "x1-social-discovery",
+      "provider": "X1 Discovery",
+      "category": "e-discovery",
+      "use_when": "Legal API: X1 Social Discovery",
+      "url": "https://www.x1discovery.com",
+      "has_api": true,
+      "has_mcp": false
+    },
+    {
+      "name": "Zapproved",
+      "slug": "zapproved",
+      "provider": "Zapproved",
+      "category": "e-discovery",
+      "use_when": "Legal hold",
+      "url": "https://zapproved.com",
+      "has_api": true,
+      "has_mcp": false
+    },
+    {
+      "name": "ZyLAB",
+      "slug": "zylab",
+      "provider": "ZyLAB",
+      "category": "e-discovery",
+      "use_when": "E-discovery and information governance solutions",
+      "url": "https://www.zylab.com",
+      "has_api": true,
+      "has_mcp": false
+    },
+    {
+      "name": "ZyLAB ONE",
+      "slug": "zylab-one",
+      "provider": "ZyLAB",
+      "category": "e-discovery",
+      "use_when": "E-discovery platform with AI capabilities",
+      "url": "https://www.zylab.com/solutions/one",
+      "has_api": true,
+      "has_mcp": false
+    },
+    {
+      "name": "Acquimate",
+      "slug": "acquimate",
+      "provider": "Acquimate",
+      "category": "intake-crm",
+      "use_when": "Legal intake",
+      "url": "https://acquimate.com",
+      "has_api": true,
+      "has_mcp": false
+    },
+    {
+      "name": "Answering Legal",
+      "slug": "answering-legal",
+      "provider": "Answering Legal",
+      "category": "intake-crm",
+      "use_when": "For providing 24/7 legal answering services and client intake.",
+      "url": "https://www.answeringlegal.com",
+      "has_api": true,
+      "has_mcp": false
+    },
+    {
+      "name": "Clio Grow",
+      "slug": "clio-grow",
+      "provider": "Clio",
+      "category": "intake-crm",
+      "use_when": "For streamlining client intake and managing leads for law firms.",
+      "url": "https://www.clio.com/products/clio-grow/",
+      "has_api": true,
+      "has_mcp": false
+    },
+    {
+      "name": "Gavel",
+      "slug": "gavel",
+      "provider": "Gavel",
+      "category": "intake-crm",
+      "use_when": "For managing client intake and improving client communication.",
+      "url": "https://www.gavelapp.com",
+      "has_api": true,
+      "has_mcp": false
+    },
+    {
+      "name": "IntakeQ",
+      "slug": "intakeq",
+      "provider": "IntakeQ",
+      "category": "intake-crm",
+      "use_when": "For client intake and database management for law firms.",
+      "url": "https://www.intakeq.com",
+      "has_api": true,
+      "has_mcp": false
+    },
+    {
+      "name": "Jotform",
+      "slug": "jotform",
+      "provider": "Jotform",
+      "category": "intake-crm",
+      "use_when": "For creating custom online forms for client intake and data collection.",
+      "url": "https://www.jotform.com",
+      "has_api": true,
+      "has_mcp": false
+    },
+    {
+      "name": "Lawmatics",
+      "slug": "lawmatics",
+      "provider": "Lawmatics",
+      "category": "intake-crm",
+      "use_when": "For automating client intake and managing law firm relationships.",
+      "url": "https://www.lawmatics.com",
+      "has_api": true,
+      "has_mcp": false
+    },
+    {
+      "name": "LawRato",
+      "slug": "lawrato",
+      "provider": "LawRato",
+      "category": "intake-crm",
+      "use_when": "Connect clients with lawyers and manage consultations.",
+      "url": "https://lawrato.com",
+      "has_api": false,
+      "has_mcp": false
+    },
+    {
+      "name": "LegalZoom",
+      "slug": "legalzoom",
+      "provider": "LegalZoom",
+      "category": "intake-crm",
+      "use_when": "Online legal services for individuals and businesses.",
+      "url": "https://www.legalzoom.com",
+      "has_api": false,
+      "has_mcp": false
+    },
+    {
+      "name": "Rocket Lawyer",
+      "slug": "rocket-lawyer",
+      "provider": "Rocket Lawyer",
+      "category": "intake-crm",
+      "use_when": "Access legal documents and connect with attorneys online.",
+      "url": "https://www.rocketlawyer.com",
+      "has_api": false,
+      "has_mcp": false
+    },
+    {
+      "name": "APILayer",
+      "slug": "apilayer",
+      "provider": "APILayer",
+      "category": "integrations",
+      "use_when": "APIs for various legal data services",
+      "url": "https://apilayer.com",
+      "has_api": true,
+      "has_mcp": false
+    },
+    {
+      "name": "APISCRAPY",
+      "slug": "apiscrapy",
+      "provider": "APISCRAPY",
+      "category": "integrations",
+      "use_when": "Web scraping for legal data",
+      "url": "https://apiscrapy.com",
+      "has_api": true,
+      "has_mcp": false
+    },
+    {
+      "name": "FirmPilot",
+      "slug": "firmpilot",
+      "provider": "FirmPilot",
+      "category": "integrations",
+      "use_when": "Law firm marketing",
+      "url": "https://firmpilot.com",
+      "has_api": true,
+      "has_mcp": false
+    },
+    {
+      "name": "Grepsr",
+      "slug": "grepsr",
+      "provider": "Grepsr",
+      "category": "integrations",
+      "use_when": "Data extraction and web scraping",
+      "url": "https://grepsr.com",
+      "has_api": true,
+      "has_mcp": false
+    },
+    {
+      "name": "Legal.io",
+      "slug": "legal-io",
+      "provider": "Legal.io",
+      "category": "integrations",
+      "use_when": "Legal marketplace and case management integration",
+      "url": "https://legal.io",
+      "has_api": true,
+      "has_mcp": false
+    },
+    {
+      "name": "Make (Integromat)",
+      "slug": "make",
+      "provider": "Make",
+      "category": "integrations",
+      "use_when": "Automation",
+      "url": "https://make.com",
+      "has_api": true,
+      "has_mcp": false
+    },
+    {
+      "name": "MCP",
+      "slug": "mcp",
+      "provider": "MCP",
+      "category": "integrations",
+      "use_when": "Model Context Protocol for AI agents.",
+      "url": "https://mcp.io",
+      "has_api": true,
+      "has_mcp": true
+    },
+    {
+      "name": "n8n",
+      "slug": "n8n",
+      "provider": "n8n",
+      "category": "integrations",
+      "use_when": "Workflow automation",
+      "url": "https://n8n.io",
+      "has_api": true,
+      "has_mcp": true
+    },
+    {
+      "name": "Nuance Dragon",
+      "slug": "nuance-dragon",
+      "provider": "Nuance",
+      "category": "integrations",
+      "use_when": "Legal dictation",
+      "url": "https://nuance.com",
+      "has_api": true,
+      "has_mcp": false
+    },
+    {
+      "name": "Otter.ai",
+      "slug": "otter-ai",
+      "provider": "Otter",
+      "category": "integrations",
+      "use_when": "Deposition transcription",
+      "url": "https://otter.ai",
+      "has_api": true,
+      "has_mcp": false
+    },
+    {
+      "name": "Oxylabs",
+      "slug": "oxylabs",
+      "provider": "Oxylabs",
+      "category": "integrations",
+      "use_when": "Web scraping and data collection",
+      "url": "https://oxylabs.io",
+      "has_api": true,
+      "has_mcp": false
+    },
+    {
+      "name": "PandaDoc",
+      "slug": "pandadoc",
+      "provider": "PandaDoc",
+      "category": "integrations",
+      "use_when": "Document automation",
+      "url": "https://pandadoc.com",
+      "has_api": true,
+      "has_mcp": false
+    },
+    {
+      "name": "RapidAPI Legal",
+      "slug": "rapidapi-legal",
+      "provider": "RapidAPI",
+      "category": "integrations",
+      "use_when": "Marketplace for legal APIs",
+      "url": "https://rapidapi.com/category/Legal",
+      "has_api": true,
+      "has_mcp": false
+    },
+    {
+      "name": "Rev.com",
+      "slug": "rev",
+      "provider": "Rev",
+      "category": "integrations",
+      "use_when": "Legal transcription",
+      "url": "https://rev.com",
+      "has_api": true,
+      "has_mcp": false
+    },
+    {
+      "name": "SaaS Legal",
+      "slug": "saas-legal",
+      "provider": "SaaS Legal",
+      "category": "integrations",
+      "use_when": "Legal tech SaaS solutions and integrations",
+      "url": "https://saaslegal.com",
+      "has_api": true,
+      "has_mcp": false
+    },
+    {
+      "name": "Thunderhead",
+      "slug": "thunderhead",
+      "provider": "Thunderhead",
+      "category": "integrations",
+      "use_when": "Customer engagement and journey management platform.",
+      "url": "https://www.thunderhead.com",
+      "has_api": false,
+      "has_mcp": false
+    },
+    {
+      "name": "Zapier",
+      "slug": "zapier",
+      "provider": "Zapier",
+      "category": "integrations",
+      "use_when": "Automate workflows between apps without coding.",
+      "url": "https://zapier.com",
+      "has_api": true,
+      "has_mcp": false
+    },
+    {
+      "name": "Alt Legal",
+      "slug": "alt-legal",
+      "provider": "Alt Legal",
+      "category": "ip-trademark",
+      "use_when": "Automate trademark management and filings.",
+      "url": "https://www.altlegal.com",
+      "has_api": true,
+      "has_mcp": false
+    },
+    {
+      "name": "Alt Legal",
+      "slug": "altlegal",
+      "provider": "Alt Legal",
+      "category": "ip-trademark",
+      "use_when": "Trademark monitoring",
+      "url": "https://altlegal.com",
+      "has_api": true,
+      "has_mcp": false
+    },
+    {
+      "name": "InQuartik",
+      "slug": "inquartik",
+      "provider": "InQuartik",
+      "category": "ip-trademark",
+      "use_when": "Patent research and analytics",
+      "url": "https://www.inquartik.com",
+      "has_api": true,
+      "has_mcp": false
+    },
+    {
+      "name": "Lexair",
+      "slug": "lexair",
+      "provider": "Lexair",
+      "category": "ip-trademark",
+      "use_when": "Trademark docketing",
+      "url": "https://lexair.com",
+      "has_api": true,
+      "has_mcp": false
+    },
+    {
+      "name": "Rightsify",
+      "slug": "rightsify",
+      "provider": "Rightsify",
+      "category": "ip-trademark",
+      "use_when": "Music licensing and rights management",
+      "url": "https://rightsify.com",
+      "has_api": true,
+      "has_mcp": false
+    },
+    {
+      "name": "TrademarkNow",
+      "slug": "trademark-now",
+      "provider": "TrademarkNow",
+      "category": "ip-trademark",
+      "use_when": "Trademark search",
+      "url": "https://trademarknow.com",
+      "has_api": true,
+      "has_mcp": false
+    },
+    {
+      "name": "Trademo",
+      "slug": "trademo",
+      "provider": "Trademo",
+      "category": "ip-trademark",
+      "use_when": "Trademark research and monitoring",
+      "url": "https://trademo.com",
+      "has_api": true,
+      "has_mcp": false
+    },
+    {
+      "name": "USPTO API",
+      "slug": "uspto-api",
+      "provider": "USPTO",
+      "category": "ip-trademark",
+      "use_when": "Patent, trademark data",
+      "url": "https://uspto.gov",
+      "has_api": true,
+      "has_mcp": false
+    },
+    {
+      "name": "UniCourt Law Firm Data API",
+      "slug": "unicourt-law-firm",
+      "provider": "UniCourt",
+      "category": "law-firm-data",
+      "use_when": "USA law firm legal data",
+      "url": "https://datarade.ai/data-products/law-firm-data-api-unicourt",
+      "has_api": true,
+      "has_mcp": false
+    },
+    {
+      "name": "Agiloft",
+      "slug": "agiloft",
+      "provider": "Agiloft",
+      "category": "legal-ai",
+      "use_when": "CLM",
+      "url": "https://agiloft.com",
+      "has_api": true,
+      "has_mcp": false
+    },
+    {
+      "name": "Brightflag",
+      "slug": "brightflag",
+      "provider": "Brightflag",
+      "category": "legal-ai",
+      "use_when": "Legal ops, spend",
+      "url": "https://brightflag.com",
+      "has_api": true,
+      "has_mcp": false
+    },
+    {
+      "name": "Clever Legal",
+      "slug": "clever-legal",
+      "provider": "Clever Legal",
+      "category": "legal-ai",
+      "use_when": "Legal API: Clever Legal",
+      "url": "https://cleverlegal.com",
+      "has_api": true,
+      "has_mcp": false
+    },
+    {
+      "name": "Conga",
+      "slug": "conga",
+      "provider": "Conga",
+      "category": "legal-ai",
+      "use_when": "Contract management",
+      "url": "https://conga.com",
+      "has_api": true,
+      "has_mcp": false
+    },
+    {
+      "name": "Eigen Technologies",
+      "slug": "eigen-technologies",
+      "provider": "Eigen",
+      "category": "legal-ai",
+      "use_when": "Document extraction",
+      "url": "https://eigentech.com",
+      "has_api": true,
+      "has_mcp": false
+    },
+    {
+      "name": "Forager.ai",
+      "slug": "forager-ai",
+      "provider": "Forager.ai",
+      "category": "legal-ai",
+      "use_when": "AI tools for legal research and document review",
+      "url": "https://forager.ai",
+      "has_api": true,
+      "has_mcp": true
+    },
+    {
+      "name": "GC.AI",
+      "slug": "gc-ai",
+      "provider": "GC.AI",
+      "category": "legal-ai",
+      "use_when": "AI-powered contract analysis and insights",
+      "url": "https://www.gc.ai",
+      "has_api": true,
+      "has_mcp": true
+    },
+    {
+      "name": "GC.AI API",
+      "slug": "gc-ai-api",
+      "provider": "GC.AI",
+      "category": "legal-ai",
+      "use_when": "Integrate AI contract analysis into your applications",
+      "url": "https://www.gc.ai/api",
+      "has_api": true,
+      "has_mcp": true
+    },
+    {
+      "name": "Harvey",
+      "slug": "harvey",
+      "provider": "Harvey",
+      "category": "legal-ai",
+      "use_when": "AI tool for legal research and automation",
+      "url": "https://www.harvey.ai",
+      "has_api": false,
+      "has_mcp": true
+    },
+    {
+      "name": "Icertis",
+      "slug": "icertis",
+      "provider": "Icertis",
+      "category": "legal-ai",
+      "use_when": "Enterprise CLM",
+      "url": "https://icertis.com",
+      "has_api": true,
+      "has_mcp": false
+    },
+    {
+      "name": "Ironclad",
+      "slug": "ironclad",
+      "provider": "Ironclad",
+      "category": "legal-ai",
+      "use_when": "Contract lifecycle",
+      "url": "https://ironcladapp.com",
+      "has_api": true,
+      "has_mcp": false
+    },
+    {
+      "name": "LawGeex",
+      "slug": "lawgeex",
+      "provider": "LawGeex",
+      "category": "legal-ai",
+      "use_when": "AI for contract review and compliance automation.",
+      "url": "https://www.lawgeex.com",
+      "has_api": true,
+      "has_mcp": true
+    },
+    {
+      "name": "Legal Robot",
+      "slug": "legal-robot",
+      "provider": "Legal Robot",
+      "category": "legal-ai",
+      "use_when": "AI tool for legal document analysis",
+      "url": "https://legalrobot.com",
+      "has_api": true,
+      "has_mcp": true
+    },
+    {
+      "name": "LegalRobot",
+      "slug": "legalrobot",
+      "provider": "LegalRobot",
+      "category": "legal-ai",
+      "use_when": "AI tools for legal document analysis",
+      "url": "https://legalrobot.com",
+      "has_api": true,
+      "has_mcp": true
+    },
+    {
+      "name": "LegalSifter",
+      "slug": "legalsifter",
+      "provider": "LegalSifter",
+      "category": "legal-ai",
+      "use_when": "For AI-assisted legal document review and analysis.",
+      "url": "https://legalsifter.com",
+      "has_api": true,
+      "has_mcp": true
+    },
+    {
+      "name": "LexCheck",
+      "slug": "lexcheck",
+      "provider": "LexCheck",
+      "category": "legal-ai",
+      "use_when": "Contract redlining",
+      "url": "https://lexcheck.com",
+      "has_api": true,
+      "has_mcp": false
+    },
+    {
+      "name": "Lexis+",
+      "slug": "lexis-plus",
+      "provider": "LexisNexis",
+      "category": "legal-ai",
+      "use_when": "Legal research, AI drafting",
+      "url": "https://lexis.com",
+      "has_api": true,
+      "has_mcp": false
+    },
+    {
+      "name": "Lexis+ AI",
+      "slug": "lexis-plus-ai",
+      "provider": "LexisNexis",
+      "category": "legal-ai",
+      "use_when": "Enhanced legal research powered by AI",
+      "url": "https://legal.thomsonreuters.com/en/westlaw",
+      "has_api": true,
+      "has_mcp": false
+    },
+    {
+      "name": "LexisNexis API",
+      "slug": "lexisnexis-api",
+      "provider": "LexisNexis",
+      "category": "legal-ai",
+      "use_when": "Legal research API",
+      "url": "https://lexisnexis.com",
+      "has_api": true,
+      "has_mcp": false
+    },
+    {
+      "name": "LinkSquares",
+      "slug": "linksquares",
+      "provider": "LinkSquares",
+      "category": "legal-ai",
+      "use_when": "Contract analytics",
+      "url": "https://linksquares.com",
+      "has_api": true,
+      "has_mcp": false
+    },
+    {
+      "name": "Litera",
+      "slug": "litera",
+      "provider": "Litera",
+      "category": "legal-ai",
+      "use_when": "Drafting, comparison",
+      "url": "https://litera.com",
+      "has_api": true,
+      "has_mcp": false
+    },
+    {
+      "name": "Mitratech",
+      "slug": "mitratech",
+      "provider": "Mitratech",
+      "category": "legal-ai",
+      "use_when": "Legal ops",
+      "url": "https://mitratech.com",
+      "has_api": true,
+      "has_mcp": false
+    },
+    {
+      "name": "Ross Intelligence",
+      "slug": "ross-intelligence",
+      "provider": "Ross Intelligence",
+      "category": "legal-ai",
+      "use_when": "AI-driven legal research assistant",
+      "url": "https://www.rossintelligence.com",
+      "has_api": false,
+      "has_mcp": false
+    },
+    {
+      "name": "ROSS Intelligence API",
+      "slug": "ross-intelligence-api",
+      "provider": "Ross Intelligence",
+      "category": "legal-ai",
+      "use_when": "Integrate AI-driven legal research tools",
+      "url": "https://www.rossintelligence.com/api",
+      "has_api": true,
+      "has_mcp": false
+    },
+    {
+      "name": "SaasLegal",
+      "slug": "saaslegal",
+      "provider": "SaasLegal",
+      "category": "legal-ai",
+      "use_when": "AI-driven legal document automation.",
+      "url": "https://saaslegal.com",
+      "has_api": true,
+      "has_mcp": true
+    },
+    {
+      "name": "Seal Software",
+      "slug": "seal-software",
+      "provider": "Seal",
+      "category": "legal-ai",
+      "use_when": "Contract discovery",
+      "url": "https://seal-software.com",
+      "has_api": true,
+      "has_mcp": false
+    },
+    {
+      "name": "Success.ai",
+      "slug": "success-ai",
+      "provider": "Success.ai",
+      "category": "legal-ai",
+      "use_when": "AI-driven insights for legal data analysis",
+      "url": "https://success.ai",
+      "has_api": true,
+      "has_mcp": true
+    },
+    {
+      "name": "Thomson Reuters API",
+      "slug": "thomson-reuters-api",
+      "provider": "Thomson Reuters",
+      "category": "legal-ai",
+      "use_when": "Legal research API",
+      "url": "https://thomsonreuters.com",
+      "has_api": true,
+      "has_mcp": false
+    },
+    {
+      "name": "ThoughtRiver",
+      "slug": "thoughtriver",
+      "provider": "ThoughtRiver",
+      "category": "legal-ai",
+      "use_when": "Contract pre-screening",
+      "url": "https://thoughtriver.com",
+      "has_api": true,
+      "has_mcp": false
+    },
+    {
+      "name": "TrustFoundry",
+      "slug": "trustfoundry",
+      "provider": "TrustFoundry",
+      "category": "legal-ai",
+      "use_when": "Compliance and verification for legal transactions",
+      "url": "https://www.trustfoundry.com",
+      "has_api": true,
+      "has_mcp": false
+    },
+    {
+      "name": "TrustFoundry AI",
+      "slug": "trustfoundry-ai",
+      "provider": "TrustFoundry",
+      "category": "legal-ai",
+      "use_when": "Legal research; AI-powered legal analysis",
+      "url": "https://trustfoundry.ai/",
+      "has_api": true,
+      "has_mcp": false
+    },
+    {
+      "name": "TrustFoundry API",
+      "slug": "trustfoundry-api",
+      "provider": "TrustFoundry",
+      "category": "legal-ai",
+      "use_when": "Integrate compliance and verification tools",
+      "url": "https://www.trustfoundry.com/api",
+      "has_api": true,
+      "has_mcp": false
+    },
+    {
+      "name": "Justia",
+      "slug": "justia",
+      "provider": "Justia",
+      "category": "legal-research",
+      "use_when": "Legal API: Justia",
+      "url": "https://www.justia.com",
+      "has_api": true,
+      "has_mcp": false
+    },
+    {
+      "name": "Lexis Search Advantage",
+      "slug": "lexis-search-advantage",
+      "provider": "LexisNexis",
+      "category": "legal-research",
+      "use_when": "Legal API: Lexis Search Advantage",
+      "url": "https://legal.thomsonreuters.com",
+      "has_api": true,
+      "has_mcp": false
+    },
+    {
+      "name": "LexisNexis",
+      "slug": "lexisnexis",
+      "provider": "LexisNexis",
+      "category": "legal-research",
+      "use_when": "Legal API: LexisNexis",
+      "url": "https://legal.thomsonreuters.com",
+      "has_api": true,
+      "has_mcp": false
+    },
+    {
+      "name": "Success.ai Legal APIs",
+      "slug": "success-ai-legal",
+      "provider": "Success.ai",
+      "category": "legal-research",
+      "use_when": "Legal data APIs",
+      "url": "https://datarade.ai/search/products/legal-apis",
+      "has_api": true,
+      "has_mcp": false
+    },
+    {
+      "name": "Westlaw API",
+      "slug": "westlaw-api",
+      "provider": "Thomson Reuters",
+      "category": "legal-research",
+      "use_when": "Legal API: Westlaw API",
+      "url": "https://legal.thomsonreuters.com/",
+      "has_api": true,
+      "has_mcp": false
+    },
+    {
+      "name": "Congress.gov API",
+      "slug": "congress-gov-api",
+      "provider": "LOC",
+      "category": "legislative",
+      "use_when": "Federal legislation",
+      "url": "https://api.congress.gov",
+      "has_api": true,
+      "has_mcp": false
+    },
+    {
+      "name": "GovInfo API",
+      "slug": "govinfo-api",
+      "provider": "GPO",
+      "category": "legislative",
+      "use_when": "Federal gov documents",
+      "url": "https://api.govinfo.gov",
+      "has_api": true,
+      "has_mcp": false
+    },
+    {
+      "name": "LegiScan",
+      "slug": "legiscan",
+      "provider": "LegiScan",
+      "category": "legislative",
+      "use_when": "Track state and federal legislation",
+      "url": "https://legiscan.com",
+      "has_api": true,
+      "has_mcp": false
+    },
+    {
+      "name": "LegiScan API",
+      "slug": "legiscan-api",
+      "provider": "LegiScan",
+      "category": "legislative",
+      "use_when": "State and federal legislation data; bill tracking",
+      "url": "https://legiscan.com/legiscan",
+      "has_api": true,
+      "has_mcp": false
+    },
+    {
+      "name": "OpenLaws API",
+      "slug": "openlaws-api",
+      "provider": "OpenLaws",
+      "category": "legislative",
+      "use_when": "Law data for LegalTech and LLMs; structured legal data",
+      "url": "https://openlaws.us/api/",
+      "has_api": true,
+      "has_mcp": false
+    },
+    {
+      "name": "CTOS Basis Litigation",
+      "slug": "ctos-basis-litigation",
+      "provider": "CTOS Basis",
+      "category": "litigation",
+      "use_when": "Litigation data",
+      "url": "https://datarade.ai/search/products/litigation-apis",
+      "has_api": true,
+      "has_mcp": false
+    },
+    {
+      "name": "Moat Legal Data",
+      "slug": "moat-legal",
+      "provider": "Moat",
+      "category": "litigation",
+      "use_when": "Litigation APIs",
+      "url": "https://datarade.ai/search/products/litigation-apis",
+      "has_api": true,
+      "has_mcp": false
+    },
+    {
+      "name": "Needles",
+      "slug": "needles",
+      "provider": "Needles",
+      "category": "pi-specific",
+      "use_when": "For managing personal injury cases with specific features for PI law firms.",
+      "url": "https://www.needles.com",
+      "has_api": true,
+      "has_mcp": false
+    },
+    {
+      "name": "SmartAdvocate",
+      "slug": "smartadvocate",
+      "provider": "SmartAdvocate",
+      "category": "pi-specific",
+      "use_when": "For personal injury law firms needing case management and automation.",
+      "url": "https://www.smartadvocate.com",
+      "has_api": true,
+      "has_mcp": false
+    },
+    {
+      "name": "AbacusLaw",
+      "slug": "abacuslaw",
+      "provider": "AbacusNext",
+      "category": "practice-management",
+      "use_when": "For complete law practice management with legal calendaring and billing.",
+      "url": "https://www.abacuslaw.com",
+      "has_api": true,
+      "has_mcp": false
+    },
+    {
+      "name": "Aderant",
+      "slug": "aderant",
+      "provider": "Aderant",
+      "category": "practice-management",
+      "use_when": "For comprehensive practice management solutions for large law firms.",
+      "url": "https://www.aderant.com",
+      "has_api": true,
+      "has_mcp": false
+    },
+    {
+      "name": "Aderant Expert",
+      "slug": "aderant-expert",
+      "provider": "Aderant",
+      "category": "practice-management",
+      "use_when": "Midsize+ law firm",
+      "url": "https://aderant.com",
+      "has_api": true,
+      "has_mcp": false
+    },
+    {
+      "name": "Axiom",
+      "slug": "axiom",
+      "provider": "Axiom",
+      "category": "practice-management",
+      "use_when": "Legal services management for law firms",
+      "url": "https://www.axiomlaw.com",
+      "has_api": false,
+      "has_mcp": false
+    },
+    {
+      "name": "BigHand",
+      "slug": "bighand",
+      "provider": "BigHand",
+      "category": "practice-management",
+      "use_when": "Dictation, workflow",
+      "url": "https://bighand.com",
+      "has_api": true,
+      "has_mcp": false
+    },
+    {
+      "name": "CARET",
+      "slug": "caret",
+      "provider": "CARET",
+      "category": "practice-management",
+      "use_when": "For managing case files and client relationships in one platform.",
+      "url": "https://www.caretlegal.com",
+      "has_api": true,
+      "has_mcp": false
+    },
+    {
+      "name": "CARET Legal",
+      "slug": "caret-legal",
+      "provider": "CARET",
+      "category": "practice-management",
+      "use_when": "Practice management",
+      "url": "https://caretlegal.com",
+      "has_api": true,
+      "has_mcp": false
+    },
+    {
+      "name": "CASEpeer",
+      "slug": "casepeer",
+      "provider": "CASEpeer",
+      "category": "practice-management",
+      "use_when": "Case management for personal injury attorneys",
+      "url": "https://www.casepeer.com",
+      "has_api": true,
+      "has_mcp": false
+    },
+    {
+      "name": "Clio",
+      "slug": "clio",
+      "provider": "Clio",
+      "category": "practice-management",
+      "use_when": "Law practice management software",
+      "url": "https://www.clio.com",
+      "has_api": true,
+      "has_mcp": false
+    },
+    {
+      "name": "Clio Manage",
+      "slug": "clio-manage",
+      "provider": "Clio",
+      "category": "practice-management",
+      "use_when": "Practice management",
+      "url": "https://clio.com",
+      "has_api": true,
+      "has_mcp": false
+    },
+    {
+      "name": "Clio Suite",
+      "slug": "clio-suite",
+      "provider": "Clio",
+      "category": "practice-management",
+      "use_when": "Full practice suite",
+      "url": "https://clio.com",
+      "has_api": true,
+      "has_mcp": false
+    },
+    {
+      "name": "CloudLex",
+      "slug": "cloudlex",
+      "provider": "CloudLex",
+      "category": "practice-management",
+      "use_when": "For personal injury law firms needing cloud-based case management.",
+      "url": "https://www.cloudlex.com",
+      "has_api": true,
+      "has_mcp": false
+    },
+    {
+      "name": "DocuTrack",
+      "slug": "docutrack",
+      "provider": "Minden Enterprises",
+      "category": "practice-management",
+      "use_when": "Legal API: DocuTrack",
+      "url": "https://www.mindenenterprises.com",
+      "has_api": true,
+      "has_mcp": false
+    },
+    {
+      "name": "Eclipse Legal",
+      "slug": "eclipse-legal",
+      "provider": "Eclipse",
+      "category": "practice-management",
+      "use_when": "Practice management",
+      "url": "https://eclipselegal.com",
+      "has_api": true,
+      "has_mcp": false
+    },
+    {
+      "name": "Elite",
+      "slug": "elite",
+      "provider": "Thomson Reuters",
+      "category": "practice-management",
+      "use_when": "For end-to-end practice management and billing solutions for top firms.",
+      "url": "https://www.elite.com",
+      "has_api": true,
+      "has_mcp": false
+    },
+    {
+      "name": "Elite 3E",
+      "slug": "elite-3e",
+      "provider": "Thomson Reuters",
+      "category": "practice-management",
+      "use_when": "Enterprise law firm",
+      "url": "https://thomsonreuters.com",
+      "has_api": true,
+      "has_mcp": false
+    },
+    {
+      "name": "Filevine",
+      "slug": "filevine",
+      "provider": "Filevine",
+      "category": "practice-management",
+      "use_when": "Case management software for law firms",
+      "url": "https://www.filevine.com",
+      "has_api": true,
+      "has_mcp": false
+    },
+    {
+      "name": "Intapp",
+      "slug": "intapp",
+      "provider": "Intapp",
+      "category": "practice-management",
+      "use_when": "Legal API: Intapp",
+      "url": "https://www.intapp.com",
+      "has_api": true,
+      "has_mcp": false
+    },
+    {
+      "name": "LawToolBox",
+      "slug": "lawtoolbox",
+      "provider": "LawToolBox",
+      "category": "practice-management",
+      "use_when": "For legal deadline tracking and document management.",
+      "url": "https://www.lawtoolbox.com",
+      "has_api": true,
+      "has_mcp": false
+    },
+    {
+      "name": "LegalFiles",
+      "slug": "legalfiles",
+      "provider": "LegalFiles",
+      "category": "practice-management",
+      "use_when": "For document and case management solutions for legal professionals.",
+      "url": "https://www.legalfiles.com",
+      "has_api": true,
+      "has_mcp": false
+    },
+    {
+      "name": "MyCase",
+      "slug": "mycase",
+      "provider": "MyCase",
+      "category": "practice-management",
+      "use_when": "Law practice management and client portal",
+      "url": "https://www.mycase.com",
+      "has_api": true,
+      "has_mcp": false
+    },
+    {
+      "name": "NextChapter",
+      "slug": "nextchapter",
+      "provider": "NextChapter",
+      "category": "practice-management",
+      "use_when": "Legal API: NextChapter",
+      "url": "https://www.nextchapterbk.com",
+      "has_api": true,
+      "has_mcp": false
+    },
+    {
+      "name": "NinjaLaw",
+      "slug": "ninjaw",
+      "provider": "NinjaLaw",
+      "category": "practice-management",
+      "use_when": "For managing legal practice with a focus on document automation.",
+      "url": "https://www.ninjalaw.com",
+      "has_api": true,
+      "has_mcp": false
+    },
+    {
+      "name": "PracticePanther",
+      "slug": "practice-panther",
+      "provider": "PracticePanther",
+      "category": "practice-management",
+      "use_when": "Practice management",
+      "url": "https://practicepanther.com",
+      "has_api": true,
+      "has_mcp": false
+    },
+    {
+      "name": "PracticeHQ",
+      "slug": "practicehq",
+      "provider": "PracticeHQ",
+      "category": "practice-management",
+      "use_when": "For managing law firm operations and client communications.",
+      "url": "https://www.practicehq.com",
+      "has_api": true,
+      "has_mcp": false
+    },
+    {
+      "name": "PracticePanther",
+      "slug": "practicepanther",
+      "provider": "PracticePanther",
+      "category": "practice-management",
+      "use_when": "For managing law practice operations and client communications effectively.",
+      "url": "https://www.practicepanther.com",
+      "has_api": true,
+      "has_mcp": false
+    },
+    {
+      "name": "ProLaw",
+      "slug": "prolaw",
+      "provider": "Thomson Reuters",
+      "category": "practice-management",
+      "use_when": "Enterprise practice management",
+      "url": "https://thomsonreuters.com",
+      "has_api": true,
+      "has_mcp": false
+    },
+    {
+      "name": "QuickBooks Online for Legal",
+      "slug": "quickbooks-online-for-legal",
+      "provider": "Intuit",
+      "category": "practice-management",
+      "use_when": "Legal API: QuickBooks Online for Legal",
+      "url": "https://quickbooks.intuit.com/law/",
+      "has_api": true,
+      "has_mcp": false
+    },
+    {
+      "name": "Rocket Matter",
+      "slug": "rocket-matter",
+      "provider": "Rocket Matter",
+      "category": "practice-management",
+      "use_when": "For cloud-based practice management and billing for law firms.",
+      "url": "https://www.rocketmatter.com",
+      "has_api": true,
+      "has_mcp": false
+    },
+    {
+      "name": "Smokeball",
+      "slug": "smokeball",
+      "provider": "Smokeball",
+      "category": "practice-management",
+      "use_when": "For law firms needing practice management and document automation.",
+      "url": "https://www.smokeball.com",
+      "has_api": true,
+      "has_mcp": false
+    },
+    {
+      "name": "Zola Suite",
+      "slug": "zola-suite",
+      "provider": "Zola Suite",
+      "category": "practice-management",
+      "use_when": "For integrated practice management and matter management solutions.",
+      "url": "https://www.zolasuite.com",
+      "has_api": true,
+      "has_mcp": false
+    },
+    {
+      "name": "Bloomberg Law",
+      "slug": "bloomberg-law",
+      "provider": "Bloomberg BNA",
+      "category": "research",
+      "use_when": "Comprehensive legal research and analytics",
+      "url": "https://www.bloomberglaw.com",
+      "has_api": false,
+      "has_mcp": false
+    },
+    {
+      "name": "Casetext",
+      "slug": "casetext",
+      "provider": "Casetext",
+      "category": "research",
+      "use_when": "AI-powered legal research tool",
+      "url": "https://casetext.com",
+      "has_api": false,
+      "has_mcp": true
+    },
+    {
+      "name": "CaseText API",
+      "slug": "casetext-api",
+      "provider": "Casetext",
+      "category": "research",
+      "use_when": "Integrate case law research into applications",
+      "url": "https://casetext.com",
+      "has_api": true,
+      "has_mcp": false
+    },
+    {
+      "name": "Civicscience",
+      "slug": "civicscience",
+      "provider": "Civicscience",
+      "category": "research",
+      "use_when": "Consumer insights and data for legal analysis",
+      "url": "https://civicscience.com",
+      "has_api": true,
+      "has_mcp": false
+    },
+    {
+      "name": "CompanyData/BoldData",
+      "slug": "companydata-bolddata",
+      "provider": "BoldData",
+      "category": "research",
+      "use_when": "Company and market data for legal purposes",
+      "url": "https://bolddata.com",
+      "has_api": true,
+      "has_mcp": false
+    },
+    {
+      "name": "Fastcase",
+      "slug": "fastcase",
+      "provider": "Fastcase",
+      "category": "research",
+      "use_when": "Legal research platform with case law",
+      "url": "https://www.fastcase.com",
+      "has_api": false,
+      "has_mcp": false
+    },
+    {
+      "name": "Fastcase API",
+      "slug": "fastcase-api",
+      "provider": "Fastcase",
+      "category": "research",
+      "use_when": "Integrate Fastcase legal research into your applications",
+      "url": "https://www.fastcase.com/api",
+      "has_api": true,
+      "has_mcp": false
+    },
+    {
+      "name": "Lex Machina",
+      "slug": "lex-machina",
+      "provider": "Lex Machina",
+      "category": "research",
+      "use_when": "Legal analytics for litigation strategy",
+      "url": "https://lexmachina.com",
+      "has_api": true,
+      "has_mcp": false
+    },
+    {
+      "name": "Lexis",
+      "slug": "lexis",
+      "provider": "LexisNexis",
+      "category": "research",
+      "use_when": "Legal research and analytics platform",
+      "url": "https://legal.thomsonreuters.com/en/westlaw",
+      "has_api": false,
+      "has_mcp": false
+    },
+    {
+      "name": "Lexis+ API",
+      "slug": "lexis-plus-api",
+      "provider": "LexisNexis",
+      "category": "research",
+      "use_when": "Integrate with Lexis+ for legal research",
+      "url": "https://legal.thomsonreuters.com/en/westlaw/api",
+      "has_api": true,
+      "has_mcp": false
+    },
+    {
+      "name": "LexMachina",
+      "slug": "lexmachina",
+      "provider": "LexMachina",
+      "category": "research",
+      "use_when": "Legal analytics for litigation",
+      "url": "https://lexmachina.com",
+      "has_api": true,
+      "has_mcp": false
+    },
+    {
+      "name": "Practical Law",
+      "slug": "practical-law",
+      "provider": "Thomson Reuters",
+      "category": "research",
+      "use_when": "Practice resource for legal professionals offering legal know-how.",
+      "url": "https://legal.thomsonreuters.com/en/practical-law",
+      "has_api": false,
+      "has_mcp": false
+    },
+    {
+      "name": "Quimbee",
+      "slug": "quimbee",
+      "provider": "Quimbee",
+      "category": "research",
+      "use_when": "Legal education and case brief platform",
+      "url": "https://quimbee.com",
+      "has_api": false,
+      "has_mcp": false
+    },
+    {
+      "name": "Ravel Law",
+      "slug": "ravel-law",
+      "provider": "Ravel Law",
+      "category": "research",
+      "use_when": "Legal research tool that visualizes case law and statutes.",
+      "url": "https://www.ravellaw.com",
+      "has_api": true,
+      "has_mcp": false
+    },
+    {
+      "name": "The Warren Group",
+      "slug": "the-warren-group",
+      "provider": "The Warren Group",
+      "category": "research",
+      "use_when": "Real estate and business data for legal insights",
+      "url": "https://thewarrengroup.com",
+      "has_api": true,
+      "has_mcp": false
+    },
+    {
+      "name": "vLex",
+      "slug": "vlex",
+      "provider": "vLex",
+      "category": "research",
+      "use_when": "For global legal research and access to legal materials.",
+      "url": "https://vlex.com",
+      "has_api": true,
+      "has_mcp": false
+    },
+    {
+      "name": "vLex API",
+      "slug": "vlex-api",
+      "provider": "vLex",
+      "category": "research",
+      "use_when": "Access vLex\u2019s legal information and analytics programmatically",
+      "url": "https://vlex.com/api",
+      "has_api": true,
+      "has_mcp": false
+    },
+    {
+      "name": "Westlaw",
+      "slug": "westlaw",
+      "provider": "Thomson Reuters",
+      "category": "research",
+      "use_when": "Comprehensive legal research and resources",
+      "url": "https://legal.thomsonreuters.com/en/westlaw",
+      "has_api": false,
+      "has_mcp": false
+    },
+    {
+      "name": "Westlaw Edge",
+      "slug": "westlaw-edge",
+      "provider": "Thomson Reuters",
+      "category": "research",
+      "use_when": "Advanced legal research with AI capabilities",
+      "url": "https://legal.thomsonreuters.com/en/westlaw",
+      "has_api": true,
+      "has_mcp": false
+    },
+    {
+      "name": "Westlaw Edge API",
+      "slug": "westlaw-edge-api",
+      "provider": "Thomson Reuters",
+      "category": "research",
+      "use_when": "Integrate with Westlaw for advanced research",
+      "url": "https://legal.thomsonreuters.com/en/westlaw/api",
+      "has_api": true,
+      "has_mcp": false
+    },
+    {
+      "name": "Buffer",
+      "slug": "buffer",
+      "provider": "Buffer",
+      "category": "social-scheduling",
+      "use_when": "Schedule social media posts and analyze performance.",
+      "url": "https://buffer.com",
+      "has_api": true,
+      "has_mcp": false
+    },
+    {
+      "name": "Hootsuite",
+      "slug": "hootsuite",
+      "provider": "Hootsuite",
+      "category": "social-scheduling",
+      "use_when": "Manage multiple social media accounts from one dashboard.",
+      "url": "https://hootsuite.com",
+      "has_api": true,
+      "has_mcp": false
+    },
+    {
+      "name": "Planable",
+      "slug": "planable",
+      "provider": "Planable",
+      "category": "social-scheduling",
+      "use_when": "Social media content planning and collaboration.",
+      "url": "https://planable.io",
+      "has_api": false,
+      "has_mcp": false
+    },
+    {
+      "name": "TrademarkNow",
+      "slug": "trademarknow",
+      "provider": "TrademarkNow",
+      "category": "trademark-ip",
+      "use_when": "Legal API: TrademarkNow",
+      "url": "https://www.trademarknow.com",
+      "has_api": true,
+      "has_mcp": false
+    },
+    {
+      "name": "InfoTrack",
+      "slug": "infotrack",
+      "provider": "InfoTrack",
+      "category": "transaction-management",
+      "use_when": "Search and manage legal documents and properties.",
+      "url": "https://infotrack.com",
+      "has_api": true,
+      "has_mcp": false
+    },
+    {
+      "name": "Litera Transact",
+      "slug": "litera-transact",
+      "provider": "Litera",
+      "category": "transaction-management",
+      "use_when": "Secure document collaboration and management.",
+      "url": "https://www.litera.com/products/transact/",
+      "has_api": false,
+      "has_mcp": false
+    },
+    {
+      "name": "Onit",
+      "slug": "onit",
+      "provider": "Onit",
+      "category": "transaction-management",
+      "use_when": "Enterprise legal management solutions",
+      "url": "https://onit.com",
+      "has_api": true,
+      "has_mcp": false
     }
   ]
 }

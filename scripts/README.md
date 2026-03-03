@@ -91,3 +91,31 @@ python scripts/sync-tools.py
 ### Run via GitHub Actions
 
 Workflow runs every hour. Add `REDDIT_CLIENT_ID` and `REDDIT_CLIENT_SECRET` to repo Secrets for Reddit search. Without them, COMMUNITY_INSIGHTS.md files are created with setup instructions.
+
+---
+
+## crawl-datarade-legal-apis.py
+
+Discovers legal APIs from dataRade and known sources. Writes `docs/tools/legal-apis-index.json` and optionally updates MongoDB.
+
+```bash
+# With OPENAI_API_KEY for full crawl (100+ APIs via OpenAI)
+export OPENAI_API_KEY=sk-...
+python scripts/crawl-datarade-legal-apis.py
+
+# Without: uses static list of 15 APIs
+python scripts/crawl-datarade-legal-apis.py
+```
+
+With `MONGODB_URI`, upserts tools with `has_api`, `has_mcp` flags.
+
+---
+
+## seed-tools.py
+
+Seeds MongoDB from `docs/agent-index.json` and curated tools (Bloomberg, TrustFoundry, LegiScan, OpenLaws). Sets `has_mcp` for Buffer, Hootsuite, Zapier Clio MCP.
+
+```bash
+export MONGODB_URI=mongodb://...
+python scripts/seed-tools.py
+```
