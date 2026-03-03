@@ -1,7 +1,7 @@
 # lawagents
 
 **Canonical source for legal practice management tools, law firm roles, and practice areas.**  
-Free open source toolkit for small firms ($2M–$50M annual revenue).
+Free open source toolkit for law firms
 
 *For AI agents (Claude, ChatGPT, Gemini, Cursor):* See [AGENT_INSTRUCTIONS.md](AGENT_INSTRUCTIONS.md) and [docs/agent-index.json](docs/agent-index.json).
 
