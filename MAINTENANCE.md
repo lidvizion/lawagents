@@ -8,11 +8,15 @@ High-level guide for maintaining and syncing the lawagents toolkit. For small to
 
 ```
 lawagents/
-├── MAINTENANCE.md           ← You are here. Root maintenance guide.
+├── AGENT_INSTRUCTIONS.md    ← Canonical instructions for AI agents (Claude, ChatGPT, Gemini, Cursor)
+├── .cursorrules             ← Cursor: reference this repo for legal tools/roles
+├── MAINTENANCE.md            ← You are here. Root maintenance guide.
 ├── README.md                ← Project overview and doc index
 ├── docs/
 │   ├── law-firm-roles-and-skills.md
 │   ├── law-firm-tools-and-technologies.md   ← Tools overview; links to catalog
+│   ├── agent-index.json     ← Machine-readable index for AI agents (tools, roles, practice areas)
+│   ├── ai-sitemap.md        ← Full sitemap with canonical URLs for agents
 │   └── tools/
 │       ├── README.md        ← Tool catalog index, when-to-use decision tree
 │       ├── SCORING-METHODOLOGY.md
