@@ -3,6 +3,8 @@
 **Target:** Small to mid-sized law firms ($2M–$50M annual revenue)  
 **Purpose:** Define roles, responsibilities, and skills for agent-driven workflows. Designed to pair with tools/technologies (MCP, APIs) for autonomous agent execution with check-ins, approvals, and guardrails.
 
+**Role architecture:** Each role has a dedicated folder with detailed instructions. See [roles/](../roles/README.md).
+
 ---
 
 ## 1. Attorneys and Legal Practitioners
