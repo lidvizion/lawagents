@@ -195,4 +195,4 @@ This document is designed to pair with a **Tools & Technologies** inventory that
 - **Approval workflows** and guardrails for autonomous agent execution
 - **Check-in protocols** for human-in-the-loop decisions
 
-See: `law-firm-tools-and-technologies.md` (to be created).
+See: [Law Firm Tools & Technologies](law-firm-tools-and-technologies.md).
