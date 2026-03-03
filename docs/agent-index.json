@@ -254,5 +254,13 @@
     "path_template_transactional": "practice-areas/transactional/{slug}/README.md",
     "path_template_litigation": "practice-areas/litigation/{slug}/README.md"
   },
-  "last_community_sync": "2026-03-03 18:14"
+  "last_community_sync": "2026-03-03 18:14",
+  "database": {
+    "description": "MongoDB collections for tools and integrations",
+    "collections": {
+      "tools": "Legal software catalog (slug, name, category, provider, url, source, has_mcp, has_api). Populated by crawl-datarade-legal-apis.py.",
+      "integrations": "MCP/API connectors (slug, tool_slug, type, url, auth_type, capabilities)"
+    },
+    "legal_apis_index": "docs/tools/legal-apis-index.json"
+  }
 }

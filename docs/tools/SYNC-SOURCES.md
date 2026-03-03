@@ -71,6 +71,14 @@ URLs to sync for latest ratings, reviews, pricing, and documentation. Visit thes
 
 ---
 
+## Legal API Marketplaces
+
+| Source | URL | Notes |
+|--------|-----|-------|
+| dataRade legal APIs | https://datarade.ai/search/products/legal-apis | 270+ legal APIs; no public API; use `crawl-datarade-legal-apis.py` (OpenAI) |
+
+---
+
 ## Vendor Documentation (API, Changelog)
 
 | Tool | Docs | Changelog / API |
