@@ -94,8 +94,10 @@
 | **Communications** | Slack, Email | Zapier, Slack MCP |
 | **Project Management** | Linear | Linear MCP |
 | **Database / Backend** | Supabase | Supabase MCP |
-| **E-Discovery** | TBD | API or Zapier |
+| **E-Discovery** | Everlaw, Logikull, Goldfynch | See [Civil Litigation](../practice-areas/litigation/civil-litigation/README.md) |
 | **Document Storage** | Google Drive, Dropbox | Zapier, native APIs |
+| **Transaction Management** | Litera Transact | See [Transactional Practice](../practice-areas/transactional/README.md) |
+| **IP Docketing** | LexiDots, Alt Legal | See [Trademark/IP](../practice-areas/transactional/trademark-ip/README.md) |
 
 ---
 
