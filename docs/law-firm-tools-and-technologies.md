@@ -3,6 +3,8 @@
 **Target:** Small to mid-sized law firms ($2M–$50M annual revenue)  
 **Purpose:** Inventory of tools with MCP, APIs, and integration points for agent-driven workflows. Pairs with [Law Firm Roles & Skills](law-firm-roles-and-skills.md). Designed for autonomous agent execution with check-ins, approvals, and guardrails.
 
+**Detailed catalog:** For when-to-use guidance, scoring, and sync sources, see [docs/tools/](tools/README.md).
+
 ---
 
 ## 1. Clio (Practice Management)
@@ -84,24 +86,36 @@
 
 ---
 
-## 2. Branching from Clio
+## 2. Tool Selection: When to Use What
 
-*(To be expanded as we add other tools.)*
+| Need | Use | Catalog |
+|------|-----|---------|
+| **Core practice management** | Clio, MyCase | [Clio](tools/catalog/clio.md), [MyCase](tools/catalog/mycase.md) |
+| **PI-specific** | CASEpeer, CloudLex | [CASEpeer](tools/catalog/casepeer.md), [CloudLex](tools/catalog/cloudlex.md) |
+| **Doc-heavy / litigation** | Filevine | [Filevine](tools/catalog/filevine.md) |
+| **Real estate / corporate closings** | Litera Transact | [Litera Transact](tools/catalog/litera-transact.md) |
+| **Trademark / IP docketing** | LexiDots, Alt Legal | [LexiDots](tools/catalog/lexidots.md), [Alt Legal](tools/catalog/altlegal.md) |
+| **E-discovery** | Everlaw, Goldfynch, Logikull | [Everlaw](tools/catalog/everlaw.md) |
+| **AI agent → Clio** | Zapier Clio MCP | [Zapier Clio MCP](tools/catalog/zapier-clio-mcp.md) |
 
-| Tool Category | Next Additions | Integration Path |
-|---------------|----------------|------------------|
-| **CRM / Intake** | Clio Grow, Zapier | Clio Grow API or Zapier |
+Full decision tree, scoring, and sync sources: [docs/tools/](tools/README.md).
+
+## 3. Branching from Clio
+
+| Tool Category | Tools | Integration Path |
+|---------------|-------|-------------------|
+| **CRM / Intake** | Clio Grow, Lawmatics | Clio Grow API or Zapier |
 | **Communications** | Slack, Email | Zapier, Slack MCP |
 | **Project Management** | Linear | Linear MCP |
 | **Database / Backend** | Supabase | Supabase MCP |
 | **E-Discovery** | Everlaw, Logikull, Goldfynch | See [Civil Litigation](../practice-areas/litigation/civil-litigation/README.md) |
 | **Document Storage** | Google Drive, Dropbox | Zapier, native APIs |
-| **Transaction Management** | Litera Transact | See [Transactional Practice](../practice-areas/transactional/README.md) |
-| **IP Docketing** | LexiDots, Alt Legal | See [Trademark/IP](../practice-areas/transactional/trademark-ip/README.md) |
+| **Transaction Management** | Litera Transact | [Litera Transact](tools/catalog/litera-transact.md) |
+| **IP Docketing** | LexiDots, Alt Legal | [LexiDots](tools/catalog/lexidots.md), [Alt Legal](tools/catalog/altlegal.md) |
 
 ---
 
-## 3. Check-In Protocols
+## 4. Check-In Protocols
 
 | Agent Action | Check-In Type | When |
 |--------------|---------------|------|
@@ -115,7 +129,7 @@
 
 ---
 
-## 4. References
+## 5. References
 
 - [Clio Manage API](https://docs.developers.clio.com/api-docs/clio-manage/)
 - [Clio Authorization](https://docs.developers.clio.com/api-docs/clio-manage/authorization/)
