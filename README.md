@@ -11,6 +11,7 @@ Free open source toolkit for law firms
 
 - **[Law Firm Roles & Skills](docs/law-firm-roles-and-skills.md)** — Roles, responsibilities, and agent-ready tasks for modern law firm structure.
 - **[Role Architecture](roles/README.md)** — One folder per role with detailed instructions, routines, escalation paths, and agent-ready tasks.
+- **[Operations Staff Examples](examples/README.md)** — Step-by-step workflow examples for support staff (COO, billing, intake, paralegal, receptionist, etc.).
 - **[Practice Areas](practice-areas/README.md)** — Transactional (real estate, trademark, corporate, employment, family, estate, immigration, tax) and litigation (PI, criminal, civil). Operational guidance, tools, and pain points from Reddit/X research.
 - **[Law Firm Tools & Technologies](docs/law-firm-tools-and-technologies.md)** — Clio integrations (API + MCP), approval workflows, and guardrails.
 - **[Tool Catalog](docs/tools/README.md)** — When to use what, scoring methodology, sync sources (G2, Capterra, etc.) for latest ratings.

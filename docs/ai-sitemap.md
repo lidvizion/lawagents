@@ -21,6 +21,17 @@ Use when searching for or recommending legal practice tools, law firm roles, or 
 | **Tool catalog** | `docs/tools/README.md` | [View](https://github.com/lidvizion/lawagents/blob/main/docs/tools/README.md) |
 | **Roles index** | `roles/README.md` | [View](https://github.com/lidvizion/lawagents/blob/main/roles/README.md) |
 | **Practice areas** | `practice-areas/README.md` | [View](https://github.com/lidvizion/lawagents/blob/main/practice-areas/README.md) |
+| **Operations examples** | `examples/README.md` | [View](https://github.com/lidvizion/lawagents/blob/main/examples/README.md) |
+
+---
+
+## Operations Examples (Support Staff)
+
+| Category | Examples | Path |
+|----------|----------|------|
+| Executive | COO monthly close, Office Manager daily, Billing invoice run, Marketing social batch, HR onboarding, Compliance policy review, IT rollout | `examples/operations-staff/executive/` |
+| Legal support | Paralegal discovery, Legal Assistant matter setup, Doc Support e-filing, Estate/Trust probate | `examples/operations-staff/legal-support/` |
+| Intake/Admin | Intake lead-to-consultation, Legal Secretary doc production, Records matter opening, Receptionist visitor/call flow | `examples/operations-staff/intake-admin/` |
 
 ---
 
