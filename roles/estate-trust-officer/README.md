@@ -11,6 +11,22 @@ The Estate/Trust Officer oversees trust administration and probate-related filin
 
 ---
 
+## Industry Job Description
+
+*Sourced from Hemenway & Barnes, CSI, Ontario GovJobs, JD Preferred, BC Gov, and trust/estate administration postings.*
+
+### Formal Summary
+
+Estate Trust Officers and Probate Administrators guide clients and fiduciaries through estate administration. Core responsibilities include: asset management (marshaling, inventorying, valuing estate assets; protecting and overseeing sale of real estate, financial assets, personal property); tax and financial compliance (preparing and filing state and federal estate tax returns; coordinating with accountants for income tax filings; determining tax obligations); account administration (administering accounts from asset collection through final distributions; preparing fiduciary accounts and estate trust accounting statements); legal coordination (working with attorneys, beneficiaries, and other professionals to resolve issues and ensure compliance with laws and trust instruments); distribution (implementing estate asset distribution including real estate disposition, distributions in kind, trust asset allocation); and documentation (preparing probate petitions, obtaining necessary documents, creating release and indemnity documentation). The role combines legal, financial, and administrative expertise.
+
+### Typical Qualifications
+
+- **Education:** Bachelor's degree; JD preferred for attorney positions
+- **Experience:** 5+ years in estate administration, probate, or trust accounting
+- **Skills:** Estate administration, probate code, fiduciary taxation; accounting software; MS Office
+
+---
+
 ## Detailed Responsibilities
 
 ### 1. Trust Administration

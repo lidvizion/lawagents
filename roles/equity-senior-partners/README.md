@@ -11,6 +11,26 @@ Equity partners are the owners of the firm. They handle high-profile clients, ge
 
 ---
 
+## Industry Job Description
+
+*Sourced from LegalSoft, RunSensible, BCG Search, Altman Weil, and law firm partnership studies.*
+
+### Formal Summary
+
+An Equity Partner is an attorney who holds an ownership stake in the law firm, sharing in both profits and losses based on equity percentage. They contribute capital in exchange for ownership rights and financial returns tied to firm performance. Core responsibilities include: practicing law (high-stakes cases, complex client relationships), business development (attracting clients, maintaining relationships, ensuring profitable outcomes), firm management (financial planning, policy development, technology adoption), leadership and mentorship (guiding junior attorneys), risk management (assessing profitability and reputation risks), and ownership accountability (sharing financial and legal responsibility for firm debts). Partners must demonstrate ongoing productivity through billable work; partnership is not guaranteed for life.
+
+### Typical Qualifications
+
+- **Education:** J.D. from accredited law school; active bar license
+- **Experience:** 8–15+ years in practice; proven book of business and matter origination
+- **Skills:** Practice-area expertise, business development, team leadership, complex matter strategy, financial literacy
+
+### Compensation
+
+Equity partners do not receive fixed salaries. They earn distributions from firm profits based on equity percentage. Compensation models vary (eat-what-you-kill, lockstep, hybrid).
+
+---
+
 ## Detailed Responsibilities
 
 ### 1. Client and Matter Origination

@@ -11,6 +11,26 @@ The Document and Litigation Support Specialist manages electronic filing systems
 
 ---
 
+## Industry Job Description
+
+*Sourced from eDiscovery.jobs, Scott+Scott, 4 Corner Resources, Fennemore Law, Justia, and law firm litigation support postings.*
+
+### Formal Summary
+
+eDiscovery/Litigation Support Specialists manage electronic discovery and litigation technology processes. They serve as a bridge between attorneys, paralegals, clients, and technology vendors. Core responsibilities include: coordinating all phases of eDiscovery (identification, preservation, collection, processing, review, analysis, production, deletion of ESI); administering and designing databases using Relativity, Disco, and other eDiscovery platforms; maintaining litigation databases and document review workflows; performing quality control and technical troubleshooting on vendor deliveries; assisting with document collection, imaging, OCR processing, and production preparation; providing technical support during hearings, depositions, and trials (courtroom presentation); training legal teams on eDiscovery tools and best practices; ensuring compliance with court orders, industry standards, and data protection requirements.
+
+### Typical Qualifications
+
+- **Education:** Bachelor's degree
+- **Experience:** 3–5 years eDiscovery litigation support experience in law firm or corporate legal
+- **Skills:** Intermediate to expert Relativity; EDRM model; Microsoft Office
+
+### Compensation Range
+
+Typically $28.50–$42.50/hour to $90,000–$125,000 annually; national average ~$67,850.
+
+---
+
 ## Detailed Responsibilities
 
 ### 1. E-Discovery and Document Production

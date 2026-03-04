@@ -11,6 +11,22 @@ The Business Development Lead attracts clients and manages the firm's business d
 
 ---
 
+## Industry Job Description
+
+*Sourced from Hirschler Law, Ambition, Lawson Chase, Stanford Law School, and law firm BD postings.*
+
+### Formal Summary
+
+A Business Development Director at a law firm is a senior leadership position responsible for developing and executing marketing and business development strategies. Key responsibilities include: strategic planning and client development (business development plans, market positioning, client lists, pursuing new opportunities, CRM management); marketing and communications (branding, PR, social media, promotional activities, industry submissions, awards, directory listings); and business operations (proposals, RFP responses, industry trend monitoring, budgets, client events, sponsorships). Reports to firm leadership and works closely with partners and practice group leaders.
+
+### Typical Qualifications
+
+- **Education:** Bachelor's degree in marketing, business, or related field
+- **Experience:** 5+ years marketing and business development experience at professional services firm
+- **Skills:** Leadership, team-building, problem-solving, project management, communication, multi-priority management
+
+---
+
 ## Detailed Responsibilities
 
 ### 1. Business Development Strategy
