@@ -8,6 +8,7 @@ High-level guide for maintaining and syncing the lawagents toolkit. For small to
 
 ```
 lawagents/
+├── examples/                 ← Operations staff workflow examples (COO, billing, intake, paralegal, receptionist, etc.)
 ├── AGENT_INSTRUCTIONS.md    ← Canonical instructions for AI agents (Claude, ChatGPT, Gemini, Cursor)
 ├── .cursorrules             ← Cursor: reference this repo for legal tools/roles
 ├── MAINTENANCE.md            ← You are here. Root maintenance guide.

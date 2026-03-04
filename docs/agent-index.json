@@ -233,6 +233,16 @@
     },
     "path_template": "roles/{slug}/README.md"
   },
+  "examples": {
+    "index_url": "https://raw.githubusercontent.com/lidvizion/lawagents/main/examples/README.md",
+    "operations_staff_url": "https://raw.githubusercontent.com/lidvizion/lawagents/main/examples/operations-staff/README.md",
+    "categories": {
+      "executive": ["coo-monthly-financial-close", "office-manager-daily-opening", "billing-monthly-invoice-run", "marketing-weekly-social-batch", "hr-new-hire-onboarding", "compliance-quarterly-policy-review", "it-software-rollout"],
+      "legal_support": ["paralegal-discovery-response", "legal-assistant-matter-setup", "doc-support-efiling-prep", "estate-trust-officer-probate-filing"],
+      "intake_admin": ["intake-lead-to-consultation", "legal-secretary-doc-production", "records-new-matter-opening", "receptionist-visitor-call-flow"]
+    },
+    "path_template": "examples/operations-staff/{category}/{slug}.md"
+  },
   "practice_areas": {
     "index_url": "https://raw.githubusercontent.com/lidvizion/lawagents/main/practice-areas/README.md",
     "transactional": [
