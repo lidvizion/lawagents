@@ -11,6 +11,22 @@ Legal Assistants handle a blend of procedural legal tasks and administrative dut
 
 ---
 
+## Industry Job Description
+
+*Sourced from Remote Attorneys, Regents RS, US Courts, Clio, CasePacer, and law firm postings.*
+
+### Formal Summary
+
+Legal Assistants provide administrative and clerical support to keep a law office running smoothly. Key distinction from Paralegals: Legal Assistants focus on clerical work (filing, answering phones, maintaining calendars, heavy word-processing, coordinating meetings); Paralegals perform substantive legal work (research, drafting pleadings, discovery, trial preparation). Legal Assistant duties include: managing schedules; organizing documents; handling client communications; filing; calendar maintenance; document formatting; correspondence; basic drafting. Education typically requires high school diploma or associate degree with coursework in administrative procedures and legal terminology. Legal Assistants have no direct involvement in legal casework; Paralegals work closely with attorneys on case-specific tasks but cannot provide legal advice.
+
+### Typical Qualifications
+
+- **Education:** High school diploma or associate degree; legal terminology coursework
+- **Experience:** 1–3 years in legal or administrative support
+- **Skills:** Document management, scheduling, correspondence, file organization, basic legal formatting
+
+---
+
 ## Detailed Responsibilities
 
 ### 1. Document Management

@@ -11,6 +11,26 @@ The Receptionist manages immediate front-of-house operations, client greetings, 
 
 ---
 
+## Industry Job Description
+
+*Sourced from InterviewGuy, Career.com, Brumley Law Firm, Built In, 4 Corner Resources, and law firm postings.*
+
+### Formal Summary
+
+Law firm receptionists serve as the first point of contact for clients. Core responsibilities include: phone management (answering, screening, forwarding incoming calls; providing basic information); client interaction (greeting and welcoming visitors; directing to appropriate staff; ensuring comfort); scheduling (managing attorney calendars; scheduling and confirming appointments); administrative tasks (filing, photocopying, transcribing, faxing, data entry, mail handling); office management (maintaining reception area cleanliness; ordering supplies; managing inventory; office security); client services (assisting with new client intake; processing payments; providing case status updates when authorized); and document handling (managing confidential legal documents with accuracy; time-sensitive materials). Ideal candidates are professional, disciplined, meticulous, friendly, reliable, and able to maintain confidentiality.
+
+### Typical Qualifications
+
+- **Education:** High school diploma or GED
+- **Experience:** 1 year front desk receptionist or related experience preferred
+- **Skills:** Microsoft Office; communication; organizational; customer service; multitasking; professional demeanor
+
+### Compensation Range
+
+Typically $17–$25 per hour depending on experience and location.
+
+---
+
 ## Detailed Responsibilities
 
 ### 1. Front-of-House Operations

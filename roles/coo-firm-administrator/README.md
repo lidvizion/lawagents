@@ -11,6 +11,22 @@ The COO manages the business side of the firm—human resources, finance, IT, ma
 
 ---
 
+## Industry Job Description
+
+*Sourced from TrustCounsel, ChiefJobs, Collins & Lacy, WayUp, and law firm COO postings.*
+
+### Formal Summary
+
+A Law Firm COO or Professional Legal Administrator oversees all non-legal business operations. Core responsibilities include: finance and accounting (budgeting, financial reporting, billing/collections, trust accounting, payroll, tax planning), human resources (recruiting, hiring, training, performance management, salary administration), facilities management (office space planning, lease negotiations, equipment acquisition, multi-location coordination), strategic operations (day-to-day management, process improvement, policy implementation, KPI tracking), and technology and compliance (IT infrastructure oversight, risk management, regulatory compliance). This is a C-suite executive role reporting directly to firm ownership or management committee, with significant decision-making authority and autonomy. Distinct from office manager or administrative assistant roles.
+
+### Typical Qualifications
+
+- **Education:** Bachelor's degree required; MBA, CPA, or JD preferred
+- **Experience:** 5–15 years in senior operational leadership, preferably in law firms or professional services
+- **Skills:** Financial acumen, HR expertise, strategic planning, team leadership, vendor management
+
+---
+
 ## Detailed Responsibilities
 
 ### 1. Financial Management

@@ -11,6 +11,22 @@ The Finance/Accounting Manager handles billing, payroll, budgeting, and financia
 
 ---
 
+## Industry Job Description
+
+*Sourced from law firm finance and accounting roles.*
+
+### Formal Summary
+
+Finance/Accounting Managers at law firms handle: billing oversight; payroll processing and administration; budgeting and financial planning; general ledger maintenance; P&L, balance sheet, and cash flow reporting; variance analysis. They use QuickBooks, Xero, or firm-specific accounting systems. They integrate with banking APIs and support budgeting spreadsheets. In smaller firms, this role may be combined with Billing Manager; in larger firms, they focus on firm-wide financial reporting and partner-level financial data separate from matter-level billing.
+
+### Typical Qualifications
+
+- **Education:** Bachelor's degree in accounting or finance; CPA preferred for senior roles
+- **Experience:** 5+ years in accounting or finance; law firm or professional services preferred
+- **Skills:** Accounting, financial analysis, payroll, QuickBooks/Xero, banking integrations
+
+---
+
 ## Detailed Responsibilities
 
 ### 1. Financial Reporting

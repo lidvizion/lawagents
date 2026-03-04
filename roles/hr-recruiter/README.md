@@ -11,6 +11,22 @@ The HR/Recruiter manages hiring, benefits, firm culture, and employee relations.
 
 ---
 
+## Industry Job Description
+
+*Sourced from JD Preferred, Career.com, Hawthorne Lane, Oberman Law, Levin Nalbandyan, and law firm HR postings.*
+
+### Formal Summary
+
+Law firm HR Recruiter roles typically combine recruitment (60–75% of time) with HR generalist functions (25–40%). Recruitment duties include: full-cycle hiring for attorneys and staff (sourcing, screening, interviewing, offer management); building candidate pipelines and networking at legal/professional events; using applicant tracking systems and LinkedIn Recruiter; drafting job descriptions and defining hiring needs with partners; tracking hiring metrics (time-to-fill, acceptance rates, retention); supporting summer associate programs and law school outreach. HR responsibilities include: employee relations and personnel counseling; benefits administration and compliance; onboarding and offboarding; performance management and career development; leave administration and policy implementation. Ideal candidates balance demanding partners with employee advocacy.
+
+### Typical Qualifications
+
+- **Education:** Bachelor's degree in HR, business, or related field
+- **Experience:** 3–6+ years recruiting or HR experience, preferably in legal/professional services
+- **Skills:** HR generalist knowledge, employment law compliance, ATS platforms, culture fit assessment
+
+---
+
 ## Detailed Responsibilities
 
 ### 1. Recruiting
