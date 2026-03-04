@@ -37,9 +37,13 @@ What do you need?
 │  ├─ MCP / AI agent control                 → Buffer, Hootsuite
 │  └─ Legal-specific                         → Thunderhead, Apaya
 │
-└─ Integrations / automation
-   ├─ No-code                                → Zapier (Clio MCP, etc.)
-   └─ API                                    → Clio API, vendor APIs
+├─ Integrations / automation
+│  ├─ No-code                                → Zapier (Clio MCP, etc.)
+│  └─ API                                    → Clio API, vendor APIs
+│
+└─ Web scraping (research, due diligence)
+   ├─ Public records, court dockets           → Scrapling
+   └─ Anti-bot sites; adaptive parsing       → Scrapling
 ```
 
 ---
@@ -57,6 +61,7 @@ What do you need?
 | **Legal AI** | Research, contracts, drafting | Harvey, GC.AI | [catalog/](catalog/) |
 | **Social scheduling** | Multi-channel; MCP | Planable, Buffer, Hootsuite | [catalog/](catalog/) |
 | **Integrations** | Connect tools, automate | Zapier, Clio MCP | [catalog/](catalog/) |
+| **Web scraping** | Public records, research, due diligence | Scrapling | [catalog/](catalog/) |
 
 ---
 
@@ -93,6 +98,7 @@ See [SCORING-METHODOLOGY.md](SCORING-METHODOLOGY.md). Sync URLs: [SYNC-SOURCES.m
 | [Planable](catalog/planable.md) | Social scheduling | — | Multi-channel; LinkedIn, FB, X, IG, YouTube, etc. |
 | [Buffer](catalog/buffer.md) | Social scheduling | — | MCP; simple queue; AI agent control |
 | [Hootsuite](catalog/hootsuite.md) | Social scheduling | — | MCP; unified inbox; enterprise |
+| [Scrapling](catalog/scrapling.md) | Web scraping | — | Public records; anti-bot; adaptive parsing; MCP |
 
 *Scores updated from sync sources. `—` = not yet scored.*
 
