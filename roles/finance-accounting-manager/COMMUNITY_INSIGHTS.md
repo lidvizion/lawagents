@@ -1,6 +1,6 @@
 # Community Insights — Finance Accounting Manager
 
-*Auto-updated hourly from Reddit, X, Threads. Last sync: 2026-03-05 16:17 UTC*
+*Auto-updated hourly from Reddit, X, Threads. Last sync: 2026-03-05 17:42 UTC*
 
 ## Setup
 
