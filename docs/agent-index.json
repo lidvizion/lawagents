@@ -99,6 +99,20 @@
         "path": "docs/tools/catalog/gc-ai.md"
       },
       {
+        "slug": "crosby",
+        "name": "Crosby",
+        "category": "legal-ai",
+        "use_when": "Contract review; autopilot-native; fixed pricing",
+        "path": "docs/tools/catalog/crosby.md"
+      },
+      {
+        "slug": "lawhive",
+        "name": "Lawhive",
+        "category": "legal-ai",
+        "use_when": "UK consumer legal; autopilot-native; Lawrence AI paralegal",
+        "path": "docs/tools/catalog/lawhive.md"
+      },
+      {
         "slug": "planable",
         "name": "Planable",
         "category": "social-scheduling",
@@ -182,6 +196,10 @@
       "legal_ai": {
         "law_firms": [
           "Harvey"
+        ],
+        "autopilot_native": [
+          "Crosby",
+          "Lawhive"
         ],
         "in_house": [
           "GC.AI"

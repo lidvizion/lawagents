@@ -29,7 +29,8 @@ What do you need?
 │  └─ Standalone                             → Lawmatics, Clio Grow
 │
 ├─ Legal AI
-│  ├─ Law firms (large)                      → Harvey
+│  ├─ Law firms (large)                      → Harvey (emerging leader → autopilot)
+│  ├─ Autopilot-native                       → Crosby, Lawhive
 │  └─ In-house / solo GC                    → GC.AI
 │
 ├─ Social scheduling (marketing)
@@ -58,7 +59,7 @@ What do you need?
 | **E-discovery** | Doc review, production | Everlaw, Goldfynch, Logikull | [catalog/](catalog/) |
 | **PI-specific** | Contingency, SOL, liens | CASEpeer, CloudLex, SmartAdvocate | [catalog/](catalog/) |
 | **Intake / CRM** | Lead capture, pipeline | Clio Grow, Lawmatics | [catalog/](catalog/) |
-| **Legal AI** | Research, contracts, drafting | Harvey, GC.AI | [catalog/](catalog/) |
+| **Legal AI** | Research, contracts, drafting | Harvey, Crosby, Lawhive, GC.AI | [catalog/](catalog/) |
 | **Social scheduling** | Multi-channel; MCP | Planable, Buffer, Hootsuite | [catalog/](catalog/) |
 | **Integrations** | Connect tools, automate | Zapier, Clio MCP | [catalog/](catalog/) |
 | **Web scraping** | Public records, research, due diligence | Scrapling | [catalog/](catalog/) |
@@ -77,6 +78,8 @@ Tools are scored 0–10 using:
 
 See [SCORING-METHODOLOGY.md](SCORING-METHODOLOGY.md). Sync URLs: [SYNC-SOURCES.md](SYNC-SOURCES.md).
 
+**Legal AI marketplace:** [LEGAL-AI-MARKETPLACE.md](LEGAL-AI-MARKETPLACE.md) — Harvey (emerging leader → autopilot), Crosby & Lawhive (autopilot-native newcomers).
+
 ---
 
 ## Catalog Index
@@ -93,8 +96,10 @@ See [SCORING-METHODOLOGY.md](SCORING-METHODOLOGY.md). Sync URLs: [SYNC-SOURCES.m
 | [LexiDots](catalog/lexidots.md) | IP / trademark | — | Trademark docketing, USPTO |
 | [Alt Legal](catalog/altlegal.md) | IP / trademark | — | Trademark docketing |
 | [Zapier Clio MCP](catalog/zapier-clio-mcp.md) | Integrations | — | AI agent; no-code Clio actions |
-| [Harvey](catalog/harvey.md) | Legal AI | — | Large law firms; research, contracts, due diligence |
+| [Harvey](catalog/harvey.md) | Legal AI | — | Large law firms; research, contracts, due diligence; emerging leader → autopilot |
 | [GC.AI](catalog/gc-ai.md) | Legal AI | — | In-house legal; solo GC; contract review, Word |
+| [Crosby](catalog/crosby.md) | Legal AI | — | Contract review; autopilot-native; fixed pricing |
+| [Lawhive](catalog/lawhive.md) | Legal AI | — | UK consumer legal; autopilot-native; Lawrence AI paralegal |
 | [Planable](catalog/planable.md) | Social scheduling | — | Multi-channel; LinkedIn, FB, X, IG, YouTube, etc. |
 | [Buffer](catalog/buffer.md) | Social scheduling | — | MCP; simple queue; AI agent control |
 | [Hootsuite](catalog/hootsuite.md) | Social scheduling | — | MCP; unified inbox; enterprise |
