@@ -118,6 +118,13 @@
         "category": "social-scheduling",
         "use_when": "MCP; unified inbox; enterprise",
         "path": "docs/tools/catalog/hootsuite.md"
+      },
+      {
+        "slug": "scrapling",
+        "name": "Scrapling",
+        "category": "web-scraping",
+        "use_when": "Public records; anti-bot; adaptive parsing; MCP",
+        "path": "docs/tools/catalog/scrapling.md"
       }
     ],
     "decision_tree": {
@@ -191,6 +198,14 @@
         "legal": [
           "Thunderhead",
           "Apaya"
+        ]
+      },
+      "web_scraping": {
+        "public_records": [
+          "Scrapling"
+        ],
+        "anti_bot_adaptive": [
+          "Scrapling"
         ]
       }
     }
