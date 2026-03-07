@@ -1,6 +1,6 @@
 # Community Insights — Paralegal
 
-*Auto-updated hourly from Reddit, X, Threads. Last sync: 2026-03-06 23:06 UTC*
+*Auto-updated hourly from Reddit, X, Threads. Last sync: 2026-03-07 00:16 UTC*
 
 ## Setup
 
