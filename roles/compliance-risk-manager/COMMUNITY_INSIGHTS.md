@@ -1,6 +1,6 @@
 # Community Insights — Compliance Risk Manager
 
-*Auto-updated hourly from Reddit, X, Threads. Last sync: 2026-03-11 13:28 UTC*
+*Auto-updated hourly from Reddit, X, Threads. Last sync: 2026-03-11 14:18 UTC*
 
 ## Setup
 
