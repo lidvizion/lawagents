@@ -1,6 +1,6 @@
 # Community Insights — Document Litigation Support Specialist
 
-*Auto-updated hourly from Reddit, X, Threads. Last sync: 2026-03-11 19:17 UTC*
+*Auto-updated hourly from Reddit, X, Threads. Last sync: 2026-03-11 20:08 UTC*
 
 ## Setup
 
