@@ -1,6 +1,6 @@
 # Community Insights — It Legaltech Specialist
 
-*Auto-updated hourly from Reddit, X, Threads. Last sync: 2026-03-11 15:16 UTC*
+*Auto-updated hourly from Reddit, X, Threads. Last sync: 2026-03-11 16:17 UTC*
 
 ## Setup
 
