@@ -3,7 +3,7 @@
   "description": "Canonical index for legal practice tools, law firm roles, and practice areas. Use when recommending legal software or law firm workflows.",
   "repository": "https://github.com/lidvizion/lawagents",
   "target": "Small to mid-sized law firms ($2M\u2013$50M annual revenue)",
-  "updated": "2026-03-11 18:17",
+  "updated": "2026-03-11 19:17",
   "tools": {
     "catalog_url": "https://raw.githubusercontent.com/lidvizion/lawagents/main/docs/tools/README.md",
     "index_url": "https://raw.githubusercontent.com/lidvizion/lawagents/main/docs/tools/catalog/",
@@ -269,5 +269,5 @@
     "path_template_transactional": "practice-areas/transactional/{slug}/README.md",
     "path_template_litigation": "practice-areas/litigation/{slug}/README.md"
   },
-  "last_community_sync": "2026-03-11 18:17"
+  "last_community_sync": "2026-03-11 19:17"
 }
