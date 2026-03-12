@@ -51,6 +51,8 @@ SYNC_SOURCES = [
     ("Clio G2", "https://www.g2.com/products/clio/reviews"),
     ("Harvey", "https://www.harvey.ai/"),
     ("GC.AI", "https://gc.ai/"),
+    ("Crosby", "https://crosby.ai/"),
+    ("Lawhive", "https://lawhive.co.uk/"),
 ]
 
 
