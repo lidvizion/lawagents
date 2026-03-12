@@ -1,6 +1,6 @@
 # Community Insights — Legal Intake Specialist
 
-*Auto-updated hourly from Reddit, X, Threads. Last sync: 2026-03-12 10:14 UTC*
+*Auto-updated hourly from Reddit, X, Threads. Last sync: 2026-03-12 11:12 UTC*
 
 ## Setup
 
