@@ -1,6 +1,6 @@
 # Community Insights — Non Equity Junior Partners
 
-*Auto-updated hourly from Reddit, X, Threads. Last sync: 2026-03-12 07:19 UTC*
+*Auto-updated hourly from Reddit, X, Threads. Last sync: 2026-03-12 08:12 UTC*
 
 ## Setup
 
