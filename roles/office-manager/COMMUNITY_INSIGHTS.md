@@ -1,6 +1,6 @@
 # Community Insights — Office Manager
 
-*Auto-updated hourly from Reddit, X, Threads. Last sync: 2026-03-14 05:20 UTC*
+*Auto-updated hourly from Reddit, X, Threads. Last sync: 2026-03-14 06:14 UTC*
 
 ## Setup
 
