@@ -1,6 +1,6 @@
 # Community Insights — Managing Partner
 
-*Auto-updated hourly from Reddit, X, Threads. Last sync: 2026-03-15 17:07 UTC*
+*Auto-updated hourly from Reddit, X, Threads. Last sync: 2026-03-15 18:07 UTC*
 
 ## Setup
 
