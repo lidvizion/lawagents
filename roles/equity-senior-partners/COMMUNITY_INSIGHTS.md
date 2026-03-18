@@ -1,6 +1,6 @@
 # Community Insights — Equity Senior Partners
 
-*Auto-updated hourly from Reddit, X, Threads. Last sync: 2026-03-17 23:08 UTC*
+*Auto-updated hourly from Reddit, X, Threads. Last sync: 2026-03-18 00:19 UTC*
 
 ## Setup
 
