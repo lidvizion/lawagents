@@ -1,6 +1,6 @@
 # Community Insights — Estate Trust Officer
 
-*Auto-updated hourly from Reddit, X, Threads. Last sync: 2026-03-21 05:18 UTC*
+*Auto-updated hourly from Reddit, X, Threads. Last sync: 2026-03-21 06:12 UTC*
 
 ## Setup
 
