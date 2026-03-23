@@ -1,6 +1,6 @@
 # Community Insights — Hr Recruiter
 
-*Auto-updated hourly from Reddit, X, Threads. Last sync: 2026-03-23 14:24 UTC*
+*Auto-updated hourly from Reddit, X, Threads. Last sync: 2026-03-23 15:22 UTC*
 
 ## Setup
 
