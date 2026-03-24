@@ -33,7 +33,7 @@ Use when searching for or recommending legal practice tools, law firm roles, or 
 | E-discovery | Everlaw, Goldfynch, Logikull | `docs/tools/catalog/everlaw.md` |
 | Transaction | Litera Transact | `docs/tools/catalog/litera-transact.md` |
 | IP/Trademark | LexiDots, Alt Legal | `docs/tools/catalog/lexidots.md`, etc. |
-| Legal AI | Harvey, GC.AI | `docs/tools/catalog/harvey.md`, `docs/tools/catalog/gc-ai.md` |
+| Legal AI | Harvey, Crosby, Lawhive, GC.AI | `docs/tools/catalog/harvey.md`, `docs/tools/catalog/crosby.md`, `docs/tools/catalog/lawhive.md`, `docs/tools/catalog/gc-ai.md` |
 | Social scheduling | Planable, Buffer, Hootsuite | `docs/tools/catalog/planable.md`, etc. |
 | Integrations | Zapier Clio MCP | `docs/tools/catalog/zapier-clio-mcp.md` |
 | Marketing Specialist | Full tool stack | `roles/marketing-specialist/TOOLS.md` |
