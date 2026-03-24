@@ -11,6 +11,22 @@ The Office Manager handles day-to-day office functionality, non-attorney staff h
 
 ---
 
+## Industry Job Description
+
+*Sourced from LeadLake, Robert Half, JD Preferred, KLR Search Group, and law firm postings.*
+
+### Formal Summary
+
+Law Office Managers oversee diverse operational functions including: administrative and operations (managing day-to-day office operations and administrative staff, implementing procedures, coordinating technology/supplies/facilities, facilities management including leasing and maintenance); financial management (budgets, billing, collections, trust/IOLTA accounts, accounts payable/receivable, financial reports); human resources (employee salaries, benefits, payroll, recruiting attorneys and staff, training, onboarding, event planning); and attorney support (scheduling, meeting coordination, client communications). Responsibilities vary by firm size—smaller firms emphasize broad administrative duties; larger firms focus more on facilities and information services.
+
+### Typical Qualifications
+
+- **Education:** Associate's or Bachelor's degree in business administration or related field
+- **Experience:** 2–5 years office management or administrative experience, preferably in legal settings
+- **Skills:** Communication, organizational, problem-solving; Microsoft Office; law firm accounting software
+
+---
+
 ## Detailed Responsibilities
 
 ### 1. Office Operations

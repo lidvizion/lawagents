@@ -11,6 +11,27 @@ Associates are employed attorneys who represent the firm, handle daily substanti
 
 ---
 
+## Industry Job Description
+
+*Sourced from BetterTeam, LegalClarity, MB Attorney Search, CLOC, and law firm postings.*
+
+### Formal Summary
+
+An Associate Attorney is a licensed legal professional employed by a law firm, typically early in their career, working under partner supervision. They serve as the backbone of law firms, handling much of the daily legal workload while working toward potential partnership. Core duties include: legal research (analyzing laws, regulations, and case precedent), document drafting (motions, pleadings, contracts, briefs), client communication (meeting with clients, providing updates), court preparation (organizing evidence, discovery responses, witness questions), case support (depositions, hearings, trials), client representation (hearings, negotiations, meetings), administrative tasks (deadlines, filings, confidential records), and business development (networking, legal publications).
+
+### Typical Qualifications
+
+- **Education:** Juris Doctor (J.D.) from accredited law school; passing score on state bar examination
+- **Experience:** 0–6 years; responsibilities vary by firm size and practice area
+- **Skills:** Legal research, drafting, discovery, court preparation, time management, matter organization
+
+### Key Distinctions by Firm Size
+
+- **Large firms:** Support complex cases as part of a team; may specialize in specific legal areas
+- **Smaller firms:** May manage own client matters with lighter supervision
+
+---
+
 ## Detailed Responsibilities
 
 ### 1. Legal Research and Analysis

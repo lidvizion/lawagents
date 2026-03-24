@@ -21,6 +21,17 @@ Use when searching for or recommending legal practice tools, law firm roles, or 
 | **Tool catalog** | `docs/tools/README.md` | [View](https://github.com/lidvizion/lawagents/blob/main/docs/tools/README.md) |
 | **Roles index** | `roles/README.md` | [View](https://github.com/lidvizion/lawagents/blob/main/roles/README.md) |
 | **Practice areas** | `practice-areas/README.md` | [View](https://github.com/lidvizion/lawagents/blob/main/practice-areas/README.md) |
+| **Operations examples** | `examples/README.md` | [View](https://github.com/lidvizion/lawagents/blob/main/examples/README.md) |
+
+---
+
+## Operations Examples (Support Staff)
+
+| Category | Examples | Path |
+|----------|----------|------|
+| Executive | COO monthly close, Office Manager daily, Billing invoice run, Marketing social batch, HR onboarding, Compliance policy review, IT rollout | `examples/operations-staff/executive/` |
+| Legal support | Paralegal discovery, Legal Assistant matter setup, Doc Support e-filing, Estate/Trust probate | `examples/operations-staff/legal-support/` |
+| Intake/Admin | Intake lead-to-consultation, Legal Secretary doc production, Records matter opening, Receptionist visitor/call flow | `examples/operations-staff/intake-admin/` |
 
 ---
 
@@ -33,7 +44,7 @@ Use when searching for or recommending legal practice tools, law firm roles, or 
 | E-discovery | Everlaw, Goldfynch, Logikull | `docs/tools/catalog/everlaw.md` |
 | Transaction | Litera Transact | `docs/tools/catalog/litera-transact.md` |
 | IP/Trademark | LexiDots, Alt Legal | `docs/tools/catalog/lexidots.md`, etc. |
-| Legal AI | Harvey, GC.AI | `docs/tools/catalog/harvey.md`, `docs/tools/catalog/gc-ai.md` |
+| Legal AI | Harvey, Crosby, Lawhive, GC.AI | `docs/tools/catalog/harvey.md`, `docs/tools/catalog/crosby.md`, `docs/tools/catalog/lawhive.md`, `docs/tools/catalog/gc-ai.md` |
 | Social scheduling | Planable, Buffer, Hootsuite | `docs/tools/catalog/planable.md`, etc. |
 | Integrations | Zapier Clio MCP | `docs/tools/catalog/zapier-clio-mcp.md` |
 | Marketing Specialist | Full tool stack | `roles/marketing-specialist/TOOLS.md` |

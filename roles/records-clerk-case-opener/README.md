@@ -11,6 +11,26 @@ The Records Clerk is responsible for organizing, maintaining, and tracking clien
 
 ---
 
+## Industry Job Description
+
+*Sourced from JobRight, Career.com, Venardi Zurada, GovernmentJobs, and law firm postings.*
+
+### Formal Summary
+
+**Case Opener** roles involve initial processing and setup of new cases (often in personal injury). Duties include: initial case processing and setup; gathering client information and drafting legal correspondence; populating case management software; creating and organizing digital case folders; sending and tracking missing documents; filing claims with insurance carriers; ensuring files are audit-ready. **Records Clerk** roles focus on document and file management: organizing and maintaining legal records; data entry with accuracy and integrity; scanning and digitization; utilizing records management software (LegalKey, FileTrail, iManage); conducting quality control and audits; generating reports and managing high-volume records. Both roles require attention to detail, verbal/written communication, legal document drafting, and case management software proficiency.
+
+### Typical Qualifications
+
+- **Education:** High school diploma; paralegal certification preferred for Case Opener
+- **Experience:** 1–2 years records management or case opening experience
+- **Skills:** Legal software (LegalKey, FileTrail, iManage); Microsoft Office; organizational skills; bilingual (English/Spanish) preferred for PI firms
+
+### Compensation Range
+
+Case Opener: typically $45,000–$52,000 annually (entry-level). Records Clerk: $24–$29/hour depending on experience and location.
+
+---
+
 ## Detailed Responsibilities
 
 ### 1. Matter Opening and File Creation

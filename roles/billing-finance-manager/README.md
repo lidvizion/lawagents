@@ -11,6 +11,26 @@ The Billing/Finance Manager oversees time entries, invoice preparation, collecti
 
 ---
 
+## Industry Job Description
+
+*Sourced from Jobot, Justia, Career.com, Kennedys, and law firm billing postings.*
+
+### Formal Summary
+
+Billing Managers at law firms oversee all aspects of the firm's billing operations. Core responsibilities include: managing billing teams and providing leadership, mentoring, and development; ensuring accurate, timely, and compliant client invoicing; overseeing the entire billing lifecycle (invoice preparation, review, submission, collections); developing and implementing billing policies and procedures; resolving billing discrepancies with attorneys and clients; monitoring workload distribution and identifying efficiency improvements; and preparing financial reports on billing, revenue, and receivables. Requires proficiency in legal billing software (Elite 3E, Aderant, Clio) and understanding of legal billing processes, timekeeping policies, and client billing guidelines.
+
+### Typical Qualifications
+
+- **Education:** Bachelor's degree in accounting, finance, or related field
+- **Experience:** 5–7+ years of legal billing experience; supervisory or management experience
+- **Skills:** Legal billing systems, trust accounting, collections, financial reporting, Excel
+
+### Compensation Range
+
+Typically $100,000–$180,000 annually, depending on location and experience.
+
+---
+
 ## Detailed Responsibilities
 
 ### 1. Time Entry Management

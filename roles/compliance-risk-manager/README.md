@@ -11,6 +11,22 @@ The Compliance/Risk Manager oversees regulatory compliance and firm policies. Th
 
 ---
 
+## Industry Job Description
+
+*Sourced from McGuireWoods, Hays, Jameson Legal, JMC Legal, Pembury Legal, and law firm compliance postings.*
+
+### Formal Summary
+
+Compliance/Risk Managers at law firms oversee operational compliance and risk management programs. Core responsibilities include: regulatory oversight (monitoring SRA, FCA, money laundering, ICO, data protection; tracking bar admissions and licensing; reporting breaches; conducting audits); policy and process management (developing and maintaining compliance policies, procedures, controls; managing databases for bar admissions, fiduciary roles, business interests; updating engagement letters and terms of business); training and communication (delivering compliance training; creating policies, bulletins, communications); investigations and advisory (investigating client complaints and professional responsibility issues; providing expert advice on ethics, conflicts, regulatory matters; escalating to compliance committees); and team leadership (supervising compliance team; coordinating with divisional and business leads).
+
+### Typical Qualifications
+
+- **Education:** Bachelor's degree; law or compliance certification preferred
+- **Experience:** 5–6+ years compliance experience within law firm or professional services
+- **Skills:** Regulatory knowledge, policy management, audit, risk assessment, attention to detail
+
+---
+
 ## Detailed Responsibilities
 
 ### 1. Regulatory Compliance
