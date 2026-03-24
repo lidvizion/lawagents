@@ -22,9 +22,12 @@ lawagents/
 │       ├── README.md        ← Tool catalog index, when-to-use decision tree
 │       ├── SCORING-METHODOLOGY.md
 │       ├── SYNC-SOURCES.md  ← URLs to sync for latest ratings, reviews, pricing
+│       ├── legal-apis-index.json  ← 210+ legal APIs/platforms (crawl output)
 │       └── catalog/         ← Individual tool files (one per tool)
 │           ├── README.md
 │           └── *.md (clio, filevine, casepeer, etc.)
+├── libs/                    ← Python libs (db, openai_helpers)
+├── scripts/                 ← Sync, crawl, seed scripts
 ├── roles/                   ← One folder per firm role (25+ roles)
 ├── practice-areas/          ← Transactional + litigation by practice type
 │   ├── transactional/       ← Real estate, corporate, IP, employment, family, estate, immigration, tax
@@ -58,6 +61,13 @@ lawagents/
   - `X_BEARER_TOKEN` — X API v2 (optional)
   - `THREADS_ACCESS_TOKEN` — Meta Threads API (optional)
 - **Manual/cron:** Run `python scripts/sync-tools.py`. Set env vars for Reddit/X/Threads. See [scripts/README.md](scripts/README.md).
+
+### Tool discovery (200+ platforms)
+
+- **Crawl:** `python scripts/crawl-datarade-legal-apis.py` — Uses OpenAI to discover 200+ legal APIs/platforms from dataRade categories. Writes `docs/tools/legal-apis-index.json` and upserts to MongoDB.
+- **Seed:** `python scripts/seed-tools.py` — Syncs legal-apis-index + agent-index to MongoDB.
+- **Env:** `OPENAI_API_KEY` or `OPENAI_KEY`, `MONGODB_URI`.
+- **Source:** [dataRade legal APIs](https://datarade.ai/search/products/legal-apis).
 
 ### Manual (quarterly)
 

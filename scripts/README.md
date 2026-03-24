@@ -1,5 +1,27 @@
 # Scripts
 
+## crawl-datarade-legal-apis.py
+
+Discovers **200+ legal APIs and platforms** via OpenAI. Writes `docs/tools/legal-apis-index.json` and upserts to MongoDB.
+
+```bash
+export OPENAI_API_KEY=sk-...   # or OPENAI_KEY
+export MONGODB_URI=...         # optional; for DB upsert
+pip install -r requirements.txt
+python scripts/crawl-datarade-legal-apis.py
+```
+
+Source: [dataRade legal APIs](https://datarade.ai/search/products/legal-apis). Includes curated tools (Bloomberg Law Dockets, LegiScan, OpenLaws, TrustFoundry) and static expansion from known legal tech.
+
+## seed-tools.py
+
+Seeds MongoDB from `legal-apis-index.json` and `agent-index.json`. Run after crawl to sync DB.
+
+```bash
+export MONGODB_URI=...
+python scripts/seed-tools.py
+```
+
 ## sync-tools.py
 
 Hourly sync: searches **Reddit, X, Threads** for content specific to each role; writes `roles/{role}/COMMUNITY_INSIGHTS.md`; updates `docs/agent-index.json` and `README.md`.
