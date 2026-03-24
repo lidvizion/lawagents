@@ -3,6 +3,8 @@
 **Category:** Legal AI  
 **Use when:** Large law firm or enterprise legal department; need AI for research, contract analysis, due diligence, document drafting.
 
+**Marketplace:** Emerging leader; moving quickly to autopilot workflows.
+
 ---
 
 ## Overview

@@ -13,6 +13,26 @@ The Marketing Specialist supports business development, manages digital marketin
 
 ---
 
+## Industry Job Description
+
+*Sourced from BHSG, Vaco, Jobot, John Leonard, and law firm marketing postings.*
+
+### Formal Summary
+
+Marketing Coordinators at law firms manage day-to-day marketing operations including: content and website management (updating attorney bios, firm news, website content via WordPress; SEO strategies); social media (developing and maintaining presence across LinkedIn, Facebook, Twitter, blogs); event coordination (firm events, conferences, sponsorships, receptions, networking); marketing materials (brochures, advertisements, newsletters, presentations); business development support (pitch materials, proposals, award nominations, client outreach); database management (CRM, client contacts, mailing lists); and communications (newsletters, client alerts, internal communications). Requires knowledge of legal marketing compliance and ethics rules.
+
+### Typical Qualifications
+
+- **Education:** Bachelor's degree in marketing, communications, or related field
+- **Experience:** 1–7 years marketing experience in law firm or professional services
+- **Skills:** WordPress, Canva, Adobe Creative Suite, Microsoft Office, CRM, email marketing; project management
+
+### Compensation Range
+
+Typically $50,000–$110,000 annually, depending on location and experience.
+
+---
+
 ## Detailed Responsibilities
 
 ### 1. Business Development Support

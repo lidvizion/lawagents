@@ -11,6 +11,22 @@ The IT/Cybersecurity Lead ensures the firm's technology infrastructure is secure
 
 ---
 
+## Industry Job Description
+
+*Sourced from MarcoNet, Legal Cheek, ILTA, Legal Technology, HFW, and law firm CISO postings.*
+
+### Formal Summary
+
+A Chief Information Security Officer (CISO) at a law firm develops and implements comprehensive cyber and information security strategies to protect sensitive client data and firm operations. Core responsibilities include: developing and maintaining enterprise information security strategies aligned with business objectives; leading security operations, threat monitoring, incident detection, analysis, and response; managing cybersecurity budgets and resource allocation; developing and implementing security policies, procedures, and controls frameworks; building relationships with stakeholders and managing global security teams; and ensuring compliance with legal and regulatory obligations (ABA Rule 1.6 on confidentiality, HIPAA, state data protection). Law firms are prime targets for cybercriminals; 29% of firms experienced breaches in 2023. The role has evolved from purely technical to advisory board-level leadership.
+
+### Typical Qualifications
+
+- **Education:** Bachelor's degree required; cybersecurity certifications (CISSP, CISM) preferred
+- **Experience:** 5–10+ years in security leadership; law firm or professional services preferred
+- **Skills:** Risk management, breach management, supplier assurance, business strategy, stakeholder management
+
+---
+
 ## Detailed Responsibilities
 
 ### 1. Network and Infrastructure Security

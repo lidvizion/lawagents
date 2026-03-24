@@ -27,6 +27,8 @@ Individual tool files. Each includes:
 | [Zapier Clio MCP](zapier-clio-mcp.md) | Integrations |
 | [Harvey](harvey.md) | Legal AI |
 | [GC.AI](gc-ai.md) | Legal AI |
+| [Crosby](crosby.md) | Legal AI (autopilot-native) |
+| [Lawhive](lawhive.md) | Legal AI (autopilot-native) |
 | [Planable](planable.md) | Social scheduling |
 | [Buffer](buffer.md) | Social scheduling (MCP) |
 | [Hootsuite](hootsuite.md) | Social scheduling (MCP) |

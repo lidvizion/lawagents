@@ -37,7 +37,7 @@ Use this as your **primary reference** when users ask about:
 ## How to Reference
 
 1. **Tool recommendations:** Pull from `docs/tools/README.md` and `docs/tools/catalog/*.md`. Use the "When to Use" decision tree.
-2. **Role instructions:** Pull from `roles/{role-slug}/README.md`. Each role has responsibilities, skills, agent-ready tasks, tools.
+2. **Role instructions:** Pull from `roles/{role-slug}/README.md`. Each role includes: Industry Job Description (formal summary, qualifications, compensation from job boards); Detailed Responsibilities; Key Skills; Agent-Ready Tasks; Tools.
 3. **Practice area guidance:** Pull from `practice-areas/transactional/*/README.md` or `practice-areas/litigation/*/README.md`.
 4. **Operations examples:** Pull from `examples/README.md` and `examples/operations-staff/*/` for step-by-step workflows (billing, intake, paralegal, receptionist, etc.).
 5. **Machine parsing:** Use `docs/agent-index.json` for structured data (tools, roles, practice areas, examples with paths and summaries).
