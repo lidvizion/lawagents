@@ -114,6 +114,18 @@ See [docs/tools/SCORING-METHODOLOGY.md](docs/tools/SCORING-METHODOLOGY.md) for f
 
 ---
 
+## dataRade Crawl & MongoDB
+
+- **Script:** `scripts/crawl-datarade-legal-apis.py`
+- **Purpose:** Discover legal APIs from dataRade (via OpenAI knowledge) and upsert into MongoDB
+- **Collections:** `tools` (slug, name, category, provider, url, source, has_mcp, has_api)
+- **Run:** `MONGODB_URI=... OPENAI_API_KEY=... python3 scripts/crawl-datarade-legal-apis.py`
+- **Output:** `docs/tools/legal-apis-index.json` + MongoDB `lawagents.tools`
+
+dataRade.ai does not expose a public API; the site is behind Cloudflare. The script uses OpenAI to generate a list of legal APIs and merges with a curated fallback list.
+
+---
+
 ## Database Migration (Future)
 
 When adding a database:

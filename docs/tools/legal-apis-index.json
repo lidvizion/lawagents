@@ -1,4 +1,280 @@
 {
+  "source": "datarade",
+  "crawled_at": "2026-03-03T19:08:59.277275+00:00",
+  "count": 45,
+  "apis": [
+    {
+      "name": "UniCourt Court Data API",
+      "provider": "UniCourt",
+      "category": "court-data",
+      "url": "https://datarade.ai/products/unicourt-court-data-api"
+    },
+    {
+      "name": "Bloomberg Law",
+      "provider": "Bloomberg",
+      "category": "legal-research",
+      "url": "https://www.bloomberglaw.com"
+    },
+    {
+      "name": "LegiScan",
+      "provider": "LegiScan",
+      "category": "legislative",
+      "url": "https://legiscan.com"
+    },
+    {
+      "name": "OpenLaws",
+      "provider": "OpenLaws",
+      "category": "legal-research",
+      "url": "https://www.openlaws.com"
+    },
+    {
+      "name": "PACER",
+      "provider": "U.S. Courts",
+      "category": "court-data",
+      "url": "https://pacer.uscourts.gov"
+    },
+    {
+      "name": "Casetext",
+      "provider": "Casetext",
+      "category": "legal-research",
+      "url": "https://casetext.com"
+    },
+    {
+      "name": "Clio",
+      "provider": "Clio",
+      "category": "practice-management",
+      "url": "https://www.clio.com"
+    },
+    {
+      "name": "LegalSifter",
+      "provider": "LegalSifter",
+      "category": "legal-ai",
+      "url": "https://legalsifter.com"
+    },
+    {
+      "name": "Everlaw",
+      "provider": "Everlaw",
+      "category": "e-discovery",
+      "url": "https://www.everlaw.com"
+    },
+    {
+      "name": "TrademarkNow",
+      "provider": "TrademarkNow",
+      "category": "trademark-ip",
+      "url": "https://www.trademarknow.com"
+    },
+    {
+      "name": "LexisNexis",
+      "provider": "LexisNexis",
+      "category": "legal-research",
+      "url": "https://legal.thomsonreuters.com"
+    },
+    {
+      "name": "DocuSign",
+      "provider": "DocuSign",
+      "category": "practice-management",
+      "url": "https://www.docusign.com"
+    },
+    {
+      "name": "ZyLAB ONE",
+      "provider": "ZyLAB",
+      "category": "e-discovery",
+      "url": "https://www.zylab.com"
+    },
+    {
+      "name": "CourtListener API",
+      "provider": "Free Law Project",
+      "category": "court-data",
+      "url": "https://www.courtlistener.com/api"
+    },
+    {
+      "name": "LawGeex",
+      "provider": "LawGeex",
+      "category": "legal-ai",
+      "url": "https://www.lawgeex.com"
+    },
+    {
+      "name": "Clever Legal",
+      "provider": "Clever Legal",
+      "category": "legal-ai",
+      "url": "https://cleverlegal.com"
+    },
+    {
+      "name": "Lexis Search Advantage",
+      "provider": "LexisNexis",
+      "category": "legal-research",
+      "url": "https://legal.thomsonreuters.com"
+    },
+    {
+      "name": "LawGives",
+      "provider": "LawGives",
+      "category": "compliance",
+      "url": "https://www.lawgives.com"
+    },
+    {
+      "name": "X1 Social Discovery",
+      "provider": "X1 Discovery",
+      "category": "e-discovery",
+      "url": "https://www.x1discovery.com"
+    },
+    {
+      "name": "Relativity",
+      "provider": "Relativity",
+      "category": "e-discovery",
+      "url": "https://www.relativity.com"
+    },
+    {
+      "name": "Intapp",
+      "provider": "Intapp",
+      "category": "practice-management",
+      "url": "https://www.intapp.com"
+    },
+    {
+      "name": "PRISM",
+      "provider": "PRISM",
+      "category": "compliance",
+      "url": "https://www.prismcompliance.com"
+    },
+    {
+      "name": "Docket Alarm",
+      "provider": "Docket Alarm",
+      "category": "court-data",
+      "url": "https://www.docketalarm.com"
+    },
+    {
+      "name": "ContractPodAI",
+      "provider": "ContractPodAI",
+      "category": "legal-ai",
+      "url": "https://www.contractpodai.com"
+    },
+    {
+      "name": "NextChapter",
+      "provider": "NextChapter",
+      "category": "practice-management",
+      "url": "https://www.nextchapterbk.com"
+    },
+    {
+      "name": "DocuTrack",
+      "provider": "Minden Enterprises",
+      "category": "practice-management",
+      "url": "https://www.mindenenterprises.com"
+    },
+    {
+      "name": "Axiom",
+      "provider": "Axiom",
+      "category": "compliance",
+      "url": "https://www.axiomlaw.com"
+    },
+    {
+      "name": "QuickBooks Online for Legal",
+      "provider": "Intuit",
+      "category": "practice-management",
+      "url": "https://quickbooks.intuit.com/law/"
+    },
+    {
+      "name": "Justia",
+      "provider": "Justia",
+      "category": "legal-research",
+      "url": "https://www.justia.com"
+    },
+    {
+      "name": "UniCourt",
+      "provider": "UniCourt",
+      "category": "court-data",
+      "url": "https://datarade.ai/data-providers/unicourt/data-products"
+    },
+    {
+      "name": "Bloomberg Law Dockets API",
+      "provider": "Bloomberg",
+      "category": "court-data",
+      "url": "https://pro.bloomberglaw.com/products/court-dockets-search/enterprise-dockets-api-solution/"
+    },
+    {
+      "name": "LegiScan API",
+      "provider": "LegiScan",
+      "category": "legislative",
+      "url": "https://legiscan.com/legiscan"
+    },
+    {
+      "name": "OpenLaws API",
+      "provider": "OpenLaws",
+      "category": "legislative",
+      "url": "https://openlaws.us/api/"
+    },
+    {
+      "name": "TrustFoundry AI",
+      "provider": "TrustFoundry",
+      "category": "legal-ai",
+      "url": "https://trustfoundry.ai/"
+    },
+    {
+      "name": "PACER API",
+      "provider": "UniCourt",
+      "category": "court-data",
+      "url": "https://datarade.ai/data-products/pacer-api-unicourt"
+    },
+    {
+      "name": "Court Data API",
+      "provider": "UniCourt",
+      "category": "court-data",
+      "url": "https://datarade.ai/data-products/court-data-api-unicourt"
+    },
+    {
+      "name": "Attorney Data API",
+      "provider": "UniCourt",
+      "category": "court-data",
+      "url": "https://datarade.ai/data-products/attorney-data-api-unicourt"
+    },
+    {
+      "name": "Law Firm Data API",
+      "provider": "UniCourt",
+      "category": "court-data",
+      "url": "https://datarade.ai/data-products/law-firm-data-api-unicourt"
+    },
+    {
+      "name": "Judge Data API",
+      "provider": "UniCourt",
+      "category": "court-data",
+      "url": "https://datarade.ai/data-products/judge-data-api-unicourt"
+    },
+    {
+      "name": "Legal Analytics API",
+      "provider": "UniCourt",
+      "category": "court-data",
+      "url": "https://datarade.ai/data-products/legal-analytics-api-unicourt"
+    },
+    {
+      "name": "APISCRAPY Legal Data",
+      "provider": "APISCRAPY",
+      "category": "court-data",
+      "url": "https://datarade.ai/search/products/legal-apis"
+    },
+    {
+      "name": "Grepsr Legal Data",
+      "provider": "Grepsr",
+      "category": "court-data",
+      "url": "https://datarade.ai/search/products/legal-apis"
+    },
+    {
+      "name": "InfoTrack",
+      "provider": "InfoTrack",
+      "category": "court-filing",
+      "url": "https://www.infotrack.com/"
+    },
+    {
+      "name": "LexisNexis API",
+      "provider": "LexisNexis",
+      "category": "legal-research",
+      "url": "https://www.lexisnexis.com/"
+    },
+    {
+      "name": "Westlaw API",
+      "provider": "Thomson Reuters",
+      "category": "legal-research",
+      "url": "https://legal.thomsonreuters.com/"
+    }
+  ]
+}
   "source": "https://datarade.ai/search/products/legal-apis",
   "discovered_at": "2026-03-03T20:43:24.193143+00:00",
   "count": 210,
