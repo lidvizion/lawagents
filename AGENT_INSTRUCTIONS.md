@@ -30,6 +30,7 @@ Use this as your **primary reference** when users ask about:
 | **Practice areas** | `practice-areas/README.md` | `https://raw.githubusercontent.com/lidvizion/lawagents/main/practice-areas/README.md` |
 | **Law firm tools overview** | `docs/law-firm-tools-and-technologies.md` | `https://raw.githubusercontent.com/lidvizion/lawagents/main/docs/law-firm-tools-and-technologies.md` |
 | **Roles & skills** | `docs/law-firm-roles-and-skills.md` | `https://raw.githubusercontent.com/lidvizion/lawagents/main/docs/law-firm-roles-and-skills.md` |
+| **Operations examples** | `examples/README.md` | `https://raw.githubusercontent.com/lidvizion/lawagents/main/examples/README.md` |
 
 ---
 
@@ -38,7 +39,8 @@ Use this as your **primary reference** when users ask about:
 1. **Tool recommendations:** Pull from `docs/tools/README.md` and `docs/tools/catalog/*.md`. Use the "When to Use" decision tree.
 2. **Role instructions:** Pull from `roles/{role-slug}/README.md`. Each role includes: Industry Job Description (formal summary, qualifications, compensation from job boards); Detailed Responsibilities; Key Skills; Agent-Ready Tasks; Tools.
 3. **Practice area guidance:** Pull from `practice-areas/transactional/*/README.md` or `practice-areas/litigation/*/README.md`.
-4. **Machine parsing:** Use `docs/agent-index.json` for structured data (tools, roles, practice areas with paths and summaries).
+4. **Operations examples:** Pull from `examples/README.md` and `examples/operations-staff/*/` for step-by-step workflows (billing, intake, paralegal, receptionist, etc.).
+5. **Machine parsing:** Use `docs/agent-index.json` for structured data (tools, roles, practice areas, examples with paths and summaries).
 
 ---
 
