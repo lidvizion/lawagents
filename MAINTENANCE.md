@@ -8,6 +8,7 @@ High-level guide for maintaining and syncing the lawagents toolkit. For small to
 
 ```
 lawagents/
+├── examples/                 ← Operations staff workflow examples (COO, billing, intake, paralegal, receptionist, etc.)
 ├── AGENT_INSTRUCTIONS.md    ← Canonical instructions for AI agents (Claude, ChatGPT, Gemini, Cursor)
 ├── .cursorrules             ← Cursor: reference this repo for legal tools/roles
 ├── MAINTENANCE.md            ← You are here. Root maintenance guide.
@@ -21,9 +22,12 @@ lawagents/
 │       ├── README.md        ← Tool catalog index, when-to-use decision tree
 │       ├── SCORING-METHODOLOGY.md
 │       ├── SYNC-SOURCES.md  ← URLs to sync for latest ratings, reviews, pricing
+│       ├── legal-apis-index.json  ← 210+ legal APIs/platforms (crawl output)
 │       └── catalog/         ← Individual tool files (one per tool)
 │           ├── README.md
 │           └── *.md (clio, filevine, casepeer, etc.)
+├── libs/                    ← Python libs (db, openai_helpers)
+├── scripts/                 ← Sync, crawl, seed scripts
 ├── roles/                   ← One folder per firm role (25+ roles)
 ├── practice-areas/          ← Transactional + litigation by practice type
 │   ├── transactional/       ← Real estate, corporate, IP, employment, family, estate, immigration, tax
@@ -42,6 +46,7 @@ lawagents/
 | **API/docs** | `docs/tools/catalog/*.md` | As needed | Developer docs, changelogs |
 | **Practice area pain points** | `practice-areas/**/README.md` | Semi-annual | Reddit, industry sources |
 | **Role instructions** | `roles/**/README.md` | Annual | Role changes, new workflows |
+| **Role industry job descriptions** | `roles/**/README.md` (Industry Job Description section) | Annual | Refresh from job boards, law firm postings |
 | **Research sources** | `practice-areas/RESEARCH-SOURCES.md` | Semi-annual | New subreddits, publications |
 
 ---
@@ -56,6 +61,13 @@ lawagents/
   - `X_BEARER_TOKEN` — X API v2 (optional)
   - `THREADS_ACCESS_TOKEN` — Meta Threads API (optional)
 - **Manual/cron:** Run `python scripts/sync-tools.py`. Set env vars for Reddit/X/Threads. See [scripts/README.md](scripts/README.md).
+
+### Tool discovery (200+ platforms)
+
+- **Crawl:** `python scripts/crawl-datarade-legal-apis.py` — Uses OpenAI to discover 200+ legal APIs/platforms from dataRade categories. Writes `docs/tools/legal-apis-index.json` and upserts to MongoDB.
+- **Seed:** `python scripts/seed-tools.py` — Syncs legal-apis-index + agent-index to MongoDB.
+- **Env:** `OPENAI_API_KEY` or `OPENAI_KEY`, `MONGODB_URI`.
+- **Source:** [dataRade legal APIs](https://datarade.ai/search/products/legal-apis).
 
 ### Manual (quarterly)
 
@@ -92,8 +104,13 @@ See [docs/tools/SCORING-METHODOLOGY.md](docs/tools/SCORING-METHODOLOGY.md) for f
 ## Adding a New Role or Practice Area
 
 1. **Role:** Create `roles/{role-slug}/README.md`; add to `roles/README.md`.
-2. **Practice area:** Create `practice-areas/{type}/{area}/README.md`; add to index.
-3. **Research:** Add sources to `practice-areas/RESEARCH-SOURCES.md` if applicable.
+2. **Industry Job Description:** Include this section in each new role README:
+   - **Formal Summary** — Sourced from job boards (Indeed, Monster, BetterTeam, Career.com), law firm postings
+   - **Typical Qualifications** — Education, experience, skills
+   - **Compensation Range** — When available from research
+   - **Key Distinctions by Firm Size** — When applicable
+3. **Practice area:** Create `practice-areas/{type}/{area}/README.md`; add to index.
+4. **Research:** Add sources to `practice-areas/RESEARCH-SOURCES.md` if applicable.
 
 ---
 

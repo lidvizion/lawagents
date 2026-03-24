@@ -5,6 +5,8 @@
 
 **Role architecture:** Each role has a dedicated folder with detailed instructions. See [roles/](../roles/README.md).
 
+**Industry job descriptions:** Each role README includes an **Industry Job Description** section sourced from job boards (Indeed, Monster, BetterTeam, Career.com), law firm postings, and industry publications. These provide formal summaries, typical qualifications, compensation ranges (when available), and key distinctions by firm size—useful for hiring, benchmarking, and agent context.
+
 ---
 
 ## 1. Attorneys and Legal Practitioners

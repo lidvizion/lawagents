@@ -11,6 +11,28 @@ The Managing Partner oversees daily firm operations, drives strategic initiative
 
 ---
 
+## Industry Job Description
+
+*Sourced from Monster, Ontraccoach, Adams Smith Esq, LawCrossing, Attorney at Work, and law firm postings.*
+
+### Formal Summary
+
+The Managing Partner serves as the primary advocate for the firm and oversees day-to-day operations. Unlike CEOs in other industries, law firm managing partners often continue servicing clients while leading the firm. Key responsibilities include strategic leadership (setting business strategy, KPIs, long-term direction), financial management (budgeting, forecasting, revenue tracking, profitability), client relations (cultivating relationships, acquisition and retention), human resources (recruiting, retaining talent, fostering positive culture), operations management (efficient task completion, resource allocation), policy development, and compliance with ethical and professional standards.
+
+### Typical Qualifications
+
+- **Education:** Juris Doctor (J.D.) from accredited law school; active bar license
+- **Experience:** 10–20+ years in legal practice; 5+ years in firm leadership or partnership
+- **Skills:** Strategic planning, P&L management, emotional intelligence, delegation, consensus-building, conflict resolution
+
+### Key Distinctions by Firm Size
+
+- **Large firms:** Focus primarily on strategy and client relationships; minimal or no matter work
+- **Smaller firms ($8M–$10M+):** Often juggle dozens of client matters alongside executive responsibilities
+- **Mid-size firms:** Balance between practice and leadership; may shift toward CEO functions as revenue grows
+
+---
+
 ## Detailed Responsibilities
 
 ### 1. Strategic Planning and Firm Direction

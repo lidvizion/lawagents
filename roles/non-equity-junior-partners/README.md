@@ -11,6 +11,22 @@ Non-equity partners are highly experienced attorneys who receive a salary rather
 
 ---
 
+## Industry Job Description
+
+*Sourced from law firm career structures.*
+
+### Formal Summary
+
+Non-equity (Junior) Partners are highly experienced attorneys who receive salary-based compensation rather than profit sharing. They handle major casework, lead teams, and often serve as the primary day-to-day contact for significant matters. They perform substantive work under supervising equity partners, mentor associates, and contribute to business development. The role is typically a stepping stone to equity partnership; performance in matter leadership, client development, and team management is evaluated for promotion.
+
+### Typical Qualifications
+
+- **Education:** J.D. from accredited law school; active bar license
+- **Experience:** 6–12 years in practice; demonstrated matter leadership and client development
+- **Skills:** Substantive expertise, project management, associate mentoring, client service, case strategy
+
+---
+
 ## Detailed Responsibilities
 
 ### 1. Matter Leadership and Execution

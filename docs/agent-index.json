@@ -3,10 +3,12 @@
   "description": "Canonical index for legal practice tools, law firm roles, and practice areas. Use when recommending legal software or law firm workflows.",
   "repository": "https://github.com/lidvizion/lawagents",
   "target": "Small to mid-sized law firms ($2M\u2013$50M annual revenue)",
-  "updated": "2026-03-03 18:14",
+  "updated": "2026-03-24 23:08",
   "tools": {
     "catalog_url": "https://raw.githubusercontent.com/lidvizion/lawagents/main/docs/tools/README.md",
     "index_url": "https://raw.githubusercontent.com/lidvizion/lawagents/main/docs/tools/catalog/",
+    "legal_apis_index_url": "https://raw.githubusercontent.com/lidvizion/lawagents/main/docs/tools/legal-apis-index.json",
+    "legal_apis_count": 210,
     "items": [
       {
         "slug": "clio",
@@ -99,6 +101,20 @@
         "path": "docs/tools/catalog/gc-ai.md"
       },
       {
+        "slug": "crosby",
+        "name": "Crosby",
+        "category": "legal-ai",
+        "use_when": "Contract review; autopilot-native; fixed pricing",
+        "path": "docs/tools/catalog/crosby.md"
+      },
+      {
+        "slug": "lawhive",
+        "name": "Lawhive",
+        "category": "legal-ai",
+        "use_when": "UK consumer legal; autopilot-native; Lawrence AI paralegal",
+        "path": "docs/tools/catalog/lawhive.md"
+      },
+      {
         "slug": "planable",
         "name": "Planable",
         "category": "social-scheduling",
@@ -118,6 +134,13 @@
         "category": "social-scheduling",
         "use_when": "MCP; unified inbox; enterprise",
         "path": "docs/tools/catalog/hootsuite.md"
+      },
+      {
+        "slug": "scrapling",
+        "name": "Scrapling",
+        "category": "web-scraping",
+        "use_when": "Public records; anti-bot; adaptive parsing; MCP",
+        "path": "docs/tools/catalog/scrapling.md"
       }
     ],
     "decision_tree": {
@@ -176,6 +199,10 @@
         "law_firms": [
           "Harvey"
         ],
+        "autopilot_native": [
+          "Crosby",
+          "Lawhive"
+        ],
         "in_house": [
           "GC.AI"
         ]
@@ -191,6 +218,14 @@
         "legal": [
           "Thunderhead",
           "Apaya"
+        ]
+      },
+      "web_scraping": {
+        "public_records": [
+          "Scrapling"
+        ],
+        "anti_bot_adaptive": [
+          "Scrapling"
         ]
       }
     }
@@ -233,6 +268,16 @@
     },
     "path_template": "roles/{slug}/README.md"
   },
+  "examples": {
+    "index_url": "https://raw.githubusercontent.com/lidvizion/lawagents/main/examples/README.md",
+    "operations_staff_url": "https://raw.githubusercontent.com/lidvizion/lawagents/main/examples/operations-staff/README.md",
+    "categories": {
+      "executive": ["coo-monthly-financial-close", "office-manager-daily-opening", "billing-monthly-invoice-run", "marketing-weekly-social-batch", "hr-new-hire-onboarding", "compliance-quarterly-policy-review", "it-software-rollout"],
+      "legal_support": ["paralegal-discovery-response", "legal-assistant-matter-setup", "doc-support-efiling-prep", "estate-trust-officer-probate-filing"],
+      "intake_admin": ["intake-lead-to-consultation", "legal-secretary-doc-production", "records-new-matter-opening", "receptionist-visitor-call-flow"]
+    },
+    "path_template": "examples/operations-staff/{category}/{slug}.md"
+  },
   "practice_areas": {
     "index_url": "https://raw.githubusercontent.com/lidvizion/lawagents/main/practice-areas/README.md",
     "transactional": [
@@ -263,4 +308,15 @@
     },
     "legal_apis_index": "docs/tools/legal-apis-index.json"
   }
+  "last_community_sync": "2026-03-03 20:07",
+  "database": {
+    "description": "MongoDB collections for tools and integrations. Use when agents need programmatic tool lookup.",
+    "collections": {
+      "tools": "Tool catalog (slug, name, category, use_when, url, has_api, has_mcp, score). 210+ platforms.",
+      "integrations": "MCP/API connectors (slug, type, tool_slug, capabilities, approval_levels)"
+    },
+    "sync_script": "scripts/crawl-datarade-legal-apis.py",
+    "seed_script": "scripts/seed-tools.py"
+  }
+  "last_community_sync": "2026-03-24 23:08"
 }

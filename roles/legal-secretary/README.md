@@ -11,6 +11,22 @@ The Legal Secretary focuses primarily on clerical and administrative duties: typ
 
 ---
 
+## Industry Job Description
+
+*Sourced from LG Law Firm, InterviewGuy, Glassdoor, Monster, BetterTeam, and law firm postings.*
+
+### Formal Summary
+
+Legal Secretaries provide administrative and clerical support to attorneys and legal professionals. Core duties include: document preparation (transcribing, formatting, editing, proofreading legal documents including letters, motions, appeals, petitions); calendar and scheduling management (maintaining attorney calendars, scheduling court depositions, hearings, conferences, meetings); file management (organizing, filing, maintaining client files in document management systems; ensuring court documents are filed before deadlines); communications (answering phones, managing emails, greeting clients, routing inquiries); administrative support (handling mail, entering billable time, preparing expense reports, e-filing with courts and state agencies); legal document creation (court documents, case citations, engagement letters, new matter reports); and research and verification (researching case information, authenticating legal details). Essential to maintaining office efficiency and case management.
+
+### Typical Qualifications
+
+- **Education:** High school diploma; Associate's or Bachelor's degree preferred
+- **Experience:** 3+ years as legal secretary or paralegal
+- **Skills:** Microsoft Office (Word, Outlook); 50+ WPM typing; legal terminology and procedures; confidentiality; time management; professional demeanor
+
+---
+
 ## Detailed Responsibilities
 
 ### 1. Correspondence and Typing

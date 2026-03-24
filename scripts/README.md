@@ -19,10 +19,52 @@ python3 scripts/crawl-datarade-legal-apis.py
 - Writes `docs/tools/legal-apis-index.json` with the discovered APIs
 
 ---
+Discovers **200+ legal APIs and platforms** via OpenAI. Writes `docs/tools/legal-apis-index.json` and upserts to MongoDB.
+
+```bash
+export OPENAI_API_KEY=sk-...   # or OPENAI_KEY
+export MONGODB_URI=...         # optional; for DB upsert
+pip install -r requirements.txt
+python scripts/crawl-datarade-legal-apis.py
+```
+
+Source: [dataRade legal APIs](https://datarade.ai/search/products/legal-apis). Includes curated tools (Bloomberg Law Dockets, LegiScan, OpenLaws, TrustFoundry) and static expansion from known legal tech.
+
+## seed-tools.py
+
+Seeds MongoDB from `legal-apis-index.json` and `agent-index.json`. Run after crawl to sync DB.
+
+```bash
+export MONGODB_URI=...
+python scripts/seed-tools.py
+```
 
 ## sync-tools.py
 
 Hourly sync: searches **Reddit, X, Threads** for content specific to each role; writes `roles/{role}/COMMUNITY_INSIGHTS.md`; updates `docs/agent-index.json` and `README.md`.
+
+## search-tools.py
+
+Daily search for **new legal tools**: Reddit (legal AI, law firm software, etc.), directories (Law Leaders, Sana Labs, G2). Outputs to `docs/tools/TOOL-DISCOVERIES.md` for manual review.
+
+### Run manually
+
+```bash
+# With Reddit (optional; improves Reddit results)
+export REDDIT_CLIENT_ID=...
+export REDDIT_CLIENT_SECRET=...
+python scripts/search-tools.py
+```
+
+### Run via cron (server)
+
+```
+0 6 * * * cd /path/to/lawagents && python scripts/search-tools.py && git add docs/tools/TOOL-DISCOVERIES.md && git diff --staged --quiet || (git commit -m "chore: tool discoveries" && git push)
+```
+
+### Run via GitHub Actions
+
+Workflow runs daily at 06:00 UTC. Add `REDDIT_CLIENT_ID` and `REDDIT_CLIENT_SECRET` to repo Secrets for Reddit search.
 
 ### Role-specific search
 

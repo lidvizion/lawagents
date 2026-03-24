@@ -11,6 +11,22 @@ Of Counsel attorneys maintain a close, ongoing relationship with the firm but ar
 
 ---
 
+## Industry Job Description
+
+*Sourced from LawPlainTalk, BCG Search, Cornell LII, ABA, and law firm structures.*
+
+### Formal Summary
+
+"Of Counsel" describes attorneys who are affiliated with a law firm but are neither partners nor associates. The ABA defines it as a "close, personal, continuous, and regular relationship" between the firm and the attorney. Of Counsel attorneys typically: provide strategic legal advice on complex matters within their specialty, mentor younger lawyers, assist with client development and relationship management, contribute to case strategy and due diligence, and participate in negotiations and multi-jurisdictional issues. They do not share in equity or profit distribution. They may work full-time, part-time, or on a project basis. ABA Formal Opinion 90-357 recognizes four acceptable forms: part-time practitioners, retired partners, probationary partner-to-be, or permanent status between associate and partner.
+
+### Typical Qualifications
+
+- **Education:** J.D. from accredited law school; active bar license
+- **Experience:** 10+ years; specialized expertise in niche practice area
+- **Skills:** Specialized practice area, advisory work, relationship maintenance, knowledge transfer
+
+---
+
 ## Detailed Responsibilities
 
 ### 1. Advisory and Substantive Work

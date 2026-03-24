@@ -11,6 +11,26 @@ The Legal Intake Specialist serves as the crucial first point of contact for pot
 
 ---
 
+## Industry Job Description
+
+*Sourced from Porter Firm, Indeed, Career.com, Provident Law, Jacobs & Jacobs, and law firm intake postings.*
+
+### Formal Summary
+
+Legal Intake Specialists manage the onboarding process for new and prospective clients. Core duties include: interviewing prospective clients by phone and email to understand their cases; conducting basic research to evaluate whether claims have merit; assessing whether cases align with the firm's practice areas; scheduling initial consultation appointments with attorneys; completing client intake paperwork and creating case files; entering client information into case management systems; performing follow-up communications via calls, emails, and texts; maintaining detailed records and updating case files as tasks are completed. Outstanding customer service skills and ability to demonstrate empathy are essential. Often the first human contact a potential client has with the firm.
+
+### Typical Qualifications
+
+- **Education:** High school diploma or GED; bachelor's degree preferred
+- **Experience:** 1+ years performing intakes at a law firm
+- **Skills:** Communication, interpersonal, organizational, detail-oriented; Microsoft Office; case management software; CRM; basic legal terminology
+
+### Compensation Range
+
+Typically $25–$45 per hour depending on location and experience. Benefits often include health insurance, 401(k) matching, dental, PTO.
+
+---
+
 ## Detailed Responsibilities
 
 ### 1. Lead Reception and Triage

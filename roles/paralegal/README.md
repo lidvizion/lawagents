@@ -11,6 +11,22 @@ Paralegals perform substantive legal work under attorney supervision, including 
 
 ---
 
+## Industry Job Description
+
+*Sourced from BetterTeam, LACBA, Coopers Law, Covington, Davis Polk, and law firm paralegal postings.*
+
+### Formal Summary
+
+Paralegals support attorneys by handling behind-the-scenes legal work. Core duties include: document preparation and management (drafting affidavits, briefs, contracts, pleadings, wills; organizing and maintaining case files; filing and serving legal documents; preparing exhibits for court); legal research and analysis (conducting research via LexisNexis and Westlaw; investigating facts and laws; searching public records; reviewing statutes, decisions, legal articles; fact-checking filings); case support (assisting with trial and hearing preparation; scheduling depositions and meetings; summarizing depositions, interrogatories, testimony; preparing trial binders; coordinating discovery and witness preparation); and client and court communication (meeting with clients, attorneys, professionals; often serving as primary point of contact between clients and attorneys). Senior litigation roles typically require 3+ years experience.
+
+### Typical Qualifications
+
+- **Education:** Associate or bachelor's degree in paralegal studies; ABA-approved certification preferred
+- **Experience:** 0–3+ years (senior litigation roles require 3+ years)
+- **Skills:** Microsoft Office (Word, Excel, Outlook); organizational; multitasking; written and verbal communication
+
+---
+
 ## Detailed Responsibilities
 
 ### 1. Legal Research

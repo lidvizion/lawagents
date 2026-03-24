@@ -11,6 +11,26 @@ Contract lawyers are independent contractors hired on an hourly or project basis
 
 ---
 
+## Industry Job Description
+
+*Sourced from Mercer, LHH, Integreon, Legal.io, HRBlade, and document review staffing firms.*
+
+### Formal Summary
+
+Contract document review attorneys work on legal document analysis projects for law firms and corporations, typically on a remote basis. These are contract or temporary positions rather than permanent roles. Key responsibilities include: conducting thorough document review and analysis for legal compliance, utilizing eDiscovery platforms (Relativity, Logikcull, DISCO), identifying relevant information and potential legal issues, preparing summaries and written reports, collaborating with legal teams on project objectives, and adhering to confidentiality and compliance standards. Many also handle overflow work, niche expertise, or project-based litigation support beyond document review.
+
+### Typical Qualifications
+
+- **Education:** J.D. from accredited law school; active bar license
+- **Experience:** 2–5 years in document review or similar legal work
+- **Skills:** Analytical and research skills, eDiscovery platform familiarity, written and verbal communication
+
+### Compensation & Terms
+
+Pay rates typically range from $26–$45 per hour. Project duration varies (often 2–8 weeks). Positions are usually 1099 or W-2 contractor roles. Most positions are fully remote.
+
+---
+
 ## Detailed Responsibilities
 
 ### 1. Scope and Deliverable Management

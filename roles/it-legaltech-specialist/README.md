@@ -11,6 +11,26 @@ The IT Administrator manages software and hardware support for the firm. They ma
 
 ---
 
+## Industry Job Description
+
+*Sourced from Totally Legal, McKinlay Law, Mayer Brown, Newsday, JobRight, and law firm IT postings.*
+
+### Formal Summary
+
+Legal IT and Legal Technology Specialist roles combine technical expertise with legal knowledge to support law firm operations. Core responsibilities include: managing case management systems, document management, and eDiscovery tools; administering collaboration tools (Microsoft M365, Teams, SharePoint Online); providing IT helpdesk support for hardware, software, and legal-specific applications; supporting firm applications (Aderant Expert, NetDocuments, Clio); configuring user profiles, permissions, and access (Active Directory, Office 365); assisting with onboarding/offboarding and remote support for attorneys; developing training materials and mentoring staff; and collaborating on process improvements and workflow automation. Requires knowledge of data privacy laws and compliance requirements.
+
+### Typical Qualifications
+
+- **Education:** IT certifications or associate degree preferred
+- **Experience:** 5+ years law firm experience for administrative/technology roles
+- **Skills:** Microsoft Office; legal technology platforms; networking; data privacy compliance
+
+### Compensation Range
+
+Typically $27–$30/hour (entry-level) to £70,000+ for IT Manager positions, depending on experience and firm size.
+
+---
+
 ## Detailed Responsibilities
 
 ### 1. Software and Application Support
